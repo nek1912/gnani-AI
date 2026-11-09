@@ -1,0 +1,5758 @@
+[
+    [
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/d90bbfc3d47cc49ccb807bfc368af07e6fe4ca7306081c30f78a61a05c9e309d.jpg"
+                },
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                418,
+                184,
+                579,
+                380
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Government of India Ministry of Cooperation"
+                    }
+                ]
+            },
+            "bbox": [
+                381,
+                388,
+                616,
+                425
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "PROJECT GUIDELINES Centrally Sponsored Project for ‘Computerisation of Primary Agricultural Credit Societies’"
+                    }
+                ]
+            },
+            "bbox": [
+                75,
+                450,
+                924,
+                624
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/5f3bca0180db1987768165b9238f0f190e98e4d298ed54fa39dfb924893f3fc0.jpg"
+                },
+                "image_caption": [],
+                "image_footnote": [
+                    {
+                        "type": "text",
+                        "content": "NABARD Implementing Agency: NABARD"
+                    }
+                ]
+            },
+            "bbox": [
+                455,
+                688,
+                544,
+                756
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Table of Content"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                416,
+                91,
+                583,
+                109
+            ]
+        },
+        {
+            "type": "index",
+            "content": {
+                "list_type": "text_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "1 Introduction 3"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "2 Aims & Objectives of the Project . . 3"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "3 Project Details . 4"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "3.1 Title of the Project. 4"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "3.2 Sponsoring Agency. 4"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "3.3 Duration of the Project . 4"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "3.4 Sunset Date of the Project. 5"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "3.5 Type of Project. 5"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "3.6 Project Beneficiaries . . 5"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "3.7 Implementation Mechanism 5"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "3.8 Project Cost, Sources of Funds & Funding Pattern . 7"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "3.9 Phasing of the project . 12"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "3.9 Basic Architecture of the Project . . 13"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "3.11 Data Management . 15"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "3.11 Selection of PACS 15"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "4 Project Monitoring Units (PMUs)/Support Teams. . 16"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "4.1 Central PMU: 16"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "4.2 State PMUs: 17"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "4.3 Support Teams at District/ Cluster levels . 17"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "5 Stakeholders 18"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "5.1 Roles and responsibilities of various stakeholders of the project. 18"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "6 Legal Framework 22"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "7 Upkeep and maintenance of assets created 23"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "8 Deliverables of the Project . 24"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "8.1 Transparent and Complete accounting System. 24"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "8.2 Governance 24"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "8.3 Enablement 24"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "9. Expected Outcomes of the Project:. . 25"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "9.1 Statutory Audit . 25"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "9.2 Transparency in Operations and Productive Manpower Deployment. . 25"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "9.3 Integration. . 25"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                114,
+                122,
+                882,
+                816
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "2"
+                    }
+                ]
+            },
+            "bbox": [
+                865,
+                927,
+                880,
+                941
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "PACS Computerisation Project - Guidelines"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                285,
+                91,
+                710,
+                109
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "1 Introduction"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                115,
+                130,
+                258,
+                148
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The Primary Agriculture Credit Societies (PACS) form the vital third tier in the threetier structure of the Short Term Cooperative Credit Structure (STCCS). The other two tiers are comprised of District Central Cooperative Bank (DCCBs) "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "( 2 ^ { \\mathsf { n d } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "tier) and State Cooperative Bank (StCBs) (1<sup>st</sup> tier). National Bank for Agriculture and Rural Development (NABARD), has earlier taken the initiative to bring most of the StCBs and DCCBs on Core Banking Solutions (CBS) platform which has enabled them to give modern-day technology-based banking facilities to their clients. However, the PACS have so far been largely out of the ambit of the technology support."
+                    }
+                ]
+            },
+            "bbox": [
+                114,
+                168,
+                884,
+                362
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "PACS are owned by farmers, rural artisans etc. and aim at promoting thrift and mutual help among the members; cater to their credit requirements and provide credit-linked services like input supply, storage and marketing of agricultural produce etc. DCCBs provide direct linkages to the PACS through direct financing. The StCBs are primarily responsible for control and coordination of the finances of DCCBs."
+                    }
+                ]
+            },
+            "bbox": [
+                114,
+                378,
+                882,
+                497
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The large out-reach of PACS to the Small and Marginal Farmers (SMFs) make them a systemically important class of agricultural credit purveying institutions. Further, there is a felt need to develop cooperatives as vibrant business enterprises by enabling them to provide multiple services to their members with support of technology in order to fulfil members’ requirements."
+                    }
+                ]
+            },
+            "bbox": [
+                114,
+                512,
+                884,
+                632
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Keeping in view the above and to make PACS self-reliant in tune with ‘Atmanirbhar Bharat Abhiyaan’, the Government of India (GoI) has, on 29<sup>th</sup> June 2022 approved the Centrally Sponsored Project for Computerisation of Primary Agricultural Credit Societies for a period of five years from 2022-23 to 2026-27."
+                    }
+                ]
+            },
+            "bbox": [
+                114,
+                648,
+                884,
+                741
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "2 Aims & Objectives of the Project"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                114,
+                759,
+                453,
+                780
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The aims and objectives of the project inter alia include the following:"
+                    }
+                ]
+            },
+            "bbox": [
+                121,
+                799,
+                742,
+                819
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "a. To bring in efficiency, accountability, transparency at PACS and improve profitability."
+                    }
+                ]
+            },
+            "bbox": [
+                119,
+                835,
+                882,
+                878
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "b. To bring in accuracy and uniformity in the conduct of business, accounting with entries originating at the transaction level and reporting thereof through standardization of processes, implementation of Common Accounting System (CAS) and Management Information System (MIS) and compliance to stipulations."
+                    }
+                ]
+            },
+            "bbox": [
+                119,
+                884,
+                882,
+                904
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "3"
+                    }
+                ]
+            },
+            "bbox": [
+                865,
+                927,
+                880,
+                940
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": []
+            },
+            "bbox": [
+                147,
+                92,
+                884,
+                184
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "c. To transform PACS into multi service entities, offering to members in particular and the rural population in general, an array of services covering agriculture and allied activities; financial and non-financial products."
+                    }
+                ]
+            },
+            "bbox": [
+                119,
+                190,
+                884,
+                259
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "d. To seamlessly connect PACS with the higher-tier institutions and Government departments in the domains of agriculture, banking and rural development for dissemination of knowledge to grassroots."
+                    }
+                ]
+            },
+            "bbox": [
+                119,
+                263,
+                884,
+                332
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "e. To leverage on the unique strength of PACS i.e. their captive member base, to design and offer personalized products and services and thereby improve the socio-economic landscape of rural India."
+                    }
+                ]
+            },
+            "bbox": [
+                119,
+                337,
+                882,
+                406
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "f. To ensure accurate delivery of funds and subsidies through DBT to the targeted beneficiary groups."
+                    }
+                ]
+            },
+            "bbox": [
+                119,
+                412,
+                882,
+                455
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "g. To enable PACS to provide doorstep banking services to facilitate easier access to banking services."
+                    }
+                ]
+            },
+            "bbox": [
+                119,
+                461,
+                882,
+                504
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "h. To enable PACS to utilize digital acceptance infrastructure like Point of Sale (POS)/ mobile POS (mPoS)/ QR Code Readers/Green Pin solution /BHIM Aadhaar pay device, etc. in the establishments run by PACS like fertilizer shops, Seed Processing units, etc. to facilitate cashless/digital transactions."
+                    }
+                ]
+            },
+            "bbox": [
+                119,
+                510,
+                884,
+                602
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "i. To expand financial services to unbanked villages / areas, improve the overall performance and efficiency of PACS and STCCS, increase rural employment opportunities and reduce migration to urban areas."
+                    }
+                ]
+            },
+            "bbox": [
+                119,
+                608,
+                884,
+                677
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "3 Project Details"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                115,
+                697,
+                280,
+                717
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "3.1 Title of the Project"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                115,
+                737,
+                336,
+                756
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Centrally Sponsored Project for ‘Computerisation of Primary Agricultural Credit Societies’."
+                    }
+                ]
+            },
+            "bbox": [
+                151,
+                762,
+                882,
+                804
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "3.2 Sponsoring Agency"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                115,
+                810,
+                349,
+                829
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Ministry of Cooperation, Government of India."
+                    }
+                ]
+            },
+            "bbox": [
+                151,
+                835,
+                568,
+                854
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "3.3 Duration of the Project"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                114,
+                859,
+                378,
+                878
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "For a period of five years from 2022-23 to 2026-27."
+                    }
+                ]
+            },
+            "bbox": [
+                151,
+                885,
+                616,
+                903
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "4"
+                    }
+                ]
+            },
+            "bbox": [
+                865,
+                927,
+                880,
+                940
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "3.4 Sunset Date of the Project"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                115,
+                92,
+                410,
+                109
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Sunset date of the project will be 31 March 2027."
+                    }
+                ]
+            },
+            "bbox": [
+                152,
+                116,
+                596,
+                134
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "3.5 Type of Project"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                115,
+                141,
+                305,
+                159
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Centrally Sponsored Project with one-time assistance from the GoI. Extant Centrally Sponsored Scheme (CSS) guidelines are applicable."
+                    }
+                ]
+            },
+            "bbox": [
+                151,
+                166,
+                882,
+                209
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "3.6 Project Beneficiaries"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                115,
+                218,
+                357,
+                236
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "63000 PACS, LAMPS etc. will benefit directly through computerization of their credit/ non-credit business activities related to Agriculture and Allied activities. (In North East and Tribal Areas of the country, due to thinly populated area, Large Area Multipurpose Societies (LAMPS) are prevalent which function more or less like PACS. Such LAMPS or any other societies similar to PACS will also be covered in this project within the proposed budget outlay)."
+                    }
+                ]
+            },
+            "bbox": [
+                149,
+                243,
+                884,
+                386
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "3.7 Implementation Mechanism"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                115,
+                401,
+                423,
+                419
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "3.7.1 Formation of Implementation and Monitoring Committees"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                146,
+                426,
+                766,
+                444
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "National and State level Implementation and Monitoring Committees shall be constituted as detailed hereunder for implementation of this project. These committees will ensure real-time monitoring and effective feed-back about the implementation of the scheme."
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                462,
+                882,
+                555
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "i) National Level Monitoring and Implementation Committee (NLMIC):"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                146,
+                573,
+                825,
+                590
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "a) Members of NLMIC:"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                176,
+                598,
+                396,
+                614
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "i. Secretary (M/o Cooperation, GoI) (Chairman)"
+                    }
+                ]
+            },
+            "bbox": [
+                174,
+                621,
+                620,
+                639
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "ii. Additional Secretary & Financial Advisor (M/o Cooperation, GoI)"
+                    }
+                ]
+            },
+            "bbox": [
+                174,
+                646,
+                784,
+                664
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "iii. Joint Secretary (M/o Cooperation, GoI)"
+                    }
+                ]
+            },
+            "bbox": [
+                176,
+                671,
+                561,
+                688
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "iv. Chairman, NABARD"
+                    }
+                ]
+            },
+            "bbox": [
+                176,
+                696,
+                396,
+                713
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "v. Principal Secretaries (Cooperation) of selected States"
+                    }
+                ]
+            },
+            "bbox": [
+                174,
+                720,
+                694,
+                738
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "vi. Representative of NITI Ayog"
+                    }
+                ]
+            },
+            "bbox": [
+                176,
+                745,
+                468,
+                763
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "vii. CEOs of selected State Cooperative Banks"
+                    }
+                ]
+            },
+            "bbox": [
+                174,
+                770,
+                600,
+                787
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "viii.Deputy Managing Director (Institutional Development Department),"
+                    }
+                ]
+            },
+            "bbox": [
+                174,
+                794,
+                880,
+                813
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "NABARD -Member Secretary"
+                    }
+                ]
+            },
+            "bbox": [
+                205,
+                819,
+                477,
+                837
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "b) Role of NLMIC:"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                176,
+                857,
+                352,
+                875
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "i. Guide and steer the implementation of the project."
+                    }
+                ]
+            },
+            "bbox": [
+                174,
+                883,
+                652,
+                900
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "5"
+                    }
+                ]
+            },
+            "bbox": [
+                867,
+                927,
+                880,
+                940
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "ii. Approve the guidelines for implementation of the project."
+                    }
+                ]
+            },
+            "bbox": [
+                174,
+                92,
+                710,
+                110
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "iii. Review the progress of implementation of the project periodically."
+                    }
+                ]
+            },
+            "bbox": [
+                174,
+                116,
+                788,
+                135
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "iv.To consider and authorize the appropriation of the funds from one component of the project to another within the overall budget outlay of the project, if required."
+                    }
+                ]
+            },
+            "bbox": [
+                176,
+                141,
+                882,
+                209
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "v. Monitor functioning of central Project Monitoring Unit (PMU)."
+                    }
+                ]
+            },
+            "bbox": [
+                174,
+                215,
+                742,
+                233
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "vi. Act as final Grievance Redressal Authority for the project."
+                    }
+                ]
+            },
+            "bbox": [
+                174,
+                240,
+                719,
+                258
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "NABARD will be responsible for implementation of the project at the central level under the guidance and directions of NLMIC and Ministry of Cooperation, Government of India. It will establish a core team of its officers for this purpose which will be assisted by a Project Monitoring Unit (PMU) manned by professionals and experts. Further, NABARD will also act as a custodian on behalf of GoI of the common software and all the financial and personal data generated/captured on the software. After completion of the project, NABARD will manage the system in coordination with the State Governments and will be responsible for its sustainability."
+                    }
+                ]
+            },
+            "bbox": [
+                112,
+                274,
+                884,
+                466
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "ii) State level Implementation & Monitoring Committee (SLIMC)"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                114,
+                482,
+                736,
+                501
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "a) Members of SLIMC"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                114,
+                507,
+                329,
+                525
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "i. Addl. Chief Secretary/Principal Secretary/Secretary, Co-operation - Chairperson"
+                    }
+                ]
+            },
+            "bbox": [
+                142,
+                532,
+                882,
+                574
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "ii. Principal Secretary/Secretary (Finance) - Member"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                581,
+                628,
+                599
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "iii. Registrar of Cooperative Societies (RCS) - Member"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                606,
+                645,
+                624
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "iv. Chief General Manager (CGM)/OIC, NABARD - Member"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                631,
+                689,
+                648
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "v. Three DCCBs by rotation - Members"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                656,
+                510,
+                673
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "vi. MD/CEO-State Cooperative Bank - Member Secretary"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                680,
+                667,
+                697
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "b) Role of SLIMC"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                121,
+                713,
+                290,
+                730
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": " To implement the approved guidelines at the state level and provide feedback to NLMIC."
+                    }
+                ]
+            },
+            "bbox": [
+                139,
+                738,
+                882,
+                778
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "To guide and steer the implementation of the project in the state."
+                    }
+                ]
+            },
+            "bbox": [
+                139,
+                787,
+                759,
+                804
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": " To examine and recommend the proposals to be taken up in this project."
+                    }
+                ]
+            },
+            "bbox": [
+                139,
+                812,
+                828,
+                829
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": " Any other role assigned to it by the NLMIC."
+                    }
+                ]
+            },
+            "bbox": [
+                139,
+                835,
+                568,
+                853
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "iii) District Level Implementation & Monitoring Committee (DLIMC)"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                114,
+                875,
+                763,
+                892
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "6"
+                    }
+                ]
+            },
+            "bbox": [
+                865,
+                927,
+                880,
+                941
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "a) Members of the DLIMC:"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                115,
+                91,
+                376,
+                109
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "i. District Collector/District Magistrate - Chairperson"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                128,
+                626,
+                146
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "ii. District Development Manager (DDM), NABARD - Member"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                153,
+                709,
+                171
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "iii. Officials notified by the respective State/UT Governments – Members"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                177,
+                803,
+                195
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "iv. MD, District Cooperative Bank/ Suitable official nominated by StCB (for states with 2 tier system)- Member Convener"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                202,
+                882,
+                244
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "v. Representation of selected PACS – Members"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                250,
+                591,
+                269
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "b) Role of DLIMC:"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                115,
+                286,
+                292,
+                303
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "i. To be the first line of implementation and monitoring system within the overall framework."
+                    }
+                ]
+            },
+            "bbox": [
+                163,
+                322,
+                882,
+                365
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "ii. It will be responsible for the smooth implementation of the project as per approved guidelines and provide necessary support like power, connectivity, etc."
+                    }
+                ]
+            },
+            "bbox": [
+                159,
+                372,
+                882,
+                438
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "iii. Any other role assigned to it by the NLMIC/ SLIMC."
+                    }
+                ]
+            },
+            "bbox": [
+                156,
+                445,
+                670,
+                464
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "3.8 Project Cost, Sources of Funds & Funding Pattern"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                114,
+                483,
+                638,
+                502
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "3.8.1 Project Cost:"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                115,
+                508,
+                299,
+                527
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The total cost of the project is estimated at ₹2516.00 crore to be shared as under:"
+                    }
+                ]
+            },
+            "bbox": [
+                115,
+                545,
+                850,
+                563
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/db78689736a6a6c7c917663259484a033b5489de2b349207a8048025999c2df5.jpg"
+                },
+                "table_caption": [],
+                "table_footnote": [],
+                "html": "<table><tr><td rowspan=1 colspan=1>Agency</td><td rowspan=1 colspan=1>Cost share (₹ Crore)</td></tr><tr><td rowspan=1 colspan=1>Government of India (60.73%)</td><td rowspan=1 colspan=1>1528</td></tr><tr><td rowspan=1 colspan=1>State Govt. (29.25%)</td><td rowspan=1 colspan=1>736</td></tr><tr><td rowspan=1 colspan=1>NABARD (10.02%)</td><td rowspan=1 colspan=1>252</td></tr><tr><td rowspan=1 colspan=1>Total</td><td rowspan=1 colspan=1>2516</td></tr></table>",
+                "table_type": "complex_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                216,
+                580,
+                781,
+                708
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "However, the exact cost of the project shall be finalised by NABARD following due procedure for procurement through open bidding as per the relevant procurement guidelines."
+                    }
+                ]
+            },
+            "bbox": [
+                114,
+                728,
+                882,
+                797
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "3.8.2 Component wise Cost Sharing Pattern:"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                115,
+                814,
+                557,
+                832
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/7bbdf8f286f47d9553522bba4a8cb14aae565b3e28f3739fe4aceb3f0550440e.jpg"
+                },
+                "table_caption": [],
+                "table_footnote": [],
+                "html": "<table><tr><td>Component</td><td>Cost Sharing pattern</td></tr><tr><td>Comprehensive software</td><td>To be shared by Gol and NABARD. NABARD will</td></tr><tr><td colspan=\"1\" rowspan=\"1\">(including cyber security anddata storage) and Training</td><td colspan=\"1\" rowspan=\"1\">contribute 252.00 crore (about 10% of the projectcost) and the remaining will be borne by Gol.</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Other                Components(Hardware, Digitization andsupport system)</td><td colspan=\"1\" rowspan=\"1\">To be shared as per the extant guidelines ofCentrally Sponsored Project.Share of GOI: State will be 60:40.For Northeastern and Hilly States share willbe 90 (Gol):10(State).For UTs (without legislature) 100% by Gol.For UTs (with legislature) share will be 80(Gol):20(State).</td></tr><tr><td colspan=\"1\" rowspan=\"1\">PMU and Administrative Cost</td><td colspan=\"1\" rowspan=\"1\">This cost will be borne by Gol upto ₹ 50.00 crore.Any additional expenditure beyond ₹ 50.00 crore,will be borne by NABARD.</td></tr></table>",
+                "table_type": "complex_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                117,
+                853,
+                878,
+                904
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "7"
+                    }
+                ]
+            },
+            "bbox": [
+                867,
+                927,
+                880,
+                940
+            ]
+        }
+    ],
+    [
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/"
+                },
+                "table_caption": [],
+                "table_footnote": [],
+                "html": "",
+                "table_type": "simple_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                117,
+                90,
+                878,
+                442
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "3.8.3 Item wise cost estimate per PACS"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                115,
+                457,
+                500,
+                474
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The item-wise cost estimate per PACS is given as under:-"
+                    }
+                ]
+            },
+            "bbox": [
+                115,
+                482,
+                638,
+                499
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/d1f1e8f132c5c28a28fdb76067f3f773938e85611b6864f3fe30842f5a0006f6.jpg"
+                },
+                "table_caption": [],
+                "table_footnote": [],
+                "html": "<table><tr><td colspan=\"1\" rowspan=\"1\">SN</td><td colspan=\"1\" rowspan=\"1\">Item</td><td colspan=\"1\" rowspan=\"1\">Amount in₹ per PACS</td></tr><tr><td colspan=\"1\" rowspan=\"1\">A</td><td colspan=\"1\" rowspan=\"1\">Per PACS project cost</td><td colspan=\"1\" rowspan=\"1\"></td></tr><tr><td colspan=\"1\" rowspan=\"1\">(i)</td><td colspan=\"1\" rowspan=\"1\">Hardware -Computer, Multi-functional Devices (MFD),UPS, webcam, bio-metric scanner, external HDD,including 5 years of AMC for hardware, tablet/mobile,passbook printer, electrical arrangements/powerswitches etc.</td><td colspan=\"1\" rowspan=\"1\">1,22,158/-</td></tr><tr><td colspan=\"1\" rowspan=\"1\">(ii)</td><td colspan=\"1\" rowspan=\"1\">A Comprehensive ERP solution covering Membership,financial services – deposits; lending including ST, MTand LT, procurement, processing units, PDS,Business planning, warehousing, merchandising,borrowings, asset management, human resourcemanagement, RuPay / KCC integrations, etc. withcyber security and data storage facility.</td><td colspan=\"1\" rowspan=\"1\">72,103/-</td></tr><tr><td colspan=\"1\" rowspan=\"1\">(ifi)</td><td colspan=\"1\" rowspan=\"1\">Training</td><td colspan=\"1\" rowspan=\"1\">10,198/-</td></tr><tr><td colspan=\"1\" rowspan=\"1\">(iv)</td><td colspan=\"1\" rowspan=\"1\">a. Implementation Services including data preparation,digitization, verification till final reconciliation andporting into the ERP solution for Operationalization(Rs. 1,10,000/-)b. Maintenance and Handholding support (Rs.76,910/-)</td><td colspan=\"1\" rowspan=\"1\">1,86,910/-</td></tr><tr><td colspan=\"1\" rowspan=\"1\">(v)</td><td colspan=\"1\" rowspan=\"1\">Total cost (per PACS)</td><td colspan=\"1\" rowspan=\"1\">Rs.3,91,369/-</td></tr></table>",
+                "table_type": "complex_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                117,
+                517,
+                880,
+                889
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "8"
+                    }
+                ]
+            },
+            "bbox": [
+                867,
+                927,
+                880,
+                941
+            ]
+        }
+    ],
+    [
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/"
+                },
+                "table_caption": [],
+                "table_footnote": [],
+                "html": "",
+                "table_type": "simple_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                117,
+                89,
+                880,
+                375
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "However, the exact item-wise cost per PACS shall be finalised by NABARD following due procedure for procurement through open bidding as per the relevant procurement guidelines."
+                    }
+                ]
+            },
+            "bbox": [
+                114,
+                390,
+                882,
+                460
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "3.8.4 Component wise Fund Flow Mechanism"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                114,
+                476,
+                568,
+                494
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The component wise Fund Flow mechanism of the project will be as under:"
+                    }
+                ]
+            },
+            "bbox": [
+                115,
+                500,
+                791,
+                520
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/ba5fc736f2877ba880ecd9ec174cb82c581c3aae4308a651a2c9864d592886ae.jpg"
+                },
+                "table_caption": [],
+                "table_footnote": [],
+                "html": "<table><tr><td colspan=\"1\" rowspan=\"1\">SINo</td><td colspan=\"1\" rowspan=\"1\">Component</td><td colspan=\"1\" rowspan=\"1\">CostperPACS(in ₹)</td><td colspan=\"2\" rowspan=\"1\">Total cost(in ₹ crore)</td><td colspan=\"2\" rowspan=\"1\">Source offunds</td><td colspan=\"1\" rowspan=\"1\">Release of Fund</td></tr><tr><td colspan=\"1\" rowspan=\"1\">1</td><td colspan=\"1\" rowspan=\"1\">Softwarewith cybersecurityand datastorage</td><td colspan=\"1\" rowspan=\"1\">72,103</td><td colspan=\"2\" rowspan=\"1\">454.24</td><td colspan=\"2\" rowspan=\"1\">Shared by Goland NABARD.NABARD  willcontribute252.00 crore(about 10% ofthe      projectcost) and theremaining willbe borne by</td><td colspan=\"1\" rowspan=\"1\">1.Gol share towardsthesoftware withcyber security anddata storage, will bepassed     on    toNABARD.2. Vendor bills will besettled by NABARDas per provisions ofthe contract.</td></tr><tr><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"2\" rowspan=\"1\"></td><td colspan=\"2\" rowspan=\"1\">Gol.</td><td colspan=\"1\" rowspan=\"1\"></td></tr><tr><td colspan=\"1\" rowspan=\"1\">2</td><td colspan=\"1\" rowspan=\"1\">Hardware</td><td colspan=\"1\" rowspan=\"1\">1,22,158</td><td colspan=\"2\" rowspan=\"1\">769.59</td><td colspan=\"2\" rowspan=\"6\">As   per  theextantguidelines    ofCentrallySponsoredProject.a. Share     ofGOI:  Statewill        be60:40.b. For  North-eastern andHilly Statesshare will be90 (Gol):10(State).c. For     UTs(withoutlegislature)100%     byd. For     UTs(withlegislature)share will be</td><td colspan=\"1\" rowspan=\"1\">1. Gol share towardshardware will be passedto the State Governmentdirectly.2. State Government willput in place suitablemechanism for settlingvendor bills.3.The DLIMCs willreviewthe acceptancechallans signed by therespective            PACSsecretaries and resolveissues if any.</td></tr><tr><td colspan=\"1\" rowspan=\"6\">3</td><td colspan=\"1\" rowspan=\"2\">Digitization</td><td colspan=\"1\" rowspan=\"2\">1,10,000</td><td colspan=\"2\" rowspan=\"2\">693</td><td colspan=\"1\" rowspan=\"6\">1. Gol share towardsdigitization will be passedon    to    the    StateGovernment directly.2. State Government willput in place suitablemechanism for settlingvendor bills.3.TheDLIMCs willreview the certificate ofcompletion     of    therespective stage signedby the respective PACS</td></tr><tr><td colspan=\"1\" rowspan=\"1\"></td></tr><tr><td colspan=\"1\" rowspan=\"4\"></td><td colspan=\"1\" rowspan=\"4\"></td><td colspan=\"2\" rowspan=\"2\"></td></tr><tr><td colspan=\"1\" rowspan=\"1\"></td></tr><tr><td colspan=\"2\" rowspan=\"2\"></td></tr><tr><td colspan=\"2\" rowspan=\"1\">80 (Gol):20(UT).</td></tr><tr><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"2\"></td><td colspan=\"4\" rowspan=\"1\">secretaries and resolveissues, if any.</td></tr><tr><td colspan=\"1\" rowspan=\"1\">4</td><td colspan=\"1\" rowspan=\"1\">SupportSystem</td><td colspan=\"1\" rowspan=\"1\">76,910</td><td colspan=\"1\" rowspan=\"1\">484.53</td><td colspan=\"4\" rowspan=\"1\">1. Gol share towardssupport system will bepassed on to the StateGovernment directly byGol.2. State Government willput in place suitablemechanism for settlingvendor bills on the basisof recommendation ofSLIMC.3. TheDLIMCs willreview the certificates ofavailability of the service,signed by the respectivePACS secretaries andresolve issues, if any.</td></tr><tr><td colspan=\"1\" rowspan=\"2\">5</td><td colspan=\"1\" rowspan=\"2\">Training</td><td colspan=\"1\" rowspan=\"1\">10,198</td><td colspan=\"1\" rowspan=\"2\">64.24</td><td colspan=\"1\" rowspan=\"2\"></td><td colspan=\"4\" rowspan=\"2\">1. Gol share towardssupport system will bepassed on to NABARDdirectly.2. NABARD will settlebills from the traininginstitutions on the basisof          documentation/location/ number oftrainees etc.</td></tr><tr><td colspan=\"4\" rowspan=\"1\"></td></tr><tr><td colspan=\"1\" rowspan=\"2\">6</td><td colspan=\"1\" rowspan=\"2\">PMU    andadministration</td><td colspan=\"1\" rowspan=\"2\">7936.50</td><td colspan=\"1\" rowspan=\"2\">50</td><td colspan=\"1\" rowspan=\"1\">This cost willbeborne byGol         upto50.00crore.Any additionalexpenditurebeyond ₹50.00crore will be</td><td colspan=\"4\" rowspan=\"2\">Bills raised by state levelPMUs in respect ofcontract staff and otherincidental expenses etc.and the same for centralPMU will be settled byNABARD and adjustedagainst the Gol shareupto a limit of ₹50.00crores.Salaries of regular staffof NABARD engaged inthe PMU will not bebooked  under PMUexpenses.</td></tr><tr><td colspan=\"4\" rowspan=\"1\">borne         byNABARD.</td></tr><tr><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">Total</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">2516(approx.)</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"4\" rowspan=\"1\"></td></tr></table>",
+                "table_type": "complex_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                117,
+                548,
+                922,
+                895
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "9"
+                    }
+                ]
+            },
+            "bbox": [
+                865,
+                927,
+                880,
+                940
+            ]
+        }
+    ],
+    [
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/"
+                },
+                "table_caption": [],
+                "table_footnote": [],
+                "html": "",
+                "table_type": "simple_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                115,
+                91,
+                922,
+                914
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "10"
+                    }
+                ]
+            },
+            "bbox": [
+                857,
+                926,
+                882,
+                941
+            ]
+        }
+    ],
+    [
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/"
+                },
+                "table_caption": [],
+                "table_footnote": [],
+                "html": "",
+                "table_type": "simple_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                115,
+                91,
+                922,
+                907
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "11"
+                    }
+                ]
+            },
+            "bbox": [
+                857,
+                926,
+                880,
+                941
+            ]
+        }
+    ],
+    [
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/"
+                },
+                "table_caption": [],
+                "table_footnote": [],
+                "html": "",
+                "table_type": "simple_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                117,
+                90,
+                922,
+                611
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "3.9 Phasing of the project"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                115,
+                633,
+                369,
+                652
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/12c691d1ef7cc17c41f9c8f50cac89550c1f79bfcacb83b6bded189d4ebb562a.jpg"
+                },
+                "table_caption": [],
+                "table_footnote": [],
+                "html": "<table><tr><td rowspan=1 colspan=1>Year</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Total No. of PACS to becomputerized</td><td rowspan=1 colspan=1>Maintenance and hand-holding support</td></tr><tr><td rowspan=1 colspan=1>Year I</td><td rowspan=1 colspan=1>2022-23</td><td rowspan=1 colspan=1>13,000</td><td rowspan=5 colspan=1>Handholding support  oftotal 5 years from 2022-23to 2026-27.</td></tr><tr><td rowspan=1 colspan=1>Year II</td><td rowspan=1 colspan=1>2023-24</td><td rowspan=1 colspan=1>20,000</td></tr><tr><td rowspan=1 colspan=1>Year III</td><td rowspan=1 colspan=1>2024-25</td><td rowspan=1 colspan=1>30,000</td></tr><tr><td rowspan=1 colspan=1>Year IV</td><td rowspan=1 colspan=1>2025-26</td><td rowspan=2 colspan=1></td></tr><tr><td rowspan=1 colspan=1>Year V</td><td rowspan=1 colspan=1>2026-27</td></tr><tr><td rowspan=1 colspan=1>Total</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>63,000</td><td rowspan=1 colspan=1></td></tr></table>",
+                "table_type": "complex_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                117,
+                670,
+                880,
+                879
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "12"
+                    }
+                ]
+            },
+            "bbox": [
+                857,
+                926,
+                880,
+                941
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "3.9 Basic Architecture of the Project"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                127,
+                92,
+                509,
+                109
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "3.10.1 One common ERP software will be provided to all the PACS in the project, across the country, to capture data on all functionalities of PACS, both credit and non-credit. This software would be customisable for state specific needs. At the national level, NABARD will engage a vendor namely National Level PACS Software Vendor (NLPSV) to provide the common software including cyber security and data storage through open bidding as per the relevant procurement guidelines."
+                    }
+                ]
+            },
+            "bbox": [
+                137,
+                133,
+                884,
+                300
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "3.10.2 NABARD will prepare and publish a central panel of System Integrators (SIs) through open bidding. States are to select the SIs from this central panel with a ceiling on number of PACS that one SI can take up. SIs will prepare legacy data, digitise and port this data into software, recommend state specific customization required in the common software and provide the support system. In the project, there will also be a provision to run the software on offline mode and later upload the data in the system in case of network issue."
+                    }
+                ]
+            },
+            "bbox": [
+                136,
+                317,
+                884,
+                507
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "PACS in various States are at various levels of computerization. This means that some PACS have been computerised (mostly working on a stand-alone basis) while others not computerised at all. In respect of PACS which have been computerised, expenditure will be reimbursed to States ₹50,000/- per PACS subject to the condition that,"
+                    }
+                ]
+            },
+            "bbox": [
+                196,
+                514,
+                882,
+                631
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(i) They integrate their software with the National PACS Software,"
+                    }
+                ]
+            },
+            "bbox": [
+                198,
+                637,
+                791,
+                655
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(ii) Their hardware meets the required specifications and"
+                    }
+                ]
+            },
+            "bbox": [
+                198,
+                662,
+                712,
+                680
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(iii) The computerization of PACS was commissioned by the State on or after 01 February 2017 i.e. the date of budget announcement by Central Government for computerization of PACS."
+                    }
+                ]
+            },
+            "bbox": [
+                198,
+                687,
+                882,
+                753
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "PACS which have not been computerised by such states will be taken up under this project at full cost."
+                    }
+                ]
+            },
+            "bbox": [
+                198,
+                760,
+                882,
+                803
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "For sustainability of the project, maintenance and handholding of the software and hardware is considered critical. For this purpose, the Project envisages a support system by setting up one support centre on an average at cluster of around 200 PACS/ District Level. These support"
+                    }
+                ]
+            },
+            "bbox": [
+                198,
+                809,
+                884,
+                902
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "13"
+                    }
+                ]
+            },
+            "bbox": [
+                857,
+                927,
+                880,
+                941
+            ]
+        }
+    ],
+    [
+        {
+            "type": "list",
+            "content": {
+                "list_type": "text_list",
+                "attribute": "unordered",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "centres, to be set up by the System Integrator(s), will report to State PMUs which will also serve as State level support centre. This entire support system will be under the overall supervision and control of the State Governments and will be operated by the concerned SI."
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "States/UTs to procure hardware for the project through Government e-Marketplace (GeM) Portal."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                196,
+                92,
+                882,
+                235
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "3.10.3 The basic responsibility of training on use of software will lie with NLPSV. NLPSV will provide necessary inputs to State level SIs and National Level Training Institutions to facilitate creation of trainers at National and State Level. The trainers will be drawn from all training institutions in cooperative sector. After migration to the software, employee(s) of the PACS will be given adequate trainings about functioning of the software and how to work on it. Hands on training will be given through National Council for Cooperative Training (NCCT) institutions and Scheme of Financial Assistance for Training of Cooperative Banks Personnel (SOFTCOB) assisted Institutions like Agricultural Cooperative Staff Training Institutes (ACSTIs) and other Cooperative Training Institutes under the administrative control of State Government. Expenditure on this account will be shared by GoI and NABARD. A training calendar will be prepared by NABARD mapping every PACS under the project."
+                    }
+                ]
+            },
+            "bbox": [
+                137,
+                252,
+                884,
+                592
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "3.10.4 For implementation and monitoring of the project, creation of a core team at NABARD, Head Office with the team members constituted from its officers has been envisaged. This core team will be assisted by Project Monitoring Unit (PMU) hired by NABARD for the project. NABARD may hire staff/professional or technical experts for the PMU on contractual basis. Similarly, NABARD will set up state PMUs to assist states in implementation and monitoring of the project at state level, which will also function as the state level support centers. These State PMUs will also be manned by NABARD officials and contractual staff/ experts."
+                    }
+                ]
+            },
+            "bbox": [
+                137,
+                609,
+                884,
+                825
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "14"
+                    }
+                ]
+            },
+            "bbox": [
+                857,
+                927,
+                880,
+                941
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "3.11 Data Management"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                115,
+                92,
+                342,
+                110
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The data shall be housed at the National Level Data Repository (NLDR). Data generated at PACS would be routed, either through the DCCBs or State Data Centers, to the National Level Data Repository (NLDR). All data will be shared with/ deposited and maintained at NLDR, in conformity with the rules and regulations. Given availability of connectivity, all data will be available at NLDR level as at the end of the previous day."
+                    }
+                ]
+            },
+            "bbox": [
+                114,
+                130,
+                884,
+                273
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The data will be maintained at NLDR and will be available for use by Central Government, State Government and other authorised stakeholders. The data will be utilized to generate various national/ state/ district level reports for Government of India, State Governments, NABARD, StCB, DCCB and other stakeholders, for the purpose of information based effective policy making."
+                    }
+                ]
+            },
+            "bbox": [
+                114,
+                290,
+                884,
+                407
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "3.11 Selection of PACS"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                127,
+                425,
+                373,
+                442
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "• All functional PACS will be eligible for joining the project. A PACS will be deemed functional if it fulfils the necessary condition i.e. completion of Audit of accounts of PACS for the financial year 2021-22. If the selection is being done in FY 2023-24 or FY 2024-25, then audit of the respective previous year will be the cut-off date for audit."
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                467,
+                884,
+                583
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "• For deciding upon the order in which the eligible PACS are to be taken up under the project, the following norm for prioritization will be followed:"
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                590,
+                882,
+                633
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "o PACS without computerization - priority"
+                    }
+                ]
+            },
+            "bbox": [
+                206,
+                640,
+                598,
+                658
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "o PACS with some computerization but needs upgradation - second priority"
+                    }
+                ]
+            },
+            "bbox": [
+                206,
+                665,
+                882,
+                708
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "o PACS with computerization achieved through State Govt./ StCBs/ DCCBs – Third Priority"
+                    }
+                ]
+            },
+            "bbox": [
+                206,
+                714,
+                882,
+                756
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "• The DCCBs/ StCBs will make their selections, based on the allocation, also considering aspects such as prioritising backward areas and ensuring functional sustainability of the project."
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                764,
+                882,
+                832
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "• The selection will be recommended by the DLIMC to the SLIMC. After that, SLIMC will send their final proposal to NABARD for its implementation."
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                838,
+                880,
+                882
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "15"
+                    }
+                ]
+            },
+            "bbox": [
+                857,
+                927,
+                880,
+                941
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "4 Project Monitoring Units (PMUs)/Support Teams"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                114,
+                91,
+                640,
+                110
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "4.1 Central PMU:"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                114,
+                146,
+                284,
+                164
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "a. Roles and responsibilities of central PMU"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                119,
+                171,
+                556,
+                190
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Central PMU will:"
+                    }
+                ]
+            },
+            "bbox": [
+                151,
+                195,
+                315,
+                214
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "i. Be set up by NABARD and manned by Management & Technical Experts."
+                    }
+                ]
+            },
+            "bbox": [
+                161,
+                231,
+                873,
+                252
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "ii. Finalize project design and implementation strategy."
+                    }
+                ]
+            },
+            "bbox": [
+                159,
+                256,
+                682,
+                275
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "iii. Undertake stakeholder consultation with States, Central Government, RBI, Banks etc."
+                    }
+                ]
+            },
+            "bbox": [
+                154,
+                281,
+                882,
+                323
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "iv. Finalize the requirement of hardware and functionalities of software for the project."
+                    }
+                ]
+            },
+            "bbox": [
+                154,
+                330,
+                882,
+                374
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "v. Undertake bidding and short listing exercise as per the provisions of General Financial Rules (GFR), 2017."
+                    }
+                ]
+            },
+            "bbox": [
+                157,
+                380,
+                884,
+                423
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "vi. Provide technical support during and after the implementation of the proposed Project."
+                    }
+                ]
+            },
+            "bbox": [
+                154,
+                429,
+                882,
+                473
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "vii. Guide the NLPSV regarding customization of the central software based on the state-wise feedback/needs."
+                    }
+                ]
+            },
+            "bbox": [
+                149,
+                478,
+                882,
+                520
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "viii. Provide guidance to the state level PMUs."
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                526,
+                589,
+                545
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "ix. Provide necessary inputs to the National level Monitoring and Implementing Committee (NLMIC)."
+                    }
+                ]
+            },
+            "bbox": [
+                154,
+                552,
+                882,
+                596
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "x. Prepare necessary reports and dashboards (MIS etc.) for facilitating review at National/ State Level."
+                    }
+                ]
+            },
+            "bbox": [
+                157,
+                601,
+                882,
+                644
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "xi. Ensure periodical reporting of the progress to the Government of India."
+                    }
+                ]
+            },
+            "bbox": [
+                152,
+                650,
+                845,
+                670
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "xii. Provide guidance on the business aspects to the PACS as well as monitor the implementation carried out by the selected vendors."
+                    }
+                ]
+            },
+            "bbox": [
+                149,
+                675,
+                882,
+                719
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "xiii. Undertake planning and execution of the training and capacity building at all levels."
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                724,
+                882,
+                766
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "xiv. Ensure the preservation of the data and provide measures for data analysis & analytics."
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                774,
+                882,
+                816
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "xv. Undertake all other matters necessary for the successful implementation of the project, duly consulting NABARD/ GoI."
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                824,
+                882,
+                868
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The team will be physically present at NABARD, HO and will be supported by the"
+                    }
+                ]
+            },
+            "bbox": [
+                114,
+                885,
+                884,
+                906
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "16"
+                    }
+                ]
+            },
+            "bbox": [
+                857,
+                927,
+                880,
+                941
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "NLPSV, teams of data analysts, programmers, documentation specialists and other team members from respective locations."
+                    }
+                ]
+            },
+            "bbox": [
+                114,
+                92,
+                882,
+                135
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "4.2 State PMUs:"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                115,
+                153,
+                273,
+                170
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "a. Roles and responsibilities of State PMU"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                119,
+                208,
+                539,
+                225
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "PMUs at the State level will:"
+                    }
+                ]
+            },
+            "bbox": [
+                115,
+                233,
+                373,
+                249
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "i. Be manned by NABARD’s officials and Management & Technical Experts."
+                    }
+                ]
+            },
+            "bbox": [
+                119,
+                268,
+                830,
+                286
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "ii. Will function under the overall guidance of the Central PMU and report to State Secretary of Co-operation Department."
+                    }
+                ]
+            },
+            "bbox": [
+                115,
+                293,
+                882,
+                336
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "iii. Provide management/technical support during and after the implementation of the proposed Project."
+                    }
+                ]
+            },
+            "bbox": [
+                112,
+                342,
+                882,
+                385
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "iv. Assist in identification of functional PACS for computerization in consultation with State Government within overall project guidelines."
+                    }
+                ]
+            },
+            "bbox": [
+                110,
+                392,
+                882,
+                435
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "v. Be responsible for identifying the customization needs at the state level and report to the central PMU/SI."
+                    }
+                ]
+            },
+            "bbox": [
+                115,
+                442,
+                882,
+                483
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "vi. Liaise with state level stakeholders."
+                    }
+                ]
+            },
+            "bbox": [
+                110,
+                491,
+                487,
+                507
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "vii. Arranging for stakeholder capacity building at the state level."
+                    }
+                ]
+            },
+            "bbox": [
+                107,
+                516,
+                709,
+                532
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "viii. Follow up with stakeholders for successful implementation at the state level."
+                    }
+                ]
+            },
+            "bbox": [
+                104,
+                539,
+                847,
+                557
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "ix. Provide guidance on the business aspects to the PACS as well as monitor the implementation carried out by the selected vendors."
+                    }
+                ]
+            },
+            "bbox": [
+                110,
+                564,
+                882,
+                606
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "x. Prepare necessary reports (MIS etc.) for facilitating review at State Level."
+                    }
+                ]
+            },
+            "bbox": [
+                114,
+                613,
+                823,
+                632
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "xi. Facilitate planning and successful execution of the training and capacity building at all State/ PACS level as advised by Central PMU."
+                    }
+                ]
+            },
+            "bbox": [
+                110,
+                638,
+                882,
+                681
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "xii. Undertake all other matters necessary for the successful implementation of the project, duly consulting all the stakeholders."
+                    }
+                ]
+            },
+            "bbox": [
+                107,
+                687,
+                882,
+                731
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "4.3 Support Teams at District/ Cluster levels"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                114,
+                749,
+                544,
+                766
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "There will be field level ‘support teams’, set up and maintained by System Integrator, at a cluster of about 200 PACS/ District Level, manned and assisted by persons with qualifications/ experience in installation of computers/ trouble shooting for hardware and software, field level on the job training etc. These support teams will continue to work throughout the project period. In the post project period, suitable pay for use models will be developed for sustained support for PACS. However, some states with much less number of PACS like the NER/Goa/ Andaman and Nicobar Islands, will have teams of smaller size."
+                    }
+                ]
+            },
+            "bbox": [
+                114,
+                803,
+                884,
+                897
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "17"
+                    }
+                ]
+            },
+            "bbox": [
+                857,
+                926,
+                880,
+                941
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": []
+            },
+            "bbox": [
+                112,
+                92,
+                884,
+                185
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "5 Stakeholders"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                115,
+                203,
+                305,
+                222
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "5.1 Roles and responsibilities of various stakeholders of the project"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                114,
+                259,
+                773,
+                278
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "5.1.1 Government of India:"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                115,
+                284,
+                378,
+                302
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Government of India i.e. Ministry of Cooperation will be responsible for guiding the overall implementation and monitoring of the project through NLMIC."
+                    }
+                ]
+            },
+            "bbox": [
+                208,
+                319,
+                882,
+                387
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "5.1.2 State Governments:"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                115,
+                406,
+                366,
+                424
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "a. State Governments will be responsible for implementation and monitoring of the project in their respective states through the State Level Implementation and Monitoring Committee (SLIMC) and District Level Implementation and Monitoring Committee (DLIMC)."
+                    }
+                ]
+            },
+            "bbox": [
+                174,
+                442,
+                884,
+                536
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "b. To hold meetings of the SLIMC regularly, record discussions and decisions, communicate the same to relevant stakeholders and follow up for action thereon."
+                    }
+                ]
+            },
+            "bbox": [
+                174,
+                541,
+                884,
+                608
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "c. Ensure that list of PACS, to be taken up for computerisation, is approved by the SLIMC, based on eligibility criteria."
+                    }
+                ]
+            },
+            "bbox": [
+                174,
+                615,
+                882,
+                658
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "d. Ensure that District Level Implementation and Monitoring Committees (DLIMCs) are set up in the relevant districts with involvement of the DCCB and other stakeholders as indicated in the project guidelines and ensure regular meetings thereof."
+                    }
+                ]
+            },
+            "bbox": [
+                174,
+                664,
+                884,
+                757
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "e. Where there are more than one DCCB working in a district, States through StCB to involve all DCCBs to act on behalf of their respective PACS."
+                    }
+                ]
+            },
+            "bbox": [
+                174,
+                762,
+                882,
+                806
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "f. To coordinate with the NLMIC and also maintain/ share data on the progress of the project."
+                    }
+                ]
+            },
+            "bbox": [
+                173,
+                812,
+                882,
+                856
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "g. Facilitate customisation of the national level PACS Computerisation Software (PCS) as per requirement of the PACS in the state including"
+                    }
+                ]
+            },
+            "bbox": [
+                173,
+                860,
+                884,
+                904
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "18"
+                    }
+                ]
+            },
+            "bbox": [
+                857,
+                926,
+                880,
+                941
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "modules and MIS."
+                    }
+                ]
+            },
+            "bbox": [
+                205,
+                92,
+                374,
+                109
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "h. Ensure that the System Integrator(s) (SI) is identified for the state through due process."
+                    }
+                ]
+            },
+            "bbox": [
+                173,
+                116,
+                882,
+                159
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "i. Ensure data readiness and infrastructure preparedness of the PACS for migration."
+                    }
+                ]
+            },
+            "bbox": [
+                173,
+                166,
+                882,
+                209
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "j. Enter into Service Level Agreement with SI, monitor their work and release funds to these agencies, based on the approved performance milestones."
+                    }
+                ]
+            },
+            "bbox": [
+                173,
+                215,
+                882,
+                259
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "k. Ensure inflow of funds from GoI (through NABARD) for proper implementation of the project as also maintain necessary accounts."
+                    }
+                ]
+            },
+            "bbox": [
+                174,
+                263,
+                882,
+                307
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "l. To procure hardware as indicated at para 3.8.3 A (i) herein, through GeM Portal. SI can be included in the procurement committee formed by the State Government / UT Administration, if required."
+                    }
+                ]
+            },
+            "bbox": [
+                173,
+                313,
+                882,
+                381
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "m. General Financial Rules (GFR), 2017 and other extant guidelines issued by Government of India in this regard, shall be followed in the procurement process."
+                    }
+                ]
+            },
+            "bbox": [
+                174,
+                387,
+                884,
+                455
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "n. To ensure AMC for the hardware for the entire project duration, i.e. for five years (2022-23 to 2026-27)."
+                    }
+                ]
+            },
+            "bbox": [
+                174,
+                461,
+                882,
+                504
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "o. The hardware shall conform to the specifications indicated by NABARD to ensure compatibility with the National Level PACS Software."
+                    }
+                ]
+            },
+            "bbox": [
+                174,
+                510,
+                882,
+                554
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "p. The purchased hardware shall be delivered and installed at PACS premises and hardware vendor shall provide on site support during warranty/AMC period. He shall also provide demo and duly advise maintenance requirements to the PACS staff."
+                    }
+                ]
+            },
+            "bbox": [
+                174,
+                558,
+                884,
+                652
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "q. The work order to the vendor shall be issued by the State Government / UT, with the approval of State Level Implementation & Monitoring Committee (SLIMC)."
+                    }
+                ]
+            },
+            "bbox": [
+                174,
+                658,
+                884,
+                726
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "5.1.3 NABARD:"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                102,
+                745,
+                265,
+                763
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "a. NABARD will implement the project and act as project manager for the PACS Computerisation Project at Central level under the guidance and directions of National Level Monitoring and Implementation Committee and Ministry of Cooperation."
+                    }
+                ]
+            },
+            "bbox": [
+                174,
+                795,
+                884,
+                888
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "b. NABARD will establish a core team of its officers for this purpose which will be assisted by a Project Monitoring Unit (PMU) manned by professionals and experts at national and state level."
+                    }
+                ]
+            },
+            "bbox": [
+                174,
+                892,
+                882,
+                912
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "19"
+                    }
+                ]
+            },
+            "bbox": [
+                857,
+                927,
+                880,
+                941
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": []
+            },
+            "bbox": [
+                203,
+                92,
+                882,
+                135
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "5.1.4 State Cooperative Bank:"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                102,
+                149,
+                405,
+                167
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "a. Form a dedicated PACS Computerisation Cell, equipped with IT trained manpower, within the Bank for this Project."
+                    }
+                ]
+            },
+            "bbox": [
+                174,
+                198,
+                882,
+                241
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "b. Act in capacity of Member Secretary of the State Level Implementation and Monitoring Committee (SLIMC)."
+                    }
+                ]
+            },
+            "bbox": [
+                174,
+                247,
+                882,
+                290
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "c. Play the role of coordinator between the DLIMC and SLIMC."
+                    }
+                ]
+            },
+            "bbox": [
+                174,
+                297,
+                751,
+                315
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "d. Obtain authorisation from DCCBs and PACS for entering into agreements with SI or any other stakeholders on behalf of the DCCBs and PACS."
+                    }
+                ]
+            },
+            "bbox": [
+                174,
+                322,
+                882,
+                365
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "e. Take any other action necessary for successful implementation of the project within the overall time frame of the project."
+                    }
+                ]
+            },
+            "bbox": [
+                174,
+                370,
+                882,
+                414
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "5.1.5 District Central Cooperative Banks:"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                102,
+                434,
+                510,
+                451
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "a. Form a dedicated PACS computerisation cell within the Bank for this project."
+                    }
+                ]
+            },
+            "bbox": [
+                174,
+                482,
+                882,
+                526
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "b. Act in the capacity of Member Secretary of the District Level Monitoring and Implementation Committee (DLIMC). As Member Secretary of the DLIMC, convene meetings of the DLIMC, record discussions and decisions, communicate the same to relevant stakeholders and follow up for action thereon."
+                    }
+                ]
+            },
+            "bbox": [
+                174,
+                532,
+                884,
+                649
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "c. Arrange to prepare list of eligible PACS as per approved eligibility criteria and prioritise the same as per the prioritisation norms, get it recommended by the DLIMC and refer to SLIMC for approval."
+                    }
+                ]
+            },
+            "bbox": [
+                174,
+                656,
+                882,
+                724
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "d. Procure letters of authorisation permitting StCB to enter into agreements on its behalf from each of the participating PACS and issue letter of authorisation to StCB, based on the same."
+                    }
+                ]
+            },
+            "bbox": [
+                174,
+                728,
+                884,
+                796
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "e. Ensure data readiness and infrastructure readiness of the PACS."
+                    }
+                ]
+            },
+            "bbox": [
+                174,
+                803,
+                793,
+                821
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "f. Guide and monitor the progress of implementation of the project at the PACS."
+                    }
+                ]
+            },
+            "bbox": [
+                174,
+                827,
+                882,
+                869
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "g. Ensure that implementation problems are resolved by the SI or escalated"
+                    }
+                ]
+            },
+            "bbox": [
+                174,
+                877,
+                882,
+                895
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "20"
+                    }
+                ]
+            },
+            "bbox": [
+                855,
+                927,
+                880,
+                941
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "to the DLIMC/ SLIMC, as may be required."
+                    }
+                ]
+            },
+            "bbox": [
+                205,
+                92,
+                594,
+                109
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "h. Put in place a mechanism to ensure that the data at End of Day (EoD) is sent to the Data Repository, after Go-live of the PACS."
+                    }
+                ]
+            },
+            "bbox": [
+                173,
+                116,
+                882,
+                159
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "5.1.6 Primary Agricultural Credit Societies:"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                102,
+                190,
+                531,
+                209
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "a. Check own eligibility as per norms."
+                    }
+                ]
+            },
+            "bbox": [
+                174,
+                241,
+                526,
+                258
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "b. If eligible, then check priority status as per norms."
+                    }
+                ]
+            },
+            "bbox": [
+                174,
+                265,
+                657,
+                281
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "c. If some criteria are not fulfilled, arrange to plug the gaps."
+                    }
+                ]
+            },
+            "bbox": [
+                174,
+                288,
+                719,
+                306
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "d. Submit application to the DCCB/StCB (in case of states with 2 tier structure) for inclusion in the list of eligible PACS."
+                    }
+                ]
+            },
+            "bbox": [
+                174,
+                313,
+                882,
+                356
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "e. Issue letter of authorisation to the StCB, through DCCB, authorising StCB to enter into agreements on its behalf for this project."
+                    }
+                ]
+            },
+            "bbox": [
+                174,
+                362,
+                882,
+                405
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "f. Ensure onsite data readiness and infrastructure readiness."
+                    }
+                ]
+            },
+            "bbox": [
+                174,
+                412,
+                737,
+                430
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "g. Maintain data on the progress of the project to be shared with DCCB. This involves issuance of installation certificate after the hardware is installed, AMC contract with hardware vendor for five years, signing the migration certificate after the data is migrated to the new software and other such milestones."
+                    }
+                ]
+            },
+            "bbox": [
+                174,
+                436,
+                884,
+                552
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "h. Ensure regular use of the software after migration."
+                    }
+                ]
+            },
+            "bbox": [
+                174,
+                560,
+                662,
+                577
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "i. Take full advantage of the handholding support provided under the project."
+                    }
+                ]
+            },
+            "bbox": [
+                174,
+                585,
+                878,
+                602
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "j. Ensure regular transfer of data to the National Data Repository, if the PACS is working on offline mode."
+                    }
+                ]
+            },
+            "bbox": [
+                174,
+                608,
+                882,
+                651
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "k. Ensure that sanctity of the IT environment is maintained by following steps as advised by the SI."
+                    }
+                ]
+            },
+            "bbox": [
+                174,
+                658,
+                882,
+                700
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "l. Report problems in implementation to the DCCB, to be resolved either at DLIMC or escalated to SLIMC, as may be necessary."
+                    }
+                ]
+            },
+            "bbox": [
+                174,
+                707,
+                882,
+                750
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "m. Liaise closely with SI for ensuring that all activities of the PACS and accounts are captured appropriately."
+                    }
+                ]
+            },
+            "bbox": [
+                174,
+                756,
+                882,
+                800
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "5.1.7 National Level PACS Software Vendor (NLPSV):"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                102,
+                821,
+                628,
+                839
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "a. Provide a national level PACS Computerisation Software (PCS)."
+                    }
+                ]
+            },
+            "bbox": [
+                174,
+                871,
+                786,
+                889
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "b. Customise the software based on the requirement of each state."
+                    }
+                ]
+            },
+            "bbox": [
+                174,
+                895,
+                786,
+                913
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "21"
+                    }
+                ]
+            },
+            "bbox": [
+                855,
+                927,
+                878,
+                941
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "c. Facilitate the SIs, in deployment of the PACS software."
+                    }
+                ]
+            },
+            "bbox": [
+                174,
+                91,
+                705,
+                110
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "d. Provide help desk support to PACS during the project period."
+                    }
+                ]
+            },
+            "bbox": [
+                173,
+                116,
+                759,
+                135
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "e. Provide training solutions on the software to trainers under Training of Trainers (TOT) arrangement."
+                    }
+                ]
+            },
+            "bbox": [
+                174,
+                140,
+                884,
+                185
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "5.1.8 National Level Data Repository Vendor (NLDRV):"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                99,
+                204,
+                636,
+                223
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "a. Be responsible for national level data storage, security and data management."
+                    }
+                ]
+            },
+            "bbox": [
+                173,
+                253,
+                882,
+                296
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "b. Generate reports required at"
+                    }
+                ]
+            },
+            "bbox": [
+                174,
+                302,
+                472,
+                321
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "i. National Level"
+                    }
+                ]
+            },
+            "bbox": [
+                223,
+                326,
+                406,
+                346
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "ii. State Level"
+                    }
+                ]
+            },
+            "bbox": [
+                220,
+                351,
+                378,
+                370
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "iii. NABARD"
+                    }
+                ]
+            },
+            "bbox": [
+                216,
+                375,
+                361,
+                393
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "iv. Other stakeholders as directed by GoI/ NABARD/ State governments"
+                    }
+                ]
+            },
+            "bbox": [
+                215,
+                400,
+                882,
+                444
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "5.1.9 System Integrator (SI) state-wise:"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                99,
+                463,
+                495,
+                482
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "a. SI will coordinate with States/UTs for installation of software prepared by NLPSV."
+                    }
+                ]
+            },
+            "bbox": [
+                176,
+                500,
+                882,
+                542
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "b. Digitise existing manual/ semi computerised/ computerised data of PACS, including legacy data."
+                    }
+                ]
+            },
+            "bbox": [
+                176,
+                549,
+                884,
+                593
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "c. Migrate PACS data to the new software and obtain migration certificate from the PACS / DCCB."
+                    }
+                ]
+            },
+            "bbox": [
+                176,
+                599,
+                882,
+                642
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "d. Integrate the software installed at the PACS with the National Data Repository to ensure that the data is stored at the Data Repository."
+                    }
+                ]
+            },
+            "bbox": [
+                176,
+                648,
+                882,
+                692
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "e. Train DCCB personnel as Master Trainers and train PACS personnel on software usage and hardware maintenance."
+                    }
+                ]
+            },
+            "bbox": [
+                176,
+                697,
+                882,
+                741
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "f. Handhold PACS, on dedicated basis for at least 2 weeks from the date of go-live. Thereafter, provide handholding on cluster mode."
+                    }
+                ]
+            },
+            "bbox": [
+                176,
+                746,
+                882,
+                791
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "6 Legal Framework"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                114,
+                809,
+                339,
+                829
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The project will adhere to the respective State Cooperative Acts under which the PACS are working. The implementation of the project shall be bound by the following"
+                    }
+                ]
+            },
+            "bbox": [
+                114,
+                865,
+                884,
+                910
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "22"
+                    }
+                ]
+            },
+            "bbox": [
+                855,
+                926,
+                880,
+                941
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "agreements:"
+                    }
+                ]
+            },
+            "bbox": [
+                115,
+                93,
+                235,
+                110
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(a) A Service Level Agreement (SLA) will be executed between NABARD and the National Level PACS Software Vendor (NLPSV) as also between NABARD and the National Level Data Repository Vendor (NLDRV)."
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                128,
+                884,
+                196
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(b) A Service Level Agreement (SLA) will also be executed between StCBs/ DCCBs and the System Integrator(s) (SI)."
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                202,
+                882,
+                246
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "7 Upkeep and maintenance of assets created"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                114,
+                267,
+                586,
+                286
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "7.1 The software maintenance, in terms of upgrades/ antivirus and incorporation of new modules for new / innovative activities initiated by the PACS, as also maintenance of the data repository, will be done under contract given to vendors at NABARD level with NABARD as facilitator for initial five years."
+                    }
+                ]
+            },
+            "bbox": [
+                114,
+                322,
+                884,
+                416
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "7.2 Maintenance of the hardware installed at PACS will be the responsibility of the respective PACS, DCCBs/ StCBs on an ongoing basis even after completion of the project period."
+                    }
+                ]
+            },
+            "bbox": [
+                114,
+                432,
+                882,
+                501
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "7.3 The central infrastructure facility and common software will be maintained and updated by NABARD periodically. A suitable Pay per use arrangement will be finalised by NABARD in consultation with StCB/State Govt. for the period beyond the current project period of 5 years."
+                    }
+                ]
+            },
+            "bbox": [
+                114,
+                517,
+                882,
+                611
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "7.4 This will be a periodic contractual exercise, which will be funded from contributions by various tiers of the system during and beyond the project period, as per the requirements."
+                    }
+                ]
+            },
+            "bbox": [
+                114,
+                625,
+                882,
+                695
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "7.5 State Level support teams will continue to work under aegis of StCB and State Government and suitable pay per use models will be designed for financial closure for such continued functioning of support teams. NABARD shall guide and handhold the support teams / StCBs/ State Governments on an ongoing basis."
+                    }
+                ]
+            },
+            "bbox": [
+                114,
+                707,
+                884,
+                801
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "23"
+                    }
+                ]
+            },
+            "bbox": [
+                855,
+                927,
+                880,
+                941
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "8 Deliverables of the Project"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                115,
+                91,
+                408,
+                109
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "8.1 Transparent and Complete accounting System"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                114,
+                146,
+                605,
+                165
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Accounting as per CAS (Common Accounting System) & MIS (Management Information System) prescribed by NABARD – Origination of accounts on the basis of the member transactions and automation of all the businesses, their business processes and associated calculations for all financial transactions. In an ideal automated accounting system, every single entry, based on transaction of any nature, shall:"
+                    }
+                ]
+            },
+            "bbox": [
+                114,
+                171,
+                884,
+                313
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "1. Enable automatic posting and recording in all relevant heads of accounts."
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                331,
+                838,
+                349
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "2. Be in conformity with all pre-sets like rate of interest, period (including days) of interest applicability, etc.,"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                355,
+                882,
+                398
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "3. Appropriate amounts to various heads of accounts as per the prescribed priorities."
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                405,
+                882,
+                447
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "4. Generation of accurate NPA, Interest subvention statements covering the State and Central components and other important & relevant disclosure statements."
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                454,
+                882,
+                520
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "8.2 Governance"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                115,
+                541,
+                273,
+                557
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "1. Alerts on the conduct of Board Meetings and General Body meetings."
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                564,
+                803,
+                583
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "2. Prompting on Agenda preparation."
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                589,
+                492,
+                607
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "3. Record Keeping of Board & General Body Meeting proceedings."
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                613,
+                756,
+                632
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "4. Real time information flow and access to all stakeholders."
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                638,
+                697,
+                656
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "8.3 Enablement"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                115,
+                680,
+                273,
+                696
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "a. Optimal use of Infrastructure – currently substantial warehouse capacities are being created under Atmanirbhar Bharat program."
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                705,
+                882,
+                747
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "b. Market connectivity – access to the agri-produce information of members can facilitate the institution for procurement, processing and marketing thereof resulting in better price realization to farmers."
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                753,
+                884,
+                821
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "c. Providing multiple financial and non-financial products, citizen services etc."
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                827,
+                848,
+                846
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "24"
+                    }
+                ]
+            },
+            "bbox": [
+                855,
+                927,
+                880,
+                941
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "9. Expected Outcomes of the Project:"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                114,
+                111,
+                480,
+                130
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "i. PACS functions will be faster, transparent and accountable."
+                    }
+                ]
+            },
+            "bbox": [
+                132,
+                151,
+                714,
+                168
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "ii. Migration of the legacy data."
+                    }
+                ]
+            },
+            "bbox": [
+                129,
+                174,
+                436,
+                193
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "iii. Timely generation of MIS."
+                    }
+                ]
+            },
+            "bbox": [
+                126,
+                199,
+                413,
+                217
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "iv. Improved facilities (credit & non- credit) to members at PACS level."
+                    }
+                ]
+            },
+            "bbox": [
+                124,
+                224,
+                779,
+                242
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "v. Financial irregularities can be prevented on time."
+                    }
+                ]
+            },
+            "bbox": [
+                127,
+                249,
+                620,
+                267
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "vi. Increase in work efficiency of the PACS staff."
+                    }
+                ]
+            },
+            "bbox": [
+                124,
+                273,
+                586,
+                291
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "vii. Enhanced financial inclusion and business opportunities for the members."
+                    }
+                ]
+            },
+            "bbox": [
+                121,
+                298,
+                842,
+                317
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "9.1 Statutory Audit"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                115,
+                338,
+                305,
+                356
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "An automated accounting and audit process delivers prompt and accurate audit statements leading to completion of audit within 2 to 3 days from the date of closure of financial accounts (31st March) – the current practice of manual accounting and preparation of audit statements often results in inaccuracies and delays in completing financial audits."
+                    }
+                ]
+            },
+            "bbox": [
+                114,
+                363,
+                884,
+                481
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "9.2 Transparency in Operations and Productive Manpower Deployment"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                114,
+                499,
+                803,
+                517
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Further, automation of all the businesses and their business processes will lead to complete transparency and ease of use besides providing quality time for the PACS staff and administration to plan and undertake other profitable businesses and services."
+                    }
+                ]
+            },
+            "bbox": [
+                114,
+                523,
+                882,
+                615
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "9.3 Integration"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                115,
+                633,
+                262,
+                652
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Seamless integration with all the relevant governmental agencies and departments and more specifically the higher financing agencies leading to better financial management and account reconciliations."
+                    }
+                ]
+            },
+            "bbox": [
+                114,
+                658,
+                882,
+                726
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "*********"
+                    }
+                ]
+            },
+            "bbox": [
+                463,
+                743,
+                534,
+                755
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "25"
+                    }
+                ]
+            },
+            "bbox": [
+                855,
+                927,
+                880,
+                941
+            ]
+        }
+    ],
+    [
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/64987435fd00e2ecec29dddef501f207882cc73afc9d96b030471ec2f1b39bdd.jpg"
+                },
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                330,
+                338,
+                666,
+                598
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Ministry of Cooperation  overnment of India"
+                    }
+                ]
+            },
+            "bbox": [
+                279,
+                606,
+                714,
+                643
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "सहका%रता से समिृ ,"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                285,
+                728,
+                712,
+                792
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Ministry of Cooperation"
+                    }
+                ]
+            },
+            "bbox": [
+                302,
+                878,
+                694,
+                910
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Atal Akshya Urja Bhawan, CGO Complex, New Delhi - 110003 Website: http://cooperation.gov.in/ Ph:20849021, 20849022"
+                    }
+                ]
+            },
+            "bbox": [
+                250,
+                911,
+                746,
+                969
+            ]
+        }
+    ]
+]

@@ -1,0 +1,45 @@
+.env*
+!.env.example
+__pycache__/
+*.pyc
+.venv/
+venv/
+node_modules/
+.next/
+.vercel/
+*.tsbuildinfo
+coverage/
+.pytest_cache/
+.ruff_cache/
+.superpowers/
+.kilo/
+*.egg-info/
+build/
+dist/
+
+# Scratch / debug / one-off eval outputs (not project logic)
+debug_*.py
+check_*.py
+quick_test.py
+*.log
+NOTES.md
+PROJECT_CONTEXT.md
+RAG-SKILL.md
+artifacts/
+references/
+output/
+supabase/.temp/
+*_output.txt
+npm_install_log.txt
+benchmark_results.json
+eval_results.json
+web_rag_benchmark.json
+
+# Untracked local eval harness + orphan module (pre-d77c5cd leftovers)
+eval/
+backend/app/curated_knowledge.py
+
+# CI workflow is managed via GitHub web UI (OAuth token lacks `workflow` scope,
+# so pushes containing .github/workflows/*.yml are rejected by GitHub).
+# Local copy kept at .github/workflows/ci.yml (untracked). Re-add via web UI.
+.github/workflows/

@@ -1,0 +1,29 @@
+{
+ "comment": "P2-1/P2-2 scheme jurisdiction exceptions. Explicit, inspectable data for national schemes with known state opt-out behavior. Research grounding: Gujarat suspended PMFBY from Kharif 2020 (state-funded MMKSY/relief architecture instead). Effect is DEMOTION-ONLY on matching ladder-type content for the opt-out state; instruments are never demoted and other jurisdictions never affected. PMFBY is therefore never globally treated as Gujarat insurance.",
+ "exceptions": [
+  {
+   "demote_domains": [
+    "pmfby.gov.in"
+   ],
+   "demote_roles": [
+    "implementation",
+    "explainer",
+    "secondary"
+   ],
+   "effect": "demote national ladder-type content when Gujarat relief architecture applies AND Gujarat relief/instrument evidence is present in the pool (conditional preference, never blind suppression)",
+   "evidence": "deep-research report findings 2 (PMFBY 25 States/UTs Kharif 2026; Gujarat suspension + MMKSY launch)",
+   "id": "pmfby-gujarat-optout",
+   "opt_out_state": "Gujarat",
+   "penalty": -0.8,
+   "scheme": "PMFBY",
+   "since": "Kharif 2020",
+   "subject": "crop_insurance",
+   "requires_home_evidence": true
+  }
+ ],
+ "assumed_dampen_subjects": [
+  "crop_insurance"
+ ],
+ "assumed_dampen_factor": 0.5,
+ "comment_assumed": "P2-2: when state is merely assumed (not explicit) on these subjects, geo and mandate-fit influence halve. Explicit state keeps full weight. Branches are preserved, never removed."
+}

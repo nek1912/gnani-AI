@@ -1,0 +1,129 @@
+# Source manifest. Add the selected state's cooperative act/rules on Day 1 —
+# see the placeholder at the bottom. Update verified_date whenever a source is
+# re-checked, don't just leave the original date.
+
+sources:
+  # ============================================================
+  # COOPERATIVE / PACS
+  # ============================================================
+  - id: ministry_cooperation
+    organization: Ministry of Cooperation
+    domain: cooperative
+    jurisdiction: central
+    state: null
+    source_type: official_web_source
+    official_domain: cooperation.gov.in
+    url: https://www.cooperation.gov.in/
+    effective_date: null
+    verified_date: 2026-08-26
+
+  - id: ministry_pacs
+    organization: Ministry of Cooperation
+    domain: pacs
+    jurisdiction: central
+    state: null
+    source_type: official_web_source
+    official_domain: cooperation.gov.in
+    url: https://cooperation.gov.in/en/about-primary-agriculture-cooperative-credit-societies-pacs
+    effective_date: null
+    verified_date: 2026-08-26
+
+  - id: ministry_pacs_schemes
+    organization: Ministry of Cooperation
+    domain: schemes
+    jurisdiction: central
+    state: null
+    source_type: official_web_source
+    official_domain: cooperation.gov.in
+    url: https://cooperation.gov.in/index.php/en/pacs-related-schemes
+    effective_date: null
+    verified_date: 2026-08-26
+
+  - id: model_pacs_bylaws
+    organization: Ministry of Cooperation
+    domain: cooperative
+    jurisdiction: central
+    state: null
+    source_type: model_bylaw
+    official_domain: cooperation.gov.in
+    url: https://www.cooperation.gov.in/en/model-byelaws
+    effective_date: "2023-01-05"
+    verified_date: 2026-08-26
+
+  # ============================================================
+  # LAWS
+  # ============================================================
+  - id: india_code
+    organization: India Code
+    domain: cooperative
+    jurisdiction: central_and_state
+    state: null
+    source_type: legislation_repository
+    official_domain: indiacode.nic.in
+    url: https://www.indiacode.nic.in/
+    effective_date: null
+    verified_date: 2026-08-26
+
+  # ============================================================
+  # PMFBY
+  # ============================================================
+  - id: pmfby_guidelines
+    organization: PMFBY
+    domain: pmfby
+    jurisdiction: central
+    state: null
+    source_type: guidelines
+    official_domain: pmfby.gov.in
+    url: https://pmfby.gov.in/guidelines
+    effective_date: null
+    verified_date: 2026-08-26
+
+  - id: pmfby_faq
+    organization: PMFBY
+    domain: pmfby
+    jurisdiction: central
+    state: null
+    source_type: faq
+    official_domain: pmfby.gov.in
+    url: https://pmfby.gov.in/faq
+    effective_date: null
+    verified_date: 2026-08-26
+
+  # ============================================================
+  # FINANCIAL LITERACY
+  # ============================================================
+  - id: rbi_financial_literacy
+    organization: Reserve Bank of India
+    domain: finlit
+    jurisdiction: central
+    state: null
+    source_type: financial_literacy
+    official_domain: rbi.org.in
+    url: https://rbi.org.in/
+    effective_date: null
+    verified_date: 2026-08-26
+
+  - id: pmjdy_financial_literacy
+    organization: PMJDY
+    domain: finlit
+    jurisdiction: central
+    state: null
+    source_type: financial_literacy
+    official_domain: pmjdy.gov.in
+    url: https://www.pmjdy.gov.in/literacy
+    effective_date: null
+    verified_date: 2026-08-26
+
+  # ============================================================
+  # STATE — Gujarat selected as the demonstration state
+  # ============================================================
+  - id: gujarat_cooperative_act
+    organization: Government of Gujarat
+    domain: cooperative
+    jurisdiction: state
+    state: gujarat
+    source_type: legislation
+    official_domain: gujaratlegislature.nic.in
+    url: https://gujaratlegislature.nic.in/act-en/2461
+    effective_date: "1961-05-01"
+    verified_date: 2026-08-26

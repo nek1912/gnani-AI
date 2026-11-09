@@ -1,0 +1,243 @@
+# Deferred corpus manifest
+# These files are collected but intentionally NOT ingested/embedded in the MVP.
+# They are retained for later expansion.
+#
+# Main reason for exclusion:
+#   - scanned/OCR-required
+#   - supplementary/contextual rather than core MVP
+#   - not required for initial retrieval/system validation
+
+manifest_version: "1.2"
+audit_date: "2026-08-27"
+ingest_now: false
+embed_now: false
+
+sources:
+
+  # --------------------------------------------------------------
+  # Gujarat cooperative legislation: deferred because scanned
+  # --------------------------------------------------------------
+
+  - source_id: gujarat_cooperative_act_1961
+    filename: "The-Gujarat-Co-operative-Societies-Act-1961.pdf"
+    path: "corpus/seeds/The-Gujarat-Co-operative-Societies-Act-1961.pdf"
+    jurisdiction: "state"
+    state: "Gujarat"
+    target_domain: "gujarat_cooperative_law"
+    digital_scanned: "scanned"
+    status: "deferred_ocr"
+    reason: "Scanned document; OCR and verification required."
+
+  - source_id: gujarat_cooperative_act_amendment_2017
+    filename: "2017.pdf"
+    path: "corpus/seeds/2017.pdf"
+    jurisdiction: "state"
+    state: "Gujarat"
+    target_domain: "gujarat_cooperative_law"
+    digital_scanned: "scanned"
+    status: "deferred_ocr"
+    reason: "Scanned document; OCR and verification required."
+
+  - source_id: gujarat_cooperative_act_amendment_2024
+    filename: "2024.pdf"
+    path: "corpus/seeds/2024.pdf"
+    jurisdiction: "state"
+    state: "Gujarat"
+    target_domain: "gujarat_cooperative_law"
+    digital_scanned: "scanned"
+    status: "deferred_ocr"
+    reason: "Scanned document; OCR and verification required."
+
+  - source_id: gujarat_cooperative_act_amendment_2024_commencement
+    filename: "2024-2.pdf"
+    path: "corpus/seeds/2024-2.pdf"
+    jurisdiction: "state"
+    state: "Gujarat"
+    target_domain: "gujarat_cooperative_law"
+    digital_scanned: "scanned"
+    status: "deferred_ocr"
+    reason: "Treat as deferred until its exact content/type is verified and OCR is completed."
+
+  - source_id: gujarat_cooperative_jan_vishwas_2025
+    filename: "2025.pdf"
+    path: "corpus/seeds/2025.pdf"
+    jurisdiction: "state"
+    state: "Gujarat"
+    target_domain: "gujarat_cooperative_law"
+    digital_scanned: "digital_or_unverified"
+    status: "deferred_verification"
+    reason: "Do not ingest based on filename alone; verify that the file actually contains the relevant Gujarat cooperative provisions."
+
+  # --------------------------------------------------------------
+  # Gujarat cooperative rules: deferred
+  # --------------------------------------------------------------
+
+  - source_id: gujarat_cooperative_rules_1965
+    filename: "gujarat-co-operative-societies-rules,-1965.pdf"
+    path: "corpus/seeds/gujarat-co-operative-societies-rules,-1965.pdf"
+    jurisdiction: "state"
+    state: "Gujarat"
+    target_domain: "gujarat_cooperative_law"
+    digital_scanned: "scanned"
+    status: "deferred_ocr"
+    reason: "Scanned document; OCR and verification required."
+
+  - source_id: gujarat_cooperative_rules_2012
+    filename: "2012.pdf"
+    path: "corpus/seeds/2012.pdf"
+    jurisdiction: "state"
+    state: "Gujarat"
+    target_domain: "gujarat_cooperative_law"
+    digital_scanned: "scanned"
+    status: "deferred_ocr"
+    reason: "Scanned document; OCR and verification required."
+
+  - source_id: gujarat_cooperative_rules_2024_a
+    filename: "2024.pdf"
+    path: "corpus/seeds/2024.pdf"
+    jurisdiction: "state"
+    state: "Gujarat"
+    target_domain: "gujarat_cooperative_law"
+    digital_scanned: "scanned"
+    status: "deferred_verification"
+    reason: "Exact document identity is not established from filename alone."
+
+  - source_id: gujarat_cooperative_rules_2024_b
+    filename: "2024-2.pdf"
+    path: "corpus/seeds/2024-2.pdf"
+    jurisdiction: "state"
+    state: "Gujarat"
+    target_domain: "gujarat_cooperative_law"
+    digital_scanned: "scanned"
+    status: "deferred_verification"
+    reason: "Exact document identity is not established from filename alone."
+
+  - source_id: gujarat_cooperative_rules_2025
+    filename: "2025.pdf"
+    path: "corpus/seeds/2025.pdf"
+    jurisdiction: "state"
+    state: "Gujarat"
+    target_domain: "gujarat_cooperative_law"
+    digital_scanned: "digital_or_unverified"
+    status: "deferred_verification"
+    reason: "Verify exact content/version before ingestion."
+
+  # --------------------------------------------------------------
+  # Supplementary PACS/context sources
+  # --------------------------------------------------------------
+
+  - source_id: pacs_nlm_ic_order
+    filename: "Orders for Constitution of NLMIC (Computerization of PACS project).pdf"
+    target_domain: "pacs_computerization"
+    status: "deferred"
+    reason: "Supplementary implementation-governance detail."
+
+  - source_id: pacs_ministry_annual_report_2024_25
+    filename: "511_Annual Report 2024-25 (Final).pdf"
+    target_domain: "pacs"
+    status: "deferred"
+    reason: "Context/annual-report information, not core governing material."
+
+  - source_id: national_cooperation_policy_2025
+    filename: "NCP(Eng)_23Jul2025_v6_Final.pdf"
+    target_domain: "cooperation_policy"
+    status: "deferred"
+    reason: "Useful policy context, not required for the MVP."
+
+  - source_id: pacs_hr_policy_2026
+    filename: "Model_HR_Policy_V21.pdf"
+    target_domain: "pacs_governance"
+    status: "collected"
+    reason: "Now collected and added to MVP sources. OCR/MinerU processing required for ingestion."
+
+  - source_id: pacs_initiatives_compilation_2026
+    filename: "Compilation of All Initiatives of the Ministry*.pdf"
+    target_domain: "pacs_schemes"
+    status: "deferred"
+    reason: "Index/context source; individual governing documents are preferable."
+
+  - source_id: pacs_csc_mou
+    filename: "Final signed MoU for PACS to function as....pdf"
+    target_domain: "pacs_csc"
+    status: "deferred"
+    reason: "Scheme-specific feature deferred from MVP."
+
+  - source_id: pacs_fpo_government_order
+    filename: "0016010320Government-Order-on-FPO-....pdf"
+    target_domain: "pacs_fpo"
+    status: "deferred"
+    reason: "FPO feature deferred from MVP."
+
+  - source_id: pacs_fpo_sop
+    filename: "42090308212107_SOP_Equity_Grant.pdf"
+    target_domain: "pacs_fpo"
+    status: "deferred"
+    reason: "FPO feature deferred from MVP."
+
+  - source_id: pacs_q3689
+    filename: "USQ 3689 English.pdf"
+    target_domain: "pacs_computerization"
+    status: "deferred"
+    reason: "Useful current-status evidence, but not governing computerization rules."
+
+  # --------------------------------------------------------------
+  # NABARD/context documents
+  # --------------------------------------------------------------
+
+  - source_id: nabard_cooperatives_2023_24
+    filename: "cooperatives-tackling-challenges-building-opportunities.pdf"
+    target_domain: "pacs_credit"
+    status: "deferred"
+    reason: "Contextual sector evidence."
+
+  - source_id: nabard_rural_financial_institutions_2023_24
+    filename: "empowering-rural-financial-institutions.pdf"
+    target_domain: "pacs_credit"
+    status: "deferred"
+    reason: "Contextual PACS/DCCB/StCB information."
+
+  - source_id: nabard_credit_planning_2023_24
+    filename: "credit-planning-and-delivery-for-financial-inclusion.pdf"
+    target_domain: "financial_inclusion"
+    status: "deferred"
+    reason: "Additional credit context."
+
+  - source_id: nabard_supervisory_role_2023_24
+    filename: "supervisory-role-of-nabard.pdf"
+    target_domain: "pacs_credit"
+    status: "deferred"
+    reason: "Institutional context."
+
+  - source_id: nabard_statistical_statements_2023_24
+    filename: "nass2023-24.pdf"
+    target_domain: "pacs_credit"
+    status: "deferred"
+    reason: "Quantitative context; not required for initial RAG MVP."
+
+  - source_id: nabard_leveraging_finance_2023_24
+    filename: "leveraging-finance-for-growth.pdf"
+    target_domain: "financial_context"
+    status: "deferred"
+    reason: "Broad financing context."
+
+  - source_id: nabard_india_world_2023_24
+    filename: "india-and-the-world-the-economy-in-fy2024.pdf"
+    target_domain: "financial_context"
+    status: "deferred"
+    reason: "General macroeconomic context."
+
+  - source_id: guj_dahod
+    filename: "Guj_Dahod.pdf"
+    target_domain: "gujarat_district_context"
+    jurisdiction: "state"
+    state: "Gujarat"
+    status: "deferred"
+    reason: "District/period-specific context; not required for core MVP."
+
+  - source_id: gujarat_pacs_computerization_hardware
+    filename: "Gujarat PACS Computerization Hardware....pdf"
+    target_domain: "gujarat_pacs_computerization"
+    jurisdiction: "state"
+    state: "Gujarat"
+    status: "deferred"
+    reason: "State implementation/procurement detail; useful later."

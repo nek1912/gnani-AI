@@ -1,0 +1,670 @@
+{
+ "comment": "P0-3 mandate map: organisation -> domains, mandate subjects, jurisdiction, roles served. DATA ONLY — no business logic. Every domain below is verified either from the JanSahay deep-research report (R) or from the existing repository allowlists (C). Domains that could not be verified are OMITTED, never invented: KRP portal host, e-Daakhil host, CSC host, e-Shram host, PM-KISAN host (see report section 14/Deferred notes). Jurisdiction values: central | gujarat | institutional (mandate-bound, not place-bound). Roles: instrument | implementation | explainer | secondary.",
+ "organisations": [
+  {
+   "domains": [
+    "cooperation.gov.in"
+   ],
+   "jurisdiction": "central",
+   "mandate_subjects": [
+    "cooperative",
+    "pacs",
+    "mscs"
+   ],
+   "organisation": "Ministry of Cooperation",
+   "provenance": "R",
+   "roles_served": [
+    "instrument",
+    "explainer"
+   ]
+  },
+  {
+   "domains": [
+    "crcs.gov.in"
+   ],
+   "jurisdiction": "central",
+   "mandate_subjects": [
+    "mscs",
+    "cooperative"
+   ],
+   "organisation": "CRCS / Cooperative Election Authority / Co-operative Ombudsman",
+   "provenance": "R",
+   "roles_served": [
+    "implementation",
+    "instrument"
+   ]
+  },
+  {
+   "domains": [
+    "rcs.gujarat.gov.in",
+    "ecooperative.gujarat.gov.in",
+    "cooperation.gujarat.gov.in",
+    "gujaratcooperative.gov.in"
+   ],
+   "jurisdiction": "gujarat",
+   "mandate_subjects": [
+    "cooperative",
+    "pacs",
+    "disputes",
+    "audit"
+   ],
+   "organisation": "Gujarat RCS / e-Cooperative",
+   "provenance": "R+C",
+   "roles_served": [
+    "instrument",
+    "implementation"
+   ]
+  },
+  {
+   "domains": [
+    "agri.gujarat.gov.in",
+    "dag.gujarat.gov.in"
+   ],
+   "jurisdiction": "gujarat",
+   "mandate_subjects": [
+    "agriculture",
+    "crop_relief",
+    "crop_insurance",
+    "subsidy",
+    "msp"
+   ],
+   "organisation": "Gujarat Agriculture, Farmers Welfare & Co-operation Dept",
+   "provenance": "R",
+   "roles_served": [
+    "instrument",
+    "implementation"
+   ]
+  },
+  {
+   "domains": [
+    "revenuedepartment.gujarat.gov.in",
+    "landrecords.gujarat.gov.in"
+   ],
+   "jurisdiction": "gujarat",
+   "mandate_subjects": [
+    "land",
+    "certificates",
+    "crop_relief"
+   ],
+   "organisation": "Gujarat Revenue Department",
+   "provenance": "R",
+   "roles_served": [
+    "instrument",
+    "implementation"
+   ]
+  },
+  {
+   "domains": [
+    "panchayat.gujarat.gov.in"
+   ],
+   "jurisdiction": "gujarat",
+   "mandate_subjects": [
+    "livelihood",
+    "housing",
+    "employment",
+    "certificates"
+   ],
+   "organisation": "Gujarat Panchayat, Rural Housing & Rural Development",
+   "provenance": "R",
+   "roles_served": [
+    "implementation",
+    "explainer"
+   ]
+  },
+  {
+   "domains": [
+    "agriwelfare.gov.in",
+    "agricoop.gov.in",
+    "agricoop.nic.in",
+    "farmer.gov.in",
+    "agmarknet.gov.in",
+    "enam.gov.in"
+   ],
+   "jurisdiction": "central",
+   "mandate_subjects": [
+    "agriculture",
+    "crop_insurance",
+    "subsidy",
+    "msp",
+    "credit"
+   ],
+   "organisation": "Ministry of Agriculture & Farmers Welfare",
+   "provenance": "R+C",
+   "roles_served": [
+    "instrument",
+    "implementation"
+   ]
+  },
+  {
+   "domains": [
+    "pmfby.gov.in"
+   ],
+   "jurisdiction": "central",
+   "mandate_subjects": [
+    "crop_insurance"
+   ],
+   "organisation": "PMFBY portal",
+   "provenance": "R+C",
+   "roles_served": [
+    "instrument",
+    "implementation"
+   ]
+  },
+  {
+   "domains": [
+    "fasalrin.gov.in"
+   ],
+   "jurisdiction": "central",
+   "mandate_subjects": [
+    "credit"
+   ],
+   "organisation": "Kisan Rin portal",
+   "provenance": "R",
+   "roles_served": [
+    "implementation"
+   ]
+  },
+  {
+   "domains": [
+    "financialservices.gov.in",
+    "jansuraksha.gov.in"
+   ],
+   "jurisdiction": "central",
+   "mandate_subjects": [
+    "banking",
+    "credit",
+    "insurance",
+    "welfare"
+   ],
+   "organisation": "Department of Financial Services",
+   "provenance": "R+C",
+   "roles_served": [
+    "implementation",
+    "explainer"
+   ]
+  },
+  {
+   "domains": [
+    "rbi.org.in",
+    "rbidocs.rbi.org.in",
+    "sachet.rbi.org.in"
+   ],
+   "jurisdiction": "institutional",
+   "mandate_subjects": [
+    "banking",
+    "credit",
+    "grievance",
+    "fraud"
+   ],
+   "organisation": "Reserve Bank of India",
+   "provenance": "R+C",
+   "roles_served": [
+    "instrument",
+    "implementation"
+   ]
+  },
+  {
+   "domains": [
+    "irdai.gov.in",
+    "bimabharosa.irdai.gov.in"
+   ],
+   "jurisdiction": "institutional",
+   "mandate_subjects": [
+    "insurance",
+    "grievance",
+    "crop_insurance"
+   ],
+   "organisation": "IRDAI / Bima Bharosa (crop-insurance grievances escalate via insurer to Bima Bharosa/Ombudsman)",
+   "provenance": "R+C",
+   "roles_served": [
+    "instrument",
+    "implementation"
+   ]
+  },
+  {
+   "domains": [
+    "dicgc.org.in"
+   ],
+   "jurisdiction": "institutional",
+   "mandate_subjects": [
+    "banking"
+   ],
+   "organisation": "DICGC",
+   "provenance": "R",
+   "roles_served": [
+    "instrument",
+    "explainer"
+   ]
+  },
+  {
+   "domains": [
+    "nabard.org"
+   ],
+   "jurisdiction": "institutional",
+   "mandate_subjects": [
+    "credit",
+    "cooperative",
+    "agriculture",
+    "livelihood"
+   ],
+   "organisation": "NABARD",
+   "provenance": "R+C",
+   "roles_served": [
+    "instrument",
+    "explainer"
+   ]
+  },
+  {
+   "domains": [
+    "ncdc.in"
+   ],
+   "jurisdiction": "institutional",
+   "mandate_subjects": [
+    "cooperative",
+    "credit"
+   ],
+   "organisation": "NCDC",
+   "provenance": "R",
+   "roles_served": [
+    "instrument",
+    "explainer"
+   ]
+  },
+  {
+   "domains": [
+    "indiacode.nic.in"
+   ],
+   "jurisdiction": "central",
+   "mandate_subjects": [
+    "law"
+   ],
+   "organisation": "India Code",
+   "provenance": "R+C",
+   "roles_served": [
+    "instrument"
+   ]
+  },
+  {
+   "domains": [
+    "egazette.gov.in"
+   ],
+   "jurisdiction": "central",
+   "mandate_subjects": [
+    "law"
+   ],
+   "organisation": "eGazette of India",
+   "provenance": "R",
+   "roles_served": [
+    "instrument"
+   ]
+  },
+  {
+   "domains": [
+    "egazette.gujarat.gov.in"
+   ],
+   "jurisdiction": "gujarat",
+   "mandate_subjects": [
+    "law"
+   ],
+   "organisation": "Gujarat eGazette",
+   "provenance": "R",
+   "roles_served": [
+    "instrument"
+   ]
+  },
+  {
+   "domains": [
+    "pib.gov.in"
+   ],
+   "jurisdiction": "central",
+   "mandate_subjects": [
+    "welfare",
+    "agriculture",
+    "cooperative",
+    "crop_insurance"
+   ],
+   "organisation": "Press Information Bureau",
+   "provenance": "R+C",
+   "roles_served": [
+    "explainer"
+   ]
+  },
+  {
+   "domains": [
+    "sansad.in"
+   ],
+   "jurisdiction": "central",
+   "mandate_subjects": [
+    "welfare",
+    "cooperative",
+    "agriculture"
+   ],
+   "organisation": "Digital Sansad (Parliament Q&A)",
+   "provenance": "R",
+   "roles_served": [
+    "explainer"
+   ]
+  },
+  {
+   "domains": [
+    "myscheme.gov.in",
+    "dbtbharat.gov.in"
+   ],
+   "jurisdiction": "central",
+   "mandate_subjects": [
+    "welfare",
+    "subsidy"
+   ],
+   "organisation": "myScheme / DBT Bharat",
+   "provenance": "R",
+   "roles_served": [
+    "implementation",
+    "explainer"
+   ]
+  },
+  {
+   "domains": [
+    "ikhedut.gujarat.gov.in",
+    "ikhedutservice.gujarat.gov.in"
+   ],
+   "jurisdiction": "gujarat",
+   "mandate_subjects": [
+    "subsidy",
+    "agriculture"
+   ],
+   "organisation": "i-Khedut",
+   "provenance": "R+C",
+   "roles_served": [
+    "implementation"
+   ]
+  },
+  {
+   "domains": [
+    "gjfr.agristack.gov.in"
+   ],
+   "jurisdiction": "gujarat",
+   "mandate_subjects": [
+    "land",
+    "subsidy",
+    "msp"
+   ],
+   "organisation": "Gujarat Farmer Registry (Agristack)",
+   "provenance": "R",
+   "roles_served": [
+    "implementation"
+   ]
+  },
+  {
+   "domains": [
+    "digitalgujarat.gov.in"
+   ],
+   "jurisdiction": "gujarat",
+   "mandate_subjects": [
+    "certificates",
+    "welfare",
+    "subsidy"
+   ],
+   "organisation": "Digital Gujarat",
+   "provenance": "R+C",
+   "roles_served": [
+    "implementation"
+   ]
+  },
+  {
+   "domains": [
+    "anyror.gujarat.gov.in"
+   ],
+   "jurisdiction": "gujarat",
+   "mandate_subjects": [
+    "land"
+   ],
+   "organisation": "AnyRoR Gujarat",
+   "provenance": "R",
+   "roles_served": [
+    "implementation"
+   ]
+  },
+  {
+   "domains": [
+    "swagat.gujarat.gov.in"
+   ],
+   "jurisdiction": "gujarat",
+   "mandate_subjects": [
+    "grievance"
+   ],
+   "organisation": "SWAGAT (CMO Gujarat)",
+   "provenance": "R",
+   "roles_served": [
+    "implementation"
+   ]
+  },
+  {
+   "domains": [
+    "onlinerti.gujarat.gov.in"
+   ],
+   "jurisdiction": "gujarat",
+   "mandate_subjects": [
+    "rti"
+   ],
+   "organisation": "Gujarat online RTI / Information Commission",
+   "provenance": "R",
+   "roles_served": [
+    "implementation"
+   ]
+  },
+  {
+   "domains": [
+    "pgportal.gov.in",
+    "cpgrams.gov.in"
+   ],
+   "jurisdiction": "central",
+   "mandate_subjects": [
+    "grievance"
+   ],
+   "organisation": "CPGRAMS",
+   "provenance": "R+C",
+   "roles_served": [
+    "implementation"
+   ]
+  },
+  {
+   "domains": [
+    "cybercrime.gov.in"
+   ],
+   "jurisdiction": "central",
+   "mandate_subjects": [
+    "fraud",
+    "grievance"
+   ],
+   "organisation": "Cybercrime portal (I4C/MHA)",
+   "provenance": "R",
+   "roles_served": [
+    "implementation"
+   ]
+  },
+  {
+   "domains": [
+    "consumeraffairs.gov.in"
+   ],
+   "jurisdiction": "central",
+   "mandate_subjects": [
+    "consumer",
+    "grievance"
+   ],
+   "organisation": "Dept of Consumer Affairs (NCH / e-Daakhil)",
+   "provenance": "R",
+   "roles_served": [
+    "implementation"
+   ]
+  },
+  {
+   "domains": [
+    "ggrc.co.in"
+   ],
+   "jurisdiction": "gujarat",
+   "mandate_subjects": [
+    "irrigation",
+    "subsidy"
+   ],
+   "organisation": "GGRC (micro-irrigation)",
+   "provenance": "R",
+   "roles_served": [
+    "implementation"
+   ]
+  },
+  {
+   "domains": [
+    "pmkusum.guvnl.com"
+   ],
+   "jurisdiction": "gujarat",
+   "mandate_subjects": [
+    "energy",
+    "subsidy"
+   ],
+   "organisation": "GUVNL PM-KUSUM",
+   "provenance": "R",
+   "roles_served": [
+    "implementation"
+   ]
+  },
+  {
+   "domains": [
+    "gsc.bank.in"
+   ],
+   "jurisdiction": "gujarat",
+   "mandate_subjects": [
+    "credit",
+    "cooperative",
+    "banking"
+   ],
+   "organisation": "Gujarat State Co-operative Bank",
+   "provenance": "R",
+   "roles_served": [
+    "implementation",
+    "explainer"
+   ]
+  },
+  {
+   "domains": [
+    "wcd.gujarat.gov.in"
+   ],
+   "jurisdiction": "gujarat",
+   "mandate_subjects": [
+    "welfare"
+   ],
+   "organisation": "Gujarat Women & Child Development",
+   "provenance": "R",
+   "roles_served": [
+    "implementation"
+   ]
+  },
+  {
+   "domains": [
+    "sje.gujarat.gov.in"
+   ],
+   "jurisdiction": "gujarat",
+   "mandate_subjects": [
+    "welfare",
+    "livelihood"
+   ],
+   "organisation": "Gujarat Social Justice & Empowerment",
+   "provenance": "R",
+   "roles_served": [
+    "implementation"
+   ]
+  },
+  {
+   "domains": [
+    "s3waas.gov.in"
+   ],
+   "jurisdiction": "gujarat",
+   "mandate_subjects": [
+    "grievance",
+    "certificates",
+    "welfare"
+   ],
+   "organisation": "District NIC/S3WaaS sites (accept CDN PDFs only when linked from a district site)",
+   "provenance": "R",
+   "roles_served": [
+    "implementation",
+    "explainer"
+   ]
+  },
+  {
+   "domains": [
+    "jau.in",
+    "ug.gsauca.in"
+   ],
+   "jurisdiction": "gujarat",
+   "mandate_subjects": [
+    "advisory"
+   ],
+   "organisation": "State Agricultural Universities / KVKs (agronomy only, never scheme eligibility)",
+   "provenance": "R",
+   "roles_served": [
+    "explainer"
+   ]
+  },
+  {
+   "domains": [
+    "amuldairy.com"
+   ],
+   "jurisdiction": "gujarat",
+   "mandate_subjects": [
+    "livestock"
+   ],
+   "organisation": "District milk unions / GCMMF (own members only, institutional not government)",
+   "provenance": "R",
+   "roles_served": [
+    "explainer"
+   ]
+  },
+  {
+   "domains": [
+    "vikaspedia.in"
+   ],
+   "jurisdiction": "central",
+   "mandate_subjects": [
+    "agriculture",
+    "cooperative",
+    "welfare"
+   ],
+   "organisation": "Vikaspedia (government-run knowledge portal)",
+   "provenance": "R",
+   "roles_served": [
+    "explainer"
+   ]
+  },
+  {
+   "domains": [
+    "prsindia.org",
+    "niti.gov.in"
+   ],
+   "jurisdiction": "central",
+   "mandate_subjects": [
+    "law",
+    "welfare"
+   ],
+   "organisation": "PRS Legislative Research / NITI (reputable secondary)",
+   "provenance": "R+C",
+   "roles_served": [
+    "secondary"
+   ]
+  },
+  {
+   "domains": [
+    "nregastrep.nic.in"
+   ],
+   "jurisdiction": "central",
+   "mandate_subjects": [
+    "employment",
+    "grievance"
+   ],
+   "organisation": "MGNREGA MIS",
+   "provenance": "R",
+   "roles_served": [
+    "implementation"
+   ]
+  }
+ ]
+}

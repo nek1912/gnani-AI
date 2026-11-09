@@ -1,0 +1,33 @@
+{
+  "scripts": {
+    "devanagari": [2304, 2431],
+    "gujarati": [2688, 2815],
+    "bengali": [2432, 2559],
+    "tamil": [2944, 3071],
+    "telugu": [3072, 3199],
+    "kannada": [3200, 3327],
+    "gurmukhi": [2560, 2687],
+    "odia": [2816, 2943],
+    "malayalam": [3328, 3455]
+  },
+  "stopwords": {
+    "hi": ["ka", "ki", "ke", "kaise", "kya", "hai", "mein", "meri", "mera",
+           "kitna", "nahi", "aur", "क्या", "है", "में", "कैसे", "कितना", "नहीं", "और", "मेरा", "मेरी"],
+    "gu": ["ma", "ne", "nu", "na", "che", "e", "thay", "haya", "ke",
+           "su", "ketla", "nathi", "ane"],
+    "mr": ["che", "ahe", "mi", "tu", "aamhi", "tumhi", "kay", "kase", "maze",
+           "nahi", "ani", "asa", "आहे", "मी", "तू", "आम्ही", "तुम्ही", "काय", "कसे", "माझे", "नाही", "आणि", "असा"],
+    "bn": ["ki", "ke", "kemon", "hai", "ami", "tumi", "ki", "koto", "na", "ebong", "holo"],
+    "ta": ["en", "in", "na", "an", "oru", "ithu", "athu", "epdi", "enna", "aana"],
+    "te": ["lo", "ki", "edi", "enduku", "ela", "nuvvu", "nenu", "andi", "kuda", "ayithe"],
+    "kn": ["alli", "idu", "yaake", "hege", "naanu", "neeve", "maadu", "aagide", "iruvudu", "antaa"],
+    "pa": ["ki", "de", "te", "ho", "hai", "ko", "naal", "kida", "haan", "te"],
+    "or": ["ki", "te", "re", "ku", "mu", "sei", "haba", "thiba", "echi", "gote"],
+    "ml": ["aanu", "illa", "undo", "entha", "njan", "nee", "avide", "ingane", "appo", "pinne"],
+    "en": ["the", "is", "at", "which", "on", "in", "how", "what", "do",
+           "does", "of", "and", "to", "for"]
+  },
+  "supported_languages": ["en", "hi", "gu", "mr", "bn", "ta", "te", "kn", "pa", "or", "ml"],
+  "script_threshold": 0.7,
+  "latin_threshold": 0.05
+}

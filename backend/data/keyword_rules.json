@@ -1,0 +1,10 @@
+{
+  "pmfby": ["pmfby", "crop insurance", "fasal bima", "pradhan mantri fasal", "ફસલ બીમા", "પીએમએફબીવાઈ", "વીમા", "બીમા", "crop loss", "crop damage", "claim", "દાવો", "નુકસાન", "પાક નુકસાન", "ફસલ ખરાબ", "bagado", "બગડ્યો", "nuksan", "kisan bima", "khedut bima"],
+  "pacs_computerization": ["computerization", "digitization", "digital", "pacspl", "ncip", "erp", "pmu", "micro-atm", "core banking", "pacs project", "data readiness"],
+  "pacs_governance": ["cooperative society", "co-operative society", "byelaws", "by-laws", "sahkari", "pacs", "primary agricultural credit society", "primary agriculture credit", "young professionals", "deposit insurance", "સહકારી", "પીએસીએસ", "સમિતિ", "cooperative"],
+  "financial_inclusion": ["rbi", "bank account", "pmjdy", "jan dhan", "financial literacy", "deposit insurance", "rupay", "kcc", "kisan credit card", "credit card", "kisan credit", "pmjjby", "pmsby", "jeevan jyoti", "suraksha bima", "bima yojana", "ombudsman", "kyc", "know your customer", "atm", "neft", "rtgs", "upi", "digital payment", "banking", "insurance", "pension", "atal pension", "બેંક ખાતું", "નાણાકીય સાક્ષરતા", "ઋણ", "loan", "borrow"],
+  "schemes": ["scheme", "schemes", "yojana", "yojna", "ministry of cooperation", "યોજના", "સરકારી યોજના", "subsidy", "benefit", "assistance", "khedut sahay", "kisan yojana"],
+  "agriculture": ["farmer", "farmers", "kisan", "khedut", "agriculture", "agricultural", "farm", "farming", "crop", "crops", "sowing", "harvest", "mandi", "msp", "fertilizer", "seed variety", "ખેતી", "ખેડૂત", "પાક", "કાપાસ", "ફસલ", "ખાતર", "સિંચાઈ", "apmc", "market price", "bazaar bhav", "today price", "current price", "price today", " ભાવ", "બજાર ભાવ", "આજનો ભાવ", "मंडी भाव", "आज का भाव", "बाजार भाव", "cotton", "crop failure", "what should i do", "હવે શું કરું", "મારી ફસલ", "किसान", "खेती", "फसल"],
+  "grievance": ["complaint", "grievance", "shikayat", "report corruption", "ફરિયાદ", "શિકાયત", "નુકસાન", "dispute", "complain"],
+  "driving_licence": ["driving licence", "driving license", "learner licence", "learner license", "driving test", "parivahan", "sarathi", "rto"]
+}

@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: sahayak-backend
+    runtime: python
+    rootDir: backend
+    buildCommand: pip install -e .
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
+    plan: free
+    envVars:
+      # Pinned: faiss-cpu / numpy / scikit-learn / pymupdf need manylinux wheels,
+      # and Render's auto-detected Python can drift to a version without them.
+      - key: PYTHON_VERSION
+        value: "3.12"

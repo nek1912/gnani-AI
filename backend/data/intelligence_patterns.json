@@ -1,0 +1,49 @@
+{
+  "scheme_patterns": [
+    ["\\bpmfby\\b", "pmfby"],
+    ["\\bpradhan\\s+mantri\\s+fasal\\s+bima\\s+yojana\\b", "pmfby"],
+    ["\\bpmjdy\\b", "pmjdy"],
+    ["\\bpradhan\\s+mantri\\s+jan\\s+dhan\\s+yojana\\b", "pmjdy"],
+    ["\\bpacs?\\b", "pacs"],
+    ["\\bprimary\\s+agricultural\\s+credit\\s+society\\b", "pacs"],
+    ["\\bcooperative\\b", "cooperative"],
+    ["\\bsahakari\\b", "cooperative"],
+    ["\\bkcc\\b", "kcc"],
+    ["\\bkisan\\s+credit\\s+card\\b", "kcc"],
+    ["\\bnamo\\s+navbar\\s+kisan\\s+yojana\\b", "scheme"],
+    ["\\bsubsidy\\b", "scheme"],
+    ["\\byojana\\b", "scheme"],
+    ["\\bscheme\\b", "scheme"]
+  ],
+  "intent_patterns": [
+    ["\\b(complaint|shikayat|grievance|samasya)\\b", "grievance"],
+    ["\\b(eligib\\w*|qualify|paatra|patrik)\\b", "eligibility"],
+    ["\\b(claim\\w*|daava|dawa)\\b", "claim"],
+    ["\\b(apply\\w*|aavedan|karoj|process|prakriya)\\b", "process"],
+    ["\\b(rule\\w*|niyam|kanoon|regulation|guideline)\\b", "rules"],
+    ["\\b(document\\w*|kagaz|patra|dastavej)\\b", "documents"],
+    ["\\b(deadline|last\\s+date|antim\\s+tarikh|due\\s+date)\\b", "deadline"],
+    ["\\b(status|stithi|parinaam|result)\\b", "status"],
+    ["\\b(who|which|what|where|when|how|kya|kab|kahan|kaun|kaise|su|ketla)\\b", "question"]
+  ],
+  "intent_priority": [
+    "grievance", "eligibility", "status", "claim", "process",
+    "rules", "documents", "deadline", "question"
+  ],
+  "temporal_patterns": [
+    ["\\b(20\\d{2})\\b", "year"],
+    ["\\b(current|present|vartman|hal)\\b", "current"],
+    ["\\b(latest|navin|taza|updated)\\b", "latest"],
+    ["\\b(old|previous|purana|pichla)\\b", "historical"]
+  ],
+  "jurisdiction_patterns": [
+    ["\\b(gujarat|gujrat)\\b", "gujarat"],
+    ["\\b(maharashtra)\\b", "maharashtra"],
+    ["\\b(rajasthan)\\b", "rajasthan"],
+    ["\\b(madhya\\s+pradesh|mp)\\b", "madhya_pradesh"],
+    ["\\b(uttar\\s+pradesh|up)\\b", "uttar_pradesh"],
+    ["\\b(bihar)\\b", "bihar"],
+    ["\\b(central|national|kendriya|rashtriya)\\b", "central"],
+    ["\\b(state|rajya)\\b", "state"]
+  ]
+}

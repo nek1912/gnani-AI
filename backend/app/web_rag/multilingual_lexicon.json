@@ -1,0 +1,437 @@
+{
+ "comment": "P0-4 curated multilingual lexicon. EVERY non-English term below is attested in the JanSahay deep-research report section 14.2 (verified terminology table), its cited official/reputable sources, or the pre-existing repository keyword lists (DOMAIN/INTENT/STATE_KEYWORDS). No machine-generated legal translations. Empty lists are intentional: no verified term exists (e.g. Gujarati for KCC, Hindi for state-specific GR). Roman forms are observed user spellings from the research (14.1/14.3).",
+ "concepts": [
+  {
+   "en": [
+    "crop insurance",
+    "pmfby",
+    "pradhan mantri fasal bima",
+    "premium",
+    "claim"
+   ],
+   "gu": [
+    "પાકવીમો",
+    "પ્રધાનમંત્રી પાક વીમા યોજના",
+    "પાક વીમો",
+    "વીમો"
+   ],
+   "hi": [
+    "फसल बीमा",
+    "प्रधानमंत्री फसल बीमा योजना",
+    "बीमा"
+   ],
+   "id": "crop_insurance",
+   "roman": [
+    "pak vimo",
+    "pak vima",
+    "fasal bima"
+   ],
+   "mr": [
+    "पीक विमा",
+    "पंतप्रधान पीक विमा योजना",
+    "पिक विमा"
+   ],
+   "bn": [
+    "ফসল বীমা",
+    "প্রধানমন্ত্রী ফসল বীমা"
+   ],
+   "ta": [
+    "பயிர் காப்பீடு"
+   ]
+  },
+  {
+   "en": [
+    "cooperative society",
+    "co-operative society",
+    "sahakari",
+    "pacs",
+    "credit society"
+   ],
+   "gu": [
+    "સહકારી મંડળી",
+    "સેવા સહકારી મંડળી",
+    "પ્રાથમિક કૃષિ ધિરાણ મંડળી"
+   ],
+   "hi": [
+    "सहकारी समिति",
+    "पैक्स"
+   ],
+   "id": "cooperative_society",
+   "roman": [
+    "sahkari mandli",
+    "mandli",
+    "seva sahkari mandli"
+   ],
+   "mr": [
+    "सहकारी",
+    "प्राथमिक कृषी पतसंस्था"
+   ],
+   "bn": [
+    "সমবায় সমিতি",
+    "কৃষি ঋণ সমিতি",
+    "সমবায়"
+   ],
+   "ta": [
+    "கூட்டுறவு சங்கம்",
+    "கூட்டுறவு"
+   ]
+  },
+  {
+   "en": [
+    "election",
+    "vote",
+    "contest"
+   ],
+   "gu": [
+    "ચૂંટણી"
+   ],
+   "hi": [
+    "चुनाव",
+    "निर्वाचन"
+   ],
+   "id": "election",
+   "roman": [
+    "chutni",
+    "chuntni"
+   ]
+  },
+  {
+   "en": [
+    "member"
+   ],
+   "gu": [
+    "સભ્ય",
+    "સભાસદ"
+   ],
+   "hi": [
+    "सदस्य"
+   ],
+   "id": "member",
+   "roman": [
+    "sabhasad"
+   ]
+  },
+  {
+   "en": [
+    "bye-laws",
+    "bylaws",
+    "bye laws"
+   ],
+   "gu": [
+    "પેટા નિયમ",
+    "પેટા-કાયદા"
+   ],
+   "hi": [
+    "उपविधि"
+   ],
+   "id": "byelaws",
+   "roman": [
+    "peta niyam"
+   ]
+  },
+  {
+   "en": [
+    "government resolution",
+    "gr"
+   ],
+   "gu": [
+    "ઠરાવ",
+    "સરકારી ઠરાવ"
+   ],
+   "hi": [],
+   "id": "gr",
+   "roman": [
+    "tharav"
+   ]
+  },
+  {
+   "en": [
+    "circular"
+   ],
+   "gu": [
+    "પરિપત્ર"
+   ],
+   "hi": [
+    "परिपत्र"
+   ],
+   "id": "circular",
+   "roman": [
+    "paripatra"
+   ]
+  },
+  {
+   "en": [
+    "notification"
+   ],
+   "gu": [
+    "જાહેરનામું"
+   ],
+   "hi": [
+    "अधिसूचना"
+   ],
+   "id": "notification",
+   "roman": [
+    "jahernamu"
+   ]
+  },
+  {
+   "en": [
+    "number",
+    "no."
+   ],
+   "gu": [
+    "ક્રમાંક"
+   ],
+   "hi": [
+    "क्रमांक"
+   ],
+   "id": "instrument_number",
+   "roman": []
+  },
+  {
+   "en": [
+    "agriculture department",
+    "krishi",
+    "krushi"
+   ],
+   "gu": [
+    "કૃષિ",
+    "ખેડૂત કલ્યાણ અને સહકાર વિભાગ"
+   ],
+   "hi": [
+    "कृषि"
+   ],
+   "id": "agriculture_dept",
+   "roman": [
+    "krushi",
+    "krishi",
+    "krushi vibhag"
+   ]
+  },
+  {
+   "en": [
+    "relief",
+    "assistance",
+    "sahay",
+    "compensation",
+    "aid",
+    "rahat"
+   ],
+   "gu": [
+    "કૃષિ રાહત પેકેજ",
+    "સહાય"
+   ],
+   "hi": [
+    "सहायता",
+    "राहत"
+   ],
+   "id": "relief",
+   "roman": [
+    "krushi rahat",
+    "sahay"
+   ]
+  },
+  {
+   "en": [
+    "farmer",
+    "kisan",
+    "khedut"
+   ],
+   "gu": [
+    "ખેડૂત"
+   ],
+   "hi": [
+    "किसान"
+   ],
+   "id": "farmer",
+   "roman": [
+    "khedut"
+   ],
+   "bn": [
+    "কৃষক"
+   ],
+   "ta": [
+    "விவசாயி"
+   ]
+  },
+  {
+   "en": [
+    "subsidy"
+   ],
+   "gu": [
+    "સબસિડી"
+   ],
+   "hi": [
+    "सब्सिडी"
+   ],
+   "id": "subsidy",
+   "roman": []
+  },
+  {
+   "en": [
+    "7/12",
+    "land record",
+    "utara",
+    "8-a",
+    "mutation",
+    "satbara"
+   ],
+   "gu": [
+    "૭/૧૨",
+    "૮અ"
+   ],
+   "hi": [],
+   "id": "land_record",
+   "roman": [
+    "satbara",
+    "7/12 utara"
+   ]
+  },
+  {
+   "en": [
+    "fencing",
+    "tar fencing",
+    "wire fencing"
+   ],
+   "gu": [
+    "તાર ફેન્સીંગ"
+   ],
+   "hi": [
+    "तार फेंसिंग"
+   ],
+   "id": "fencing",
+   "roman": [
+    "tar fencing yojana"
+   ]
+  },
+  {
+   "en": [
+    "extension officer"
+   ],
+   "gu": [
+    "વિસ્તરણ અધિકારી"
+   ],
+   "hi": [],
+   "id": "extension_officer",
+   "roman": [
+    "vistaran adhikari"
+   ]
+  },
+  {
+   "en": [
+    "complaint",
+    "grievance",
+    "dispute"
+   ],
+   "gu": [
+    "ફરિયાદ",
+    "તક્રાર"
+   ],
+   "hi": [
+    "शिकायत"
+   ],
+   "id": "grievance",
+   "roman": [],
+   "mr": [
+    "शिकायत",
+    "माहिती अधिकार"
+   ],
+   "bn": [
+    "অভিযোগ"
+   ],
+   "ta": [
+    "புகார்"
+   ]
+  },
+  {
+   "en": [
+    "kisan credit card",
+    "kcc"
+   ],
+   "gu": [],
+   "hi": [
+    "किसान क्रेडिट कार्ड"
+   ],
+   "id": "kcc",
+   "roman": []
+  },
+  {
+   "en": [
+    "cooperative societies act"
+   ],
+   "gu": [
+    "ગુજરાત સહકારી મંડળી અધિનિયમ"
+   ],
+   "hi": [],
+   "id": "cooperative_act",
+   "roman": []
+  },
+  {
+   "id": "scheme",
+   "en": [
+    "scheme",
+    "yojana",
+    "subsidy"
+   ],
+   "gu": [
+    "યોજના",
+    "સરકારી યોજના",
+    "સબસિડી"
+   ],
+   "hi": [
+    "योजना",
+    "सरकारी योजना",
+    "सब्सिडी"
+   ],
+   "mr": [
+    "शासकीय योजना"
+   ],
+   "bn": [
+    "প্রকল্প",
+    "সরকারি প্রকল্প"
+   ],
+   "ta": [
+    "திட்டம்",
+    "அரசு திட்டம்"
+   ],
+   "roman": [
+    "yojana"
+   ],
+   "note": "P2-3: terms from classifier schemes DOMAIN + INTENT subsidy lists"
+  },
+  {
+   "id": "agriculture",
+   "en": [
+    "agriculture",
+    "farming",
+    "crop",
+    "kisan"
+   ],
+   "gu": [
+    "ખેતી",
+    "ખેડૂત",
+    "પાક",
+    "ફસલ"
+   ],
+   "hi": [
+    "किसान",
+    "खेती",
+    "फसल",
+    "सिंचाई"
+   ],
+   "mr": [],
+   "bn": [
+    "কৃষি",
+    "চাষ"
+   ],
+   "ta": [
+    "விவசாயம்"
+   ],
+   "roman": [
+    "krushi",
+    "krishi"
+   ],
+   "note": "P2-3: terms from classifier agriculture DOMAIN list; MR none verified"
+  }
+ ]
+}

@@ -1,0 +1,1074 @@
+# MVP corpus manifest
+# PURPOSE:
+#   Smallest currently ingestible corpus using ONLY collected digital-text PDFs.
+#
+# IMPORTANT:
+#   This is a TECHNICAL MVP corpus, not a legally complete Gujarat-law corpus.
+#   Do not claim Gujarat cooperative statutory-law coverage from this corpus.
+#
+# OCR is intentionally excluded from this MVP.
+# Scanned Gujarat Act/Rules documents remain deferred.
+
+manifest_version: "1.2"
+audit_date: "2026-08-27"
+ingest_now: true
+embed_now: true
+
+corpus_root: "corpus/seeds"
+
+sources:
+
+  - source_id: pacs_model_bylaws_2023
+    filename: "Model Byelaws 05.01.2023.pdf"
+    path: "corpus/seeds/Model Byelaws 05.01.2023.pdf"
+    actual_title: "Model Bye-laws for Primary Agricultural Credit Societies (PACS)"
+    issuing_organization: "Ministry of Cooperation, Government of India"
+    document_date: "2023-01-05"
+    effective_date: "2023-01-05"
+    document_type: "model_bye_laws"
+    jurisdiction: "central"
+    state: null
+    official_source_url: "https://www.cooperation.gov.in/sites/default/files/2023-06/Model%20Byelaws%2005.01.02023.pdf"
+    digital_scanned: "digital_text"
+    status: "current_reference"
+    primary_supplementary: "primary"
+    target_domain: "pacs_governance"
+    target_seed: "pacs_model_bylaws"
+    collection_status: "collected"
+    mvp_required: true
+    modifies: null
+    base_incorporates: null
+    legal_note: "Model bye-laws are reference material and are not automatically the operative bye-laws of every Gujarat PACS."
+
+  - source_id: pacs_computerization_guidelines
+    filename: "Revised Scheme guidelines (Computerization of PACS project).pdf"
+    path: "corpus/seeds/Revised Scheme guidelines (Computerization of PACS project).pdf"
+    actual_title: "Revised Scheme Guidelines for Computerization of Primary Agricultural Credit Societies (PACS)"
+    issuing_organization: "Ministry of Cooperation, Government of India"
+    document_date: "2022-06-29"
+    effective_date: "2022-06-29"
+    document_type: "centrally_sponsored_project_guidelines"
+    jurisdiction: "central"
+    state: null
+    official_source_url: "https://www.cooperation.gov.in/sites/default/files/2023-06/Revised%20Scheme%20guidelines%20%28Computerization%20of%20PACS%20project%29.pdf"
+    digital_scanned: "digital_text"
+    status: "current_reference"
+    primary_supplementary: "primary"
+    target_domain: "pacs_computerization"
+    target_seed: "pacs_computerization"
+    collection_status: "collected"
+    mvp_required: true
+    modifies: null
+    base_incorporates: null
+
+  - source_id: pacs_computerization_corrigendum_2023_06_12
+    filename: "Corrigendum and letter Jun 12, 2023.md"
+    path: "corpus/seeds/Corrigendum and letter Jun 12, 2023.md"
+    actual_title: "Corrigendum dated 12.06.2023 to the Project Guidelines of the Computerization of PACS Project"
+    issuing_organization: "Ministry of Cooperation, Government of India"
+    document_date: "2023-06-12"
+    effective_date: "2023-06-12"
+    document_type: "corrigendum"
+    jurisdiction: "central"
+    state: null
+    official_source_url: "https://www.cooperation.gov.in/sites/default/files/2023-06/Corrigendum%20and%20letter%20Jun%2012%2C%202023%20.pdf"
+    digital_scanned: "digital_text"
+    status: "current_amendment"
+    primary_supplementary: "primary"
+    target_domain: "pacs_computerization"
+    target_seed: "pacs_computerization"
+    collection_status: "collected"
+    mvp_required: true
+    modifies: "pacs_computerization_guidelines"
+    base_incorporates: false
+
+  - source_id: pmfby_operational_guidelines
+    filename: "operational_guidelines_pmfby.pdf"
+    path: "corpus/seeds/operational_guidelines_pmfby.pdf"
+    actual_title: "Operational Guidelines of Pradhan Mantri Fasal Bima Yojana (PMFBY)"
+    issuing_organization: "Department of Agriculture and Farmers Welfare, Ministry of Agriculture and Farmers Welfare, Government of India"
+    document_date: null
+    effective_date: null
+    document_type: "scheme_operational_guidelines"
+    jurisdiction: "central"
+    state: null
+    official_source_url: "https://pmfby.gov.in/guidelines"
+    digital_scanned: "digital_text"
+    status: "current_reference"
+    primary_supplementary: "primary"
+    target_domain: "pmfby"
+    target_seed: "pmfby_guidelines"
+    collection_status: "collected"
+    mvp_required: true
+    modifies: null
+    base_incorporates: null
+    verification_note: "Keep the exact document/version date from the PDF itself; do not infer it from the filename."
+
+  - source_id: nsfi_2025_30
+    filename: "NSFI_2025_30.md"
+    path: "corpus/seeds/NSFI_2025_30.md"
+    actual_title: "National Strategy for Financial Inclusion (NSFI): 2025-30"
+    issuing_organization: "Reserve Bank of India"
+    document_date: "2025-12-01"
+    effective_date: "2025-12-01"
+    document_type: "national_strategy"
+    jurisdiction: "central"
+    state: null
+    official_source_url: "https://m.rbi.org.in/scripts/bs_viewpublicationreport.aspx"
+    digital_scanned: "digital_text"
+    status: "current"
+    primary_supplementary: "primary"
+    target_domain: "financial_inclusion"
+    target_seed: "rbi_financial_inclusion"
+    collection_status: "collected"
+    mvp_required: true
+    modifies: null
+    base_incorporates: null
+    verification_note: "Rename the locally downloaded NSFI PDF to NSFI_2025_30.pdf if its current filename is the long RBI-generated filename."
+
+  # ── Benchmark corpus additions ──────────────────────────────────
+
+  - source_id: rbi_fame_financial_awareness
+    filename: "RBI_FAME_Financial_Awareness_Messages.pdf"
+    path: "corpus/seeds/RBI_FAME_Financial_Awareness_Messages.pdf"
+    actual_title: "Financial Awareness Messages (FAME) - Fourth Edition"
+    issuing_organization: "Reserve Bank of India, Financial Inclusion and Development Department"
+    document_date: "2024-02-26"
+    effective_date: "2024-02-26"
+    document_type: "financial_literacy_booklet"
+    jurisdiction: "central"
+    state: null
+    official_source_url: "https://www.rbi.org.in/commonman/images/FAME202426022024.pdf"
+    digital_scanned: "digital_text"
+    status: "current_reference"
+    primary_supplementary: "primary"
+    target_domain: "financial_inclusion"
+    target_seed: "rbi_financial_literacy"
+    collection_status: "collected"
+    mvp_required: false
+    modifies: null
+    base_incorporates: null
+
+  - source_id: rbi_beaware_fraud_awareness
+    filename: "RBI_BEAWARE_Financial_Fraud_Awareness.pdf"
+    path: "corpus/seeds/RBI_BEAWARE_Financial_Fraud_Awareness.pdf"
+    actual_title: "BE(A)WARE - A Booklet on Modus Operandi of Financial Frauds"
+    issuing_organization: "Reserve Bank of India, Consumer Education and Protection Department"
+    document_date: "2022-03-07"
+    effective_date: "2022-03-07"
+    document_type: "fraud_awareness_booklet"
+    jurisdiction: "central"
+    state: null
+    official_source_url: "https://www.rbi.org.in/commonperson/Upload/english/Content/PDFs/English%20BEAWARE.pdf"
+    digital_scanned: "digital_text"
+    status: "current_reference"
+    primary_supplementary: "primary"
+    target_domain: "financial_inclusion"
+    target_seed: "rbi_financial_literacy"
+    collection_status: "collected"
+    mvp_required: false
+    modifies: null
+    base_incorporates: null
+
+  - source_id: irdai_introduction_to_insurance
+    filename: "Introduction_To_Insurance_IRDAI.pdf"
+    path: "corpus/seeds/Introduction_To_Insurance_IRDAI.pdf"
+    actual_title: "Introduction to Insurance - Insurance Education Series"
+    issuing_organization: "Insurance Regulatory and Development Authority of India (IRDAI)"
+    document_date: null
+    effective_date: null
+    document_type: "insurance_education"
+    jurisdiction: "central"
+    state: null
+    official_source_url: "https://irdai.gov.in/documents/37343/621990/IntroductionToInsurance.pdf"
+    digital_scanned: "digital_text"
+    status: "current_reference"
+    primary_supplementary: "primary"
+    target_domain: "financial_inclusion"
+    target_seed: "rbi_financial_literacy"
+    collection_status: "collected"
+    mvp_required: false
+    modifies: null
+    base_incorporates: null
+
+  - source_id: introduction_to_insurance
+    filename: "IntroductionToInsurance.pdf"
+    path: "corpus/seeds/IntroductionToInsurance.pdf"
+    actual_title: "Introduction to Insurance - RBI/NABARD Financial Literacy"
+    issuing_organization: "NABARD / Reserve Bank of India"
+    document_date: "2024-01-01"
+    effective_date: "2024-01-01"
+    document_type: "financial_literacy_material"
+    jurisdiction: "central"
+    state: null
+    official_source_url: ""
+    digital_scanned: "digital_text"
+    status: "current_reference"
+    primary_supplementary: "primary"
+    target_domain: "financial_inclusion"
+    target_seed: "rbi_financial_inclusion"
+    collection_status: "collected"
+    mvp_required: true
+    modifies: null
+    base_incorporates: null
+
+  - source_id: rbi_financial_education_guide
+    filename: "GUIDE310113_F.pdf"
+    path: "corpus/seeds/GUIDE310113_F.pdf"
+    actual_title: "RBI Financial Education Guide"
+    issuing_organization: "Reserve Bank of India"
+    document_date: "2024-01-01"
+    effective_date: "2024-01-01"
+    document_type: "financial_literacy_material"
+    jurisdiction: "central"
+    state: null
+    official_source_url: ""
+    digital_scanned: "digital_text"
+    status: "current_reference"
+    primary_supplementary: "primary"
+    target_domain: "financial_inclusion"
+    target_seed: "rbi_financial_inclusion"
+    collection_status: "collected"
+    mvp_required: true
+    modifies: null
+    base_incorporates: null
+
+  - source_id: rbi_beware_fraud_awareness
+    filename: "RBI_BEAWARE_Financial_Fraud.pdf"
+    path: "corpus/seeds/RBI_BEAWARE_Financial_Fraud.pdf"
+    actual_title: "RBI BE(A)WARE - Financial Fraud Awareness"
+    issuing_organization: "Reserve Bank of India"
+    document_date: "2024-01-01"
+    effective_date: "2024-01-01"
+    document_type: "financial_literacy_material"
+    jurisdiction: "central"
+    state: null
+    official_source_url: ""
+    digital_scanned: "digital_text"
+    status: "current_reference"
+    primary_supplementary: "primary"
+    target_domain: "financial_inclusion"
+    target_seed: "rbi_financial_inclusion"
+    collection_status: "collected"
+    mvp_required: true
+    modifies: null
+    base_incorporates: null
+
+  - source_id: rbi_financial_education_nsfi
+    filename: "RBI_Financial_Education_NSFE.pdf"
+    path: "corpus/seeds/RBI_Financial_Education_NSFE.pdf"
+    actual_title: "RBI Financial Education and National Strategy for Financial Inclusion"
+    issuing_organization: "Reserve Bank of India"
+    document_date: "2024-01-01"
+    effective_date: "2024-01-01"
+    document_type: "financial_literacy_material"
+    jurisdiction: "central"
+    state: null
+    official_source_url: ""
+    digital_scanned: "digital_text"
+    status: "current_reference"
+    primary_supplementary: "primary"
+    target_domain: "financial_inclusion"
+    target_seed: "rbi_financial_inclusion"
+    collection_status: "collected"
+    mvp_required: true
+    modifies: null
+    base_incorporates: null
+
+  - source_id: pacs_hr_policy_2026
+    filename: "Model_HR_Policy_V21.pdf"
+    path: "corpus/seeds/Model_HR_Policy_V21.pdf"
+    actual_title: "Model HR Policy for Transformation of Primary Agricultural Credit Societies (PACS)"
+    issuing_organization: "Ministry of Cooperation, Government of India"
+    document_date: "2026-04-08"
+    effective_date: "2026-04-08"
+    document_type: "hr_policy"
+    jurisdiction: "central"
+    state: null
+    official_source_url: "https://cooperation.gov.in/en/node/3210"
+    digital_scanned: "digital_text"
+    status: "current_reference"
+    primary_supplementary: "primary"
+    target_domain: "pacs_governance"
+    target_seed: "pacs_model_bylaws"
+    collection_status: "collected"
+    mvp_required: false
+    modifies: null
+    base_incorporates: null
+
+  - source_id: pacs_hr_policy
+    filename: "PACS_HR_Policy.pdf"
+    path: "corpus/seeds/PACS_HR_Policy.pdf"
+    actual_title: "Human Resource (HR) Policy for Primary Agricultural Credit Societies (PACS)"
+    issuing_organization: "Ministry of Cooperation, Government of India"
+    document_date: "2024-01-01"
+    effective_date: "2024-01-01"
+    document_type: "hr_policy"
+    jurisdiction: "central"
+    state: null
+    official_source_url: ""
+    digital_scanned: "digital_text"
+    status: "current_reference"
+    primary_supplementary: "primary"
+    target_domain: "pacs_governance"
+    target_seed: "pacs_model_bylaws"
+    collection_status: "collected"
+    mvp_required: false
+    modifies: null
+    base_incorporates: null
+
+  - source_id: cooperative_sugar_mills_csm_scheme
+    filename: "Cooperative_Sugar_Mills_CSM_Scheme.pdf"
+    path: "corpus/seeds/Cooperative_Sugar_Mills_CSM_Scheme.pdf"
+    actual_title: "Grant-in-aid to NCDC for Strengthening of Cooperative Sugar Mills (CSMs)"
+    issuing_organization: "Ministry of Cooperation, Government of India"
+    document_date: "2023-07-01"
+    effective_date: "2023-07-01"
+    document_type: "scheme_brief"
+    jurisdiction: "central"
+    state: null
+    official_source_url: "https://cooperation.gov.in/en/node/3007"
+    digital_scanned: "digital_text"
+    status: "current_reference"
+    primary_supplementary: "primary"
+    target_domain: "pacs_governance"
+    target_seed: "pacs_model_bylaws"
+    collection_status: "collected"
+    mvp_required: false
+    modifies: null
+    base_incorporates: null
+
+  - source_id: cooperative_sugar_mills_scheme
+    filename: "Cooperative_Sugar_Mills_Scheme.pdf"
+    path: "corpus/seeds/Cooperative_Sugar_Mills_Scheme.pdf"
+    actual_title: "Cooperative Sugar Mills - Centrally Sponsored Scheme"
+    issuing_organization: "Ministry of Cooperation, Government of India"
+    document_date: "2024-01-01"
+    effective_date: "2024-01-01"
+    document_type: "scheme_guidelines"
+    jurisdiction: "central"
+    state: null
+    official_source_url: ""
+    digital_scanned: "digital_text"
+    status: "current_reference"
+    primary_supplementary: "primary"
+    target_domain: "schemes"
+    target_seed: "cooperation_schemes"
+    collection_status: "collected"
+    mvp_required: false
+    modifies: null
+    base_incorporates: null
+
+  - source_id: moc_young_professionals_yps
+    filename: "MoC_Young_Professionals_YPs.pdf"
+    path: "corpus/seeds/MoC_Young_Professionals_YPs.pdf"
+    actual_title: "Inviting Applications for Engagement of Young Professionals in Ministry of Cooperation"
+    issuing_organization: "Ministry of Cooperation, Government of India"
+    document_date: "2026-04-16"
+    effective_date: "2026-04-16"
+    document_type: "recruitment_notice"
+    jurisdiction: "central"
+    state: null
+    official_source_url: "https://cooperation.gov.in/en/node/2964"
+    digital_scanned: "scanned"
+    status: "current_reference"
+    primary_supplementary: "supplementary"
+    target_domain: "schemes"
+    target_seed: "cooperation_schemes"
+    collection_status: "collected"
+    mvp_required: false
+    modifies: null
+    base_incorporates: null
+    verification_note: "Scanned/image-based PDF. Text extraction via OCR/MinerU required before ingestion."
+
+  - source_id: moc_facultyAdvertisement_2026
+    filename: "MoC_Advertisement_Faculty_2026.pdf"
+    path: "corpus/seeds/MoC_Advertisement_Faculty_2026.pdf"
+    actual_title: "Advertisement for Faculty Positions 2026 - Ministry of Cooperation"
+    issuing_organization: "Ministry of Cooperation, Government of India"
+    document_date: "2026-01-01"
+    effective_date: "2026-01-01"
+    document_type: "recruitment_notice"
+    jurisdiction: "central"
+    state: null
+    official_source_url: ""
+    digital_scanned: "digital_text"
+    status: "current_reference"
+    primary_supplementary: "supplementary"
+    target_domain: "schemes"
+    target_seed: "cooperation_schemes"
+    collection_status: "collected"
+    mvp_required: false
+    modifies: null
+    base_incorporates: null
+
+  - source_id: moc_hiring_agency_gem
+    filename: "MoC_Hiring_Agency_GeM.pdf"
+    path: "corpus/seeds/MoC_Hiring_Agency_GeM.pdf"
+    actual_title: "Hiring of Agency for Maintenance of Computer System through GeM"
+    issuing_organization: "Ministry of Cooperation, Government of India"
+    document_date: "2024-01-01"
+    effective_date: "2024-01-01"
+    document_type: "procurement_notice"
+    jurisdiction: "central"
+    state: null
+    official_source_url: ""
+    digital_scanned: "digital_text"
+    status: "current_reference"
+    primary_supplementary: "supplementary"
+    target_domain: "pacs_computerization"
+    target_seed: "pacs_computerization"
+    collection_status: "collected"
+    mvp_required: false
+    modifies: null
+    base_incorporates: null
+
+  - source_id: moc_tor_internship
+    filename: "MoC_TOR_Internship.pdf"
+    path: "corpus/seeds/MoC_TOR_Internship.pdf"
+    actual_title: "Terms of Reference for Internship - Ministry of Cooperation"
+    issuing_organization: "Ministry of Cooperation, Government of India"
+    document_date: "2024-01-01"
+    effective_date: "2024-01-01"
+    document_type: "internship_tor"
+    jurisdiction: "central"
+    state: null
+    official_source_url: ""
+    digital_scanned: "digital_text"
+    status: "current_reference"
+    primary_supplementary: "supplementary"
+    target_domain: "schemes"
+    target_seed: "cooperation_schemes"
+    collection_status: "collected"
+    mvp_required: false
+    modifies: null
+    base_incorporates: null
+
+  - source_id: moc_advertisement_yps
+    filename: "MoC_Advertisement_YPs.pdf"
+    path: "corpus/seeds/MoC_Advertisement_YPs.pdf"
+    actual_title: "Advertisement for Young Professionals in Ministry of Cooperation"
+    issuing_organization: "Ministry of Cooperation, Government of India"
+    document_date: "2024-01-01"
+    effective_date: "2024-01-01"
+    document_type: "recruitment_notice"
+    jurisdiction: "central"
+    state: null
+    official_source_url: ""
+    digital_scanned: "scanned_ocr"
+    status: "current_reference"
+    primary_supplementary: "supplementary"
+    target_domain: "schemes"
+    target_seed: "cooperation_schemes"
+    collection_status: "collected"
+    mvp_required: false
+    modifies: null
+    base_incorporates: null
+
+  - source_id: moc_lok_sabha_calendar
+    filename: "MoC_Lok_Sabha_Session_Calendar.pdf"
+    path: "corpus/seeds/MoC_Lok_Sabha_Session_Calendar.pdf"
+    actual_title: "Commencement of 06th Session of 18th Lok Sabha - Provisional Calendar"
+    issuing_organization: "Ministry of Cooperation, Government of India"
+    document_date: "2025-01-01"
+    effective_date: "2025-01-01"
+    document_type: "parliamentary_notice"
+    jurisdiction: "central"
+    state: null
+    official_source_url: ""
+    digital_scanned: "scanned_ocr"
+    status: "current_reference"
+    primary_supplementary: "supplementary"
+    target_domain: "schemes"
+    target_seed: "cooperation_schemes"
+    collection_status: "collected"
+    mvp_required: false
+    modifies: null
+    base_incorporates: null
+
+  - source_id: moc_yp_finance_crcs
+    filename: "MoC_YP_Finance_CRCS.pdf"
+    path: "corpus/seeds/MoC_YP_Finance_CRCS.pdf"
+    actual_title: "Engagement of Young Professionals (Finance) in CRCS"
+    issuing_organization: "Ministry of Cooperation, Government of India"
+    document_date: "2024-01-01"
+    effective_date: "2024-01-01"
+    document_type: "recruitment_notice"
+    jurisdiction: "central"
+    state: null
+    official_source_url: ""
+    digital_scanned: "scanned_ocr"
+    status: "current_reference"
+    primary_supplementary: "supplementary"
+    target_domain: "schemes"
+    target_seed: "cooperation_schemes"
+    collection_status: "collected"
+    mvp_required: false
+    modifies: null
+    base_incorporates: null
+
+  - source_id: moc_yp_legal_cea
+    filename: "MoC_YP_Legal_CEA.pdf"
+    path: "corpus/seeds/MoC_YP_Legal_CEA.pdf"
+    actual_title: "Engagement of Young Professionals (Legal) in Cooperative Election Authority"
+    issuing_organization: "Ministry of Cooperation, Government of India"
+    document_date: "2024-01-01"
+    effective_date: "2024-01-01"
+    document_type: "recruitment_notice"
+    jurisdiction: "central"
+    state: null
+    official_source_url: ""
+    digital_scanned: "scanned_ocr"
+    status: "current_reference"
+    primary_supplementary: "supplementary"
+    target_domain: "schemes"
+    target_seed: "cooperation_schemes"
+    collection_status: "collected"
+    mvp_required: false
+    modifies: null
+    base_incorporates: null
+
+  - source_id: moc_consultant_crcs
+    filename: "MoC_Consultant_CRCS.pdf"
+    path: "corpus/seeds/MoC_Consultant_CRCS.pdf"
+    actual_title: "Engagement of Consultant in Central Registrar of Cooperative Societies"
+    issuing_organization: "Ministry of Cooperation, Government of India"
+    document_date: "2024-01-01"
+    effective_date: "2024-01-01"
+    document_type: "recruitment_notice"
+    jurisdiction: "central"
+    state: null
+    official_source_url: ""
+    digital_scanned: "scanned_ocr"
+    status: "current_reference"
+    primary_supplementary: "supplementary"
+    target_domain: "schemes"
+    target_seed: "cooperation_schemes"
+    collection_status: "collected"
+    mvp_required: false
+    modifies: null
+    base_incorporates: null
+
+  - source_id: moc_retired_consultant_a
+    filename: "MoC_Retired_Consultant_A.pdf"
+    path: "corpus/seeds/MoC_Retired_Consultant_A.pdf"
+    actual_title: "Engagement of Retired Central Government Employees as Consultants"
+    issuing_organization: "Ministry of Cooperation, Government of India"
+    document_date: "2024-01-01"
+    effective_date: "2024-01-01"
+    document_type: "recruitment_notice"
+    jurisdiction: "central"
+    state: null
+    official_source_url: ""
+    digital_scanned: "scanned_ocr"
+    status: "current_reference"
+    primary_supplementary: "supplementary"
+    target_domain: "schemes"
+    target_seed: "cooperation_schemes"
+    collection_status: "collected"
+    mvp_required: false
+    modifies: null
+    base_incorporates: null
+
+  - source_id: moc_retired_consultant_b
+    filename: "MoC_Retired_Consultant_B.pdf"
+    path: "corpus/seeds/MoC_Retired_Consultant_B.pdf"
+    actual_title: "Engagement of Retired Central Government Employees as Consultants (Reg)"
+    issuing_organization: "Ministry of Cooperation, Government of India"
+    document_date: "2024-01-01"
+    effective_date: "2024-01-01"
+    document_type: "recruitment_notice"
+    jurisdiction: "central"
+    state: null
+    official_source_url: ""
+    digital_scanned: "scanned_ocr"
+    status: "current_reference"
+    primary_supplementary: "supplementary"
+    target_domain: "schemes"
+    target_seed: "cooperation_schemes"
+    collection_status: "collected"
+    mvp_required: false
+    modifies: null
+    base_incorporates: null
+
+  - source_id: central_registrar_order
+    filename: "Central_Registrar_Order.pdf"
+    path: "corpus/seeds/Central_Registrar_Order.pdf"
+    actual_title: "Order of Office of the Central Registrar of Cooperative Societies"
+    issuing_organization: "Ministry of Cooperation, Government of India"
+    document_date: "2024-01-01"
+    effective_date: "2024-01-01"
+    document_type: "official_order"
+    jurisdiction: "central"
+    state: null
+    official_source_url: ""
+    digital_scanned: "scanned_ocr"
+    status: "current_reference"
+    primary_supplementary: "supplementary"
+    target_domain: "pacs_governance"
+    target_seed: "pacs_model_bylaws"
+    collection_status: "collected"
+    mvp_required: false
+    modifies: null
+    base_incorporates: null
+
+  - source_id: moc_recruitment_deputation
+    filename: "MoC_Recruitment_Deputation.pdf"
+    path: "corpus/seeds/MoC_Recruitment_Deputation.pdf"
+    actual_title: "Rolling Advertisement for Recruitment on Deputation"
+    issuing_organization: "Ministry of Cooperation, Government of India"
+    document_date: "2024-01-01"
+    effective_date: "2024-01-01"
+    document_type: "recruitment_notice"
+    jurisdiction: "central"
+    state: null
+    official_source_url: ""
+    digital_scanned: "scanned_ocr"
+    status: "current_reference"
+    primary_supplementary: "supplementary"
+    target_domain: "schemes"
+    target_seed: "cooperation_schemes"
+    collection_status: "collected"
+    mvp_required: false
+    modifies: null
+    base_incorporates: null
+
+  - source_id: moc_yp_cet_policy
+    filename: "MoC_YP_CET_Policy.pdf"
+    path: "corpus/seeds/MoC_YP_CET_Policy.pdf"
+    actual_title: "Selection of Young Professionals in CET and Policy Division"
+    issuing_organization: "Ministry of Cooperation, Government of India"
+    document_date: "2024-01-01"
+    effective_date: "2024-01-01"
+    document_type: "recruitment_notice"
+    jurisdiction: "central"
+    state: null
+    official_source_url: ""
+    digital_scanned: "scanned_ocr"
+    status: "current_reference"
+    primary_supplementary: "supplementary"
+    target_domain: "schemes"
+    target_seed: "cooperation_schemes"
+    collection_status: "collected"
+    mvp_required: false
+    modifies: null
+    base_incorporates: null
+
+  - source_id: moc_yp_budget_finance
+    filename: "MoC_YP_Budget_Finance.pdf"
+    path: "corpus/seeds/MoC_YP_Budget_Finance.pdf"
+    actual_title: "YP Advertisement - Budget and Finance Division"
+    issuing_organization: "Ministry of Cooperation, Government of India"
+    document_date: "2024-01-01"
+    effective_date: "2024-01-01"
+    document_type: "recruitment_notice"
+    jurisdiction: "central"
+    state: null
+    official_source_url: ""
+    digital_scanned: "scanned_ocr"
+    status: "current_reference"
+    primary_supplementary: "supplementary"
+    target_domain: "schemes"
+    target_seed: "cooperation_schemes"
+    collection_status: "collected"
+    mvp_required: false
+    modifies: null
+    base_incorporates: null
+
+  - source_id: moc_yp_legal_ombudsman
+    filename: "MoC_YP_Legal_Ombudsman.pdf"
+    path: "corpus/seeds/MoC_YP_Legal_Ombudsman.pdf"
+    actual_title: "Engagement of Young Professional (Legal) in Cooperative Ombudsman"
+    issuing_organization: "Ministry of Cooperation, Government of India"
+    document_date: "2024-01-01"
+    effective_date: "2024-01-01"
+    document_type: "recruitment_notice"
+    jurisdiction: "central"
+    state: null
+    official_source_url: ""
+    digital_scanned: "scanned_ocr"
+    status: "current_reference"
+    primary_supplementary: "supplementary"
+    target_domain: "schemes"
+    target_seed: "cooperation_schemes"
+    collection_status: "collected"
+    mvp_required: false
+    modifies: null
+    base_incorporates: null
+
+  - source_id: cooperative_member_introduction
+    filename: "Cooperative_Member_Introduction.pdf"
+    path: "corpus/seeds/Cooperative_Member_Introduction.pdf"
+    actual_title: "Introduction to Cooperative Member Rights and Responsibilities"
+    issuing_organization: "Ministry of Cooperation, Government of India"
+    document_date: "2024-01-01"
+    effective_date: "2024-01-01"
+    document_type: "reference_guide"
+    jurisdiction: "central"
+    state: null
+    official_source_url: ""
+    digital_scanned: "scanned_ocr"
+    status: "current_reference"
+    primary_supplementary: "primary"
+    target_domain: "pacs_governance"
+    target_seed: "pacs_model_bylaws"
+    collection_status: "collected"
+    mvp_required: false
+    modifies: null
+    base_incorporates: null
+
+  - source_id: gujarat_cooperative_act_1961
+    filename: "Gujarat_Cooperative_Act_1961.pdf"
+    path: "corpus/seeds/Gujarat_Cooperative_Act_1961.pdf"
+    actual_title: "The Gujarat Co-operative Societies Act, 1961"
+    issuing_organization: "Government of Gujarat"
+    document_date: "1961-01-01"
+    effective_date: "1961-01-01"
+    document_type: "legislation"
+    jurisdiction: "state"
+    state: "gujarat"
+    official_source_url: ""
+    digital_scanned: "scanned_ocr"
+    status: "current_reference"
+    primary_supplementary: "primary"
+    target_domain: "pacs_governance"
+    target_seed: "pacs_model_bylaws"
+    collection_status: "collected"
+    mvp_required: false
+    modifies: null
+    base_incorporates: null
+
+  - source_id: affordable_crop_insurance
+    filename: "Affordable Crop Insurance for Every Farmer.pdf"
+    path: "corpus/seeds/Affordable Crop Insurance for Every Farmer.pdf"
+    actual_title: "Affordable Crop Insurance for Every Farmer"
+    issuing_organization: "Ministry of Agriculture, Government of India"
+    document_date: "2024-01-01"
+    effective_date: "2024-01-01"
+    document_type: "scheme_brochure"
+    jurisdiction: "central"
+    state: null
+    official_source_url: ""
+    digital_scanned: "scanned_ocr"
+    status: "current_reference"
+    primary_supplementary: "supplementary"
+    target_domain: "pmfby"
+    target_seed: "pmfby"
+    collection_status: "collected"
+    mvp_required: false
+    modifies: null
+    base_incorporates: null
+
+  - source_id: aws_gui_cre
+    filename: "aws_gui_cre.pdf"
+    path: "corpus/seeds/aws_gui_cre.pdf"
+    actual_title: "AWS GUI CRE - Weather Data for Crop Insurance"
+    issuing_organization: "Ministry of Agriculture, Government of India"
+    document_date: "2024-01-01"
+    effective_date: "2024-01-01"
+    document_type: "technical_guide"
+    jurisdiction: "central"
+    state: null
+    official_source_url: ""
+    digital_scanned: "scanned_ocr"
+    status: "current_reference"
+    primary_supplementary: "supplementary"
+    target_domain: "pmfby"
+    target_seed: "pmfby"
+    collection_status: "collected"
+    mvp_required: false
+    modifies: null
+    base_incorporates: null
+
+  - source_id: aws_weather_data_guidelines
+    filename: "GuidlinesforAWSandWeather Data-15.04.pdf"
+    path: "corpus/seeds/GuidlinesforAWSandWeather Data-15.04.pdf"
+    actual_title: "Guidelines for AWS and Weather Data"
+    issuing_organization: "Ministry of Agriculture, Government of India"
+    document_date: "2024-01-01"
+    effective_date: "2024-01-01"
+    document_type: "guidelines"
+    jurisdiction: "central"
+    state: null
+    official_source_url: ""
+    digital_scanned: "scanned_ocr"
+    status: "current_reference"
+    primary_supplementary: "supplementary"
+    target_domain: "pmfby"
+    target_seed: "pmfby"
+    collection_status: "collected"
+    mvp_required: false
+    modifies: null
+    base_incorporates: null
+
+  - source_id: nais_scheme
+    filename: "National Agricultural Insurance Scheme (NAIS)- Scheme and Operational Modalities.pdf"
+    path: "corpus/seeds/National Agricultural Insurance Scheme (NAIS)- Scheme and Operational Modalities.pdf"
+    actual_title: "National Agricultural Insurance Scheme (NAIS) - Scheme and Operational Modalities"
+    issuing_organization: "Ministry of Agriculture, Government of India"
+    document_date: "2024-01-01"
+    effective_date: "2024-01-01"
+    document_type: "scheme_guidelines"
+    jurisdiction: "central"
+    state: null
+    official_source_url: ""
+    digital_scanned: "scanned_ocr"
+    status: "current_reference"
+    primary_supplementary: "supplementary"
+    target_domain: "pmfby"
+    target_seed: "pmfby"
+    collection_status: "collected"
+    mvp_required: false
+    modifies: null
+    base_incorporates: null
+
+  - source_id: new_schemes_english
+    filename: "New Schemes-english_.pdf"
+    path: "corpus/seeds/New Schemes-english_.pdf"
+    actual_title: "New Crop Insurance Schemes - English"
+    issuing_organization: "Ministry of Agriculture, Government of India"
+    document_date: "2024-01-01"
+    effective_date: "2024-01-01"
+    document_type: "scheme_brochure"
+    jurisdiction: "central"
+    state: null
+    official_source_url: ""
+    digital_scanned: "scanned_ocr"
+    status: "current_reference"
+    primary_supplementary: "supplementary"
+    target_domain: "pmfby"
+    target_seed: "pmfby"
+    collection_status: "collected"
+    mvp_required: false
+    modifies: null
+    base_incorporates: null
+
+  - source_id: pmfby_features
+    filename: "PMFBY_Features.pdf"
+    path: "corpus/seeds/PMFBY_Features.pdf"
+    actual_title: "PMFBY Features and Benefits"
+    issuing_organization: "Ministry of Agriculture, Government of India"
+    document_date: "2024-01-01"
+    effective_date: "2024-01-01"
+    document_type: "scheme_brochure"
+    jurisdiction: "central"
+    state: null
+    official_source_url: ""
+    digital_scanned: "scanned_ocr"
+    status: "current_reference"
+    primary_supplementary: "supplementary"
+    target_domain: "pmfby"
+    target_seed: "pmfby"
+    collection_status: "collected"
+    mvp_required: false
+    modifies: null
+    base_incorporates: null
+
+  - source_id: pmfby_winds_manual
+    filename: "PMFBY_WINDS_Manual_2023_for_Hyperlocal_Weather_Data_Procurement_120923.pdf"
+    path: "corpus/seeds/PMFBY_WINDS_Manual_2023_for_Hyperlocal_Weather_Data_Procurement_120923.pdf"
+    actual_title: "PMFBY WINDS Manual 2023 for Hyperlocal Weather Data Procurement"
+    issuing_organization: "Ministry of Agriculture, Government of India"
+    document_date: "2023-09-12"
+    effective_date: "2023-09-12"
+    document_type: "technical_manual"
+    jurisdiction: "central"
+    state: null
+    official_source_url: ""
+    digital_scanned: "scanned_ocr"
+    status: "current_reference"
+    primary_supplementary: "supplementary"
+    target_domain: "pmfby"
+    target_seed: "pmfby"
+    collection_status: "collected"
+    mvp_required: false
+    modifies: null
+    base_incorporates: null
+
+  - source_id: pmfby_advertisement
+    filename: "PMFBY-Advertisement.pdf"
+    path: "corpus/seeds/PMFBY-Advertisement.pdf"
+    actual_title: "PMFBY Advertisement"
+    issuing_organization: "Ministry of Agriculture, Government of India"
+    document_date: "2024-01-01"
+    effective_date: "2024-01-01"
+    document_type: "advertisement"
+    jurisdiction: "central"
+    state: null
+    official_source_url: ""
+    digital_scanned: "scanned_ocr"
+    status: "current_reference"
+    primary_supplementary: "supplementary"
+    target_domain: "pmfby"
+    target_seed: "pmfby"
+    collection_status: "collected"
+    mvp_required: false
+    modifies: null
+    base_incorporates: null
+
+  - source_id: press_bhima
+    filename: "PRESS_Bhima.pdf"
+    path: "corpus/seeds/PRESS_Bhima.pdf"
+    actual_title: "PRESS Bhima - Crop Insurance Press Coverage"
+    issuing_organization: "Ministry of Agriculture, Government of India"
+    document_date: "2024-01-01"
+    effective_date: "2024-01-01"
+    document_type: "press_material"
+    jurisdiction: "central"
+    state: null
+    official_source_url: ""
+    digital_scanned: "scanned_ocr"
+    status: "current_reference"
+    primary_supplementary: "supplementary"
+    target_domain: "pmfby"
+    target_seed: "pmfby"
+    collection_status: "collected"
+    mvp_required: false
+    modifies: null
+    base_incorporates: null
+
+  - source_id: revamped_operational_guidelines_2020
+    filename: "Revamped Operational Guidelines_17th August 2020.pdf"
+    path: "corpus/seeds/Revamped Operational Guidelines_17th August 2020.pdf"
+    actual_title: "Revamped Operational Guidelines - 17th August 2020"
+    issuing_organization: "Ministry of Agriculture, Government of India"
+    document_date: "2020-08-17"
+    effective_date: "2020-08-17"
+    document_type: "operational_guidelines"
+    jurisdiction: "central"
+    state: null
+    official_source_url: ""
+    digital_scanned: "scanned_ocr"
+    status: "current_reference"
+    primary_supplementary: "supplementary"
+    target_domain: "pmfby"
+    target_seed: "pmfby"
+    collection_status: "collected"
+    mvp_required: false
+    modifies: null
+    base_incorporates: null
+
+  - source_id: rwbcis_revised_guidelines
+    filename: "RWBCIS_Revised_Guidelines_1.pdf"
+    path: "corpus/seeds/RWBCIS_Revised_Guidelines_1.pdf"
+    actual_title: "RWBCIS Revised Guidelines"
+    issuing_organization: "Ministry of Agriculture, Government of India"
+    document_date: "2024-01-01"
+    effective_date: "2024-01-01"
+    document_type: "guidelines"
+    jurisdiction: "central"
+    state: null
+    official_source_url: ""
+    digital_scanned: "scanned_ocr"
+    status: "current_reference"
+    primary_supplementary: "supplementary"
+    target_domain: "pmfby"
+    target_seed: "pmfby"
+    collection_status: "collected"
+    mvp_required: false
+    modifies: null
+    base_incorporates: null
+
+  - source_id: sop_bank_branch_pmfby
+    filename: "Sop For Bank Branch Users For Implementation Of Pmfby Rwbcis During Kharif 2021.pdf"
+    path: "corpus/seeds/Sop For Bank Branch Users For Implementation Of Pmfby Rwbcis During Kharif 2021.pdf"
+    actual_title: "SOP for Bank Branch Users for Implementation of PMFBY RWBCIS during Kharif 2021"
+    issuing_organization: "Ministry of Agriculture, Government of India"
+    document_date: "2021-01-01"
+    effective_date: "2021-01-01"
+    document_type: "standard_operating_procedure"
+    jurisdiction: "central"
+    state: null
+    official_source_url: ""
+    digital_scanned: "scanned_ocr"
+    status: "current_reference"
+    primary_supplementary: "supplementary"
+    target_domain: "pmfby"
+    target_seed: "pmfby"
+    collection_status: "collected"
+    mvp_required: false
+    modifies: null
+    base_incorporates: null
+
+  - source_id: upis_operational_guidelines
+    filename: "Unified Package Insurance Scheme (UPIS)-Operational Guidelines (OGs).pdf"
+    path: "corpus/seeds/Unified Package Insurance Scheme (UPIS)-Operational Guidelines (OGs).pdf"
+    actual_title: "Unified Package Insurance Scheme (UPIS) - Operational Guidelines"
+    issuing_organization: "Ministry of Agriculture, Government of India"
+    document_date: "2024-01-01"
+    effective_date: "2024-01-01"
+    document_type: "operational_guidelines"
+    jurisdiction: "central"
+    state: null
+    official_source_url: ""
+    digital_scanned: "scanned_ocr"
+    status: "current_reference"
+    primary_supplementary: "supplementary"
+    target_domain: "pmfby"
+    target_seed: "pmfby"
+    collection_status: "collected"
+    mvp_required: false
+    modifies: null
+    base_incorporates: null
+
+  - source_id: wbcis_operational_guidelines
+    filename: "Weather Based Crop Insurance Scheme (WBCIS)-Operational Guidelines (OGs).pdf"
+    path: "corpus/seeds/Weather Based Crop Insurance Scheme (WBCIS)-Operational Guidelines (OGs).pdf"
+    actual_title: "Weather Based Crop Insurance Scheme (WBCIS) - Operational Guidelines"
+    issuing_organization: "Ministry of Agriculture, Government of India"
+    document_date: "2024-01-01"
+    effective_date: "2024-01-01"
+    document_type: "operational_guidelines"
+    jurisdiction: "central"
+    state: null
+    official_source_url: ""
+    digital_scanned: "scanned_ocr"
+    status: "current_reference"
+    primary_supplementary: "supplementary"
+    target_domain: "pmfby"
+    target_seed: "pmfby"
+    collection_status: "collected"
+    mvp_required: false
+    modifies: null
+    base_incorporates: null
+
+  - source_id: yestech_manual_2023
+    filename: "YESTECH_Manual_2023_v2.pdf"
+    path: "corpus/seeds/YESTECH_Manual_2023_v2.pdf"
+    actual_title: "YESTECH Manual 2023 (v.2) - Crop Insurance Technology"
+    issuing_organization: "Ministry of Agriculture, Government of India"
+    document_date: "2023-01-01"
+    effective_date: "2023-01-01"
+    document_type: "technical_manual"
+    jurisdiction: "central"
+    state: null
+    official_source_url: ""
+    digital_scanned: "scanned_ocr"
+    status: "current_reference"
+    primary_supplementary: "supplementary"
+    target_domain: "pmfby"
+    target_seed: "pmfby"
+    collection_status: "collected"
+    mvp_required: false
+    modifies: null
+    base_incorporates: null
+
+# ================================================================
+# EXPLICIT MVP LIMITATIONS
+# ================================================================
+
+limitations:
+  gujarat_cooperative_law: "NOT COVERED"
+  gujarat_cooperative_rules: "NOT COVERED"
+  gujarat_specific_pmfby_notifications: "NOT COVERED"
+  dynamic_scheme_data: "NOT COVERED"
+
+safety:
+  - "Do not answer Gujarat statutory-law questions as if this corpus were complete."
+  - "Do not present central PACS model bye-laws as automatically applicable Gujarat PACS bye-laws."
+  - "If retrieved evidence does not support an answer, abstain."
+  - "Do not fetch missing legal facts from the internet during answer generation."
+  - "Internet is used only for source acquisition/update workflows, not as runtime evidence."
+
+promotion_rule:
+  "Deferred documents may be promoted only after content/provenance validation and evaluation coverage review."

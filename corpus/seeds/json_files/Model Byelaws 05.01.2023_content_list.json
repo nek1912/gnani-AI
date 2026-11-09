@@ -1,0 +1,5608 @@
+[
+    {
+        "type": "text",
+        "text": "Atal Akshay Urja Bhawan, CGO Complex Lodhi Road, New Delhi-110003.",
+        "bbox": [
+            523,
+            159,
+            902,
+            195
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Date: 5th January, 2023",
+        "bbox": [
+            674,
+            210,
+            901,
+            230
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "To",
+        "bbox": [
+            107,
+            242,
+            139,
+            258
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "The Additional Chief Secretary/ Principal Secretary/ Secretary Cooperation of all the States and Union Territories.",
+        "bbox": [
+            164,
+            276,
+            901,
+            320
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Subject: Model Bye-Laws for Primary Agriculture Credit Societies (PACS) – Reg.",
+        "bbox": [
+            105,
+            334,
+            884,
+            356
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Dear Madam/Sir,",
+        "bbox": [
+            107,
+            369,
+            266,
+            388
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "As you would be aware there are nearly95,000 Primary Agriculture Credit Societies (PACS) inthe country, with a member base of around 13 crores. PACS serve as a crucial link in sustaining the rural economy of the country by providing short-term and medium-term credit to farmers. However, income generated from these businesses alone is not sufficient to sustain the operation of PACS. Presently, the economic activities undertaken by PACS are restricted by their respective byelaws, which in most cases, are decades old and need to be revised.",
+        "bbox": [
+            104,
+            403,
+            902,
+            538
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "In orderto increasethe viability of PACS and diversify their business activities to make them vibrant economic entities at village level, a committee with representatives of NABARD, State Cooperative Banks, Vaikunth Mehta National Institute of co-operative Management (VAMNICOM), National Council for Cooperative Training (NCCT), etc. was formed to prepare draft model byelaws for PACS. The draft model byelaws were circulated to all the States/ Union Territories, Ministries/Departments concerned in Government of India, NABARD, NAFSCOB, State Cooperative Banks, District Cooperative Banks, etc. on1st July, 2022for their suggestions/inputs. More than 1500 suggestions were received from all the stakeholders, which were suitably incorporated in the model byelaws.",
+        "bbox": [
+            102,
+            546,
+            902,
+            732
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "These Model byelaws of PACS will enable them to undertake more than 25 business activities which, inter alia, include dairy, fishery, setting up of godowns, procurementof foodgrains, fertilizers, seeds, LPG/ CNG/ Petrol/ Diesel distributorship. short-term & long-term credit, custom hiring centers, common service centers, Fair Price Shops (FPS), community irrigation, Business Correspondent activities, Common Service",
+        "bbox": [
+            102,
+            741,
+            901,
+            837
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/d6e529a5904e6f778ebf972d647a195867a5a14de9fc33d6fadfdbae07b3bfcf.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            869,
+            861,
+            902,
+            923
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "No. R-11016/10/2022-I&P Government of India Ministry of Cooperation CTP/IT Division",
+        "bbox": [
+            385,
+            77,
+            624,
+            144
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "page_number",
+        "text": "1",
+        "bbox": [
+            494,
+            857,
+            508,
+            871
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/72ecef75d2df6a0c78e18458d6e8b6eafc8f74775cc5e7974764ec2e1e96c1fa.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            657,
+            494,
+            958,
+            574
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Centre, etc. They will alsostrengthen governance in PACS by increasing transparency. bringing professionalism, streamlininginternal audit, etc. The model byelaws will also be dovetailedwiththe Computerization of PACS project, under which a single ERP based software is being developed covering all the business activities mentioned in the model byelaws.",
+        "bbox": [
+            105,
+            78,
+            902,
+            173
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "In order to provide support to the PACS such as providing Gram Sabha/ Government land for infrastructure development, Fair Price Shops (FPS) licenses and designating PACSas agency for procurement of food grains at Minimum Support Price (MSP), a communication has already been sent by Hon’ble Minister of Cooperation to all the Chief Ministers of States and Union Territories.",
+        "bbox": [
+            104,
+            182,
+            902,
+            277
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Therefore, it is requested to circulate the Model Bye-Laws to all the PACS, Large Area Multipurpose Societies (LAMPS), Farmers Service Societies (FSS) and other similar societies, with suitable modifications as per the relevant State Cooperative Societies Act/ Rules, as applicable to the State/ Union Territory, for their adoption by the society concerned. This will go a long way in achieving the vision of “Sahakar-se-Samriddhi” and “Atmanirbhar Bharat”by strengthening the PACS at ground level.",
+        "bbox": [
+            104,
+            286,
+            902,
+            401
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Encl: As above.",
+        "bbox": [
+            105,
+            441,
+            261,
+            460
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Yours faithfully",
+        "bbox": [
+            704,
+            478,
+            845,
+            498
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Copy to:",
+        "bbox": [
+            104,
+            589,
+            192,
+            608
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "DeputySecretary to the Government of india",
+        "bbox": [
+            458,
+            572,
+            894,
+            593
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "1. All the Registrar of Cooperative Societies of States and Union Territories",
+        "bbox": [
+            132,
+            627,
+            870,
+            647
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "2. Chairman, NABARD",
+        "bbox": [
+            132,
+            644,
+            367,
+            662
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "3. Chairman, National Federation of State Co-operative Banks Ltd (NAFSCOB)",
+        "bbox": [
+            132,
+            663,
+            895,
+            685
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "page_number",
+        "text": "2",
+        "bbox": [
+            491,
+            857,
+            508,
+            872
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "CHAPTER IIDENTIFICATION OF COOPERATIVE SOCIETY",
+        "text_level": 2,
+        "bbox": [
+            279,
+            34,
+            717,
+            80
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "table",
+        "img_path": "images/1bf6fc457d44fe752349e5dfc2e0ae00ccb353f8f67a81a8c0dde0ecde8e91b8.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>1. NAME</td><td></td><td>Bahu-Uddeshiye Prathmik Gramin Cooperative Samiti (B-PACS) or Bahu-Uddeshiye LAMPS</td></tr><tr><td>2.ADDRESS</td><td></td><td>: Registered and Postal Address of the Society (Location of the Society) &amp; E-mail address</td></tr><tr><td></td><td></td><td>3. AREA OF OPERATION : The following Revenue village (s) / Panchayat (s) will be in the area of operation of the</td></tr><tr><td></td><td></td><td>Society;</td></tr><tr><td></td><td></td><td>i)</td></tr><tr><td></td><td></td><td>ii)</td></tr><tr><td></td><td></td><td>iii)</td></tr></table>",
+        "bbox": [
+            116,
+            111,
+            879,
+            455
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "4. DEFINITIONS:",
+        "bbox": [
+            111,
+            478,
+            321,
+            498
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "(1) \"Act\" means the Cooperative Societies Act under which the Society is registered;",
+        "bbox": [
+            169,
+            531,
+            885,
+            578
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "(2) “Agriculture” means agriculture and allied activities;",
+        "bbox": [
+            169,
+            590,
+            699,
+            612
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "(3) \"Area of operation\" means the geographical area (Revenue village (s)/ Panchayat (s)) from which the Society is authorised to draw its membership as specified in the Byelaws;",
+        "bbox": [
+            169,
+            625,
+            885,
+            698
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "(4) “Board of Directors” means the Managing Committee or the governing body of the Society, by whatever name called, constituted as per the Act to which the direction, control and management of the affairs of the Society is entrusted;",
+        "bbox": [
+            169,
+            710,
+            885,
+            809
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "(5) “Branches” means Branches of the Society;",
+        "bbox": [
+            169,
+            821,
+            629,
+            843
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "(6) “Byelaws” means the Registered Byelaws of the Society and includes amendment thereof;",
+        "bbox": [
+            169,
+            856,
+            885,
+            902
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "page_number",
+        "text": "1",
+        "bbox": [
+            493,
+            921,
+            504,
+            934
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "(7) “Chief Executive Officer” (CEO) means a person, who is appointed by the Board of Directors as executive head of the Society and manages the affairs and day to day operations/activities, subject to the superintendence, control and direction of the Board and designated by whatever designation such as Chief Executive, Managing Director, or Secretary etc;",
+        "bbox": [
+            169,
+            34,
+            885,
+            160
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "(8) “Co-operative Tribunal” means the Cooperative Tribunal constituted under concerned Act;",
+        "bbox": [
+            171,
+            172,
+            885,
+            219
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "(9) “Delegate” means a member nominated by the Society to represent its interests in a federation or other organization;",
+        "bbox": [
+            171,
+            232,
+            885,
+            279
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "(10) “Director” means a member of the Board of Directors or by whatever name called duly elected or nominated or co-opted as per the Act, Rules and Byelaws;",
+        "bbox": [
+            171,
+            292,
+            885,
+            366
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "(11) “Employee” means the persons appointed by the Board of Directors in order to run day-to-day operations of the Society;",
+        "bbox": [
+            171,
+            378,
+            885,
+            425
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "(12) “Farmer” means a person actively engaged in the economic and/or livelihood activity of growing crops and producing other primary agricultural commodities and shall include poultry and livestock rearers, fishers, beekeepers, pastrolists, non-corporate planters as well as persons engaged in various farming related occupations such as horticulture, floriculture, sericulture, vermiculture, and agro-forestry. The term shall also include tribal families / persons engaged in shifting cultivation and in the collection, use and sale of timber and non-timber forest produce;",
+        "bbox": [
+            171,
+            438,
+            887,
+            643
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "(13) “Financing Bank” means the bank to which the Society is affiliated or by which the Society is substantially financed. Priority is to be given to Cooperative Banks for being the Financing Banks;",
+        "bbox": [
+            171,
+            655,
+            885,
+            729
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "(14) \"Financial Year\" means the period commencing from the 1st day of April of any year and ending with the 31st day of March of succeeding year;",
+        "bbox": [
+            171,
+            741,
+            885,
+            789
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "(15) “General Body” means a Body consisting of all the “A” class members of the Society;",
+        "bbox": [
+            171,
+            800,
+            885,
+            848
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "(16) “Government\" means the State Government/ Government of India/Appropriate authority in the U.T. with reference to the context;",
+        "bbox": [
+            171,
+            859,
+            885,
+            906
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "page_number",
+        "text": "2",
+        "bbox": [
+            491,
+            921,
+            504,
+            934
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "(17) “Liability of a member” means, the extent of liability of every member and is limited to the Shares held by him towards contribution of the capital of the Society;",
+        "bbox": [
+            171,
+            34,
+            885,
+            107
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "(18) \"Member\" means any individual admitted as member of the Society after registration in accordance with the Act, the Rules and Byelaws;",
+        "bbox": [
+            171,
+            119,
+            885,
+            167
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "(19) “NABARD” means National Bank for Agriculture and Rural Development constituted by NABARD Act 1981;",
+        "bbox": [
+            171,
+            180,
+            885,
+            227
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "(20) “Nominal Member” means any person admitted to the membership of the Society for a specific purpose as nominal member as provided in the Act, Rules and Byelaws and shall have no voting right;",
+        "bbox": [
+            171,
+            241,
+            883,
+            314
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "(21) “Office-bearer” means an individual elected by the General Body or the Board of the Society to any office of Cooperative Society in accordance with its Byelaws and includes President, Vice President, etc;",
+        "bbox": [
+            171,
+            327,
+            885,
+            398
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "(22) “Person” means an individual not less than 18 years of age;",
+        "bbox": [
+            171,
+            411,
+            766,
+            433
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "(23) \"President\" means a person elected in accordance with the provisions of Act, Rules and Byelaws who shall be responsible for the overall development and progress of the Society and its members, the implementation of the policy decisions of the Committee and due observance by the Society of the provisions of Cooperative Act, Rules and Byelaws;",
+        "bbox": [
+            171,
+            445,
+            885,
+            598
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "(24) \"Professional Director\" means a person appointed or co-opted as Director without voting right to the Board of Directors of the Society by virtue of his being an expert in the field of accounting, finance, management, banking, Information Technology, law, agriculture, cooperation, cooperative management or any other specialized field relating to the activities of the Society, who is willing to guide and advise in the affairs or business activities of the Society;",
+        "bbox": [
+            171,
+            609,
+            887,
+            787
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "(25) “RBI” means Reserve Bank of India constituted by RBI Act 1934;",
+        "bbox": [
+            171,
+            800,
+            807,
+            821
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "(26) \"Registrar\" means the Registrar of Cooperative Societies appointed by the Government as per the Cooperative Societies Act to perform the functions of Registrar and includes any person appointed to assist the Registrar and exercise all or any of the powers of the Registrar;",
+        "bbox": [
+            171,
+            833,
+            885,
+            881
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "page_number",
+        "text": "3",
+        "bbox": [
+            493,
+            922,
+            504,
+            935
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            228,
+            35,
+            883,
+            82
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "(27) \"Rule\" means the Rules framed under the Cooperative Act under which the Society is registered;",
+        "bbox": [
+            171,
+            94,
+            883,
+            140
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "(28) “Seal” means the General Seal of the Society with year of establishment;",
+        "bbox": [
+            171,
+            154,
+            875,
+            174
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "(29) \"Society\" means the Cooperative Society;",
+        "bbox": [
+            171,
+            188,
+            609,
+            208
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "(30) “Sub Committee” means the Sub Committee constituted by the Board of Directors as per Byelaws for the purpose of special/particular assignment and for a specific period by whatever name is called;",
+        "bbox": [
+            171,
+            222,
+            885,
+            295
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "(31) “Vice President” means a person elected in accordance with the provisions of Act, Rules and Byelaws who shall act as President in absence of the President of the Society;",
+        "bbox": [
+            171,
+            308,
+            885,
+            380
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "page_number",
+        "text": "4",
+        "bbox": [
+            493,
+            921,
+            504,
+            934
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "CHAPTER II OBJECTIVES AND SERVICES",
+        "text_level": 1,
+        "bbox": [
+            375,
+            34,
+            660,
+            87
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "5. OBJECTIVES OF THE SOCIETY",
+        "text_level": 2,
+        "bbox": [
+            112,
+            136,
+            436,
+            154
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "The Objectives of the Society shall be:",
+        "bbox": [
+            112,
+            162,
+            454,
+            181
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "(1) To provide to its members timely and adequate Short and Medium term credit for development of backward and forward activities related to agriculture and its products, loan for vehicles for agricultural purpose like tractors etc, loan for consumption or medical purpose against collateral/pledge financing like commodities / bonds/ securities, etc. while maintaining financial norms (like credit worthiness and for securing the given loan) in the area of operation through share capital, deposits and borrowings from any financial institutions approved/ supported by or State Government and its organizations;",
+        "bbox": [
+            119,
+            189,
+            885,
+            391
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "(2) To provide Long term loan after approval of the Financing Bank/ Agriculture & Rural Development Bank/ District Central Cooperative Bank/ State Cooperative Bank/ Financing Institutions of State and Central Government;",
+        "bbox": [
+            120,
+            397,
+            885,
+            469
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "(3) To promote and develop backward linkages (such as demonstration plots, irrigation facilities, manure, fertilizers, improved seeds/ seed production, custom hiring centre, farm machineries/implements, insecticides, other inputs etc ); forward linkages (such as collection, grading, cleaning, packaging, branding and marketing, storage [godown and cold storage], processing, value chain [transport, logistics, refrigerated van, etc]), for the agriculture produce & its products (such as field crops, fruits & vegetables, floriculture, dairy activities, fisheries/shrimp farming, poultry, beekeeping, sericulture, plantation, sheep, goat, rabbits, piggery and any other land/ sea based agriculture related activities and their processing), by way of technical and financial support to its members in the area of operation of the Society;",
+        "bbox": [
+            120,
+            476,
+            885,
+            731
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "(4) To facilitate or make arrangements or to collaborate with any local bodies/Governments/ Departments/Universities/Societies/Companies for achieving its objectives for the benefit of Society and its members;",
+        "bbox": [
+            120,
+            737,
+            885,
+            809
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "(5) To engage in service or business operations (like infrastructure development, community centre, hospital, education institutions, procurement of food grains, Fair Price Shop, or any Government scheme, Dealership/agency/Distributorship or supply of LPG/Petrol/Diesel/Green energy/ farm or household consumables and durables/ farm machineries, training of members for skill improvement, etc.) which may enhance the facilities and income of Society or its members;",
+        "bbox": [
+            120,
+            815,
+            885,
+            914
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "page_number",
+        "text": "5",
+        "bbox": [
+            493,
+            922,
+            504,
+            935
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            147,
+            35,
+            885,
+            80
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "(6) To set up or arrange for Locker facilities with the permission of DCCB (District Central Cooperative Bank);",
+        "bbox": [
+            120,
+            87,
+            885,
+            133
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "(7) To collect socio-economic, financial and business-related information of all members and non-members in the area of operation which may strengthen policy framework, development of agriculture or related business or developmental plan and is also beneficial to all the stakeholders in the area of operation;",
+        "bbox": [
+            120,
+            138,
+            885,
+            238
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "(8) To demonstrate, promote and develop the latest technologies or extension activities related to agriculture and its allied activities for enhancing the income of the Society and its members;",
+        "bbox": [
+            120,
+            244,
+            885,
+            315
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "(9) To educate its members & their families (particularly youth and women) and Management and staff about Cooperative Principles, values and actions which may promote social harmony and economic benefits for all the stakeholders in the area of operation by way of organizing training, exposure visits or capacity building programmes;",
+        "bbox": [
+            120,
+            321,
+            885,
+            446
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "(10)To act as an agent or Bank Mitra/Business Correspondent/Business Facilitator for the Financial/Banking Institutions;",
+        "bbox": [
+            112,
+            453,
+            885,
+            500
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "(11)To act as an agency for implementation of social security scheme for its members and to provide micro insurance/ insurance;",
+        "bbox": [
+            112,
+            506,
+            885,
+            551
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "(12)To focus on and encourage the inclusion of youth and women in the cooperative based activities in the area of operation;",
+        "bbox": [
+            112,
+            558,
+            883,
+            603
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "(13)To provide community-based services in the fields of education (school, college), health (hospital, dispensary, clinical laboratory, ambulance service), tourism and environmental and sustainable development activities;",
+        "bbox": [
+            112,
+            609,
+            885,
+            681
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "(14)To participate in Government Schemes for providing services through Direct Benefit Transfer (DBT) to beneficiaries in the area of operation;",
+        "bbox": [
+            112,
+            688,
+            885,
+            734
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "(15)To act as a source of information/data centre to be used by the Government for various purposes;",
+        "bbox": [
+            112,
+            741,
+            885,
+            786
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "(16)To act as a Common Service Centre for facilitating on-line/digital services in the area of operation;",
+        "bbox": [
+            112,
+            792,
+            885,
+            838
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "(17)To undertake marketing and similar activities both inside and outside its area of operation for the benefit of the members of the Society.",
+        "bbox": [
+            112,
+            845,
+            885,
+            891
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "(18)To own land, buildings, godowns, processing units and other such necessary assets;",
+        "bbox": [
+            112,
+            897,
+            885,
+            917
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "page_number",
+        "text": "6",
+        "bbox": [
+            493,
+            922,
+            504,
+            935
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "(19)To undertake such other activities as are conducive and incidental to the attainment of the above objects and as approved by the General Body for the benefit of the members and Society.",
+        "bbox": [
+            112,
+            35,
+            885,
+            107
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "6. SERVICES OF THE SOCIETY",
+        "text_level": 2,
+        "bbox": [
+            111,
+            138,
+            418,
+            157
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "The services or business facilities in which the Society can engage itself, keeping in view the above objectives, are as follows:",
+        "bbox": [
+            111,
+            166,
+            885,
+            210
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "(1) Any activity related to backward & forward linkages of agricultural produce and its products to support its members;",
+        "bbox": [
+            119,
+            218,
+            883,
+            263
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "(2) Loan facilities as per agriculture production and its processing activities, household consumption-based requirement of members subject to necessary regulatory approval from the concerned authority;",
+        "bbox": [
+            119,
+            270,
+            885,
+            343
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "(3) Any asset creation or arrangements or setting up of subsidiaries which may be beneficial to the Society and its members for production, collection, processing and marketing of the product;",
+        "bbox": [
+            120,
+            348,
+            885,
+            420
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "(4) To engage in services or business operations like supply of consumer durables, etc;",
+        "bbox": [
+            119,
+            426,
+            885,
+            446
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "(5) To research, promote, demonstrate innovative technology and extension work (including soil and agri-products testing) and its allied activities;",
+        "bbox": [
+            120,
+            453,
+            885,
+            500
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "(6) Awareness creation, capacity building programmes, skill development, fairs and exhibitions or any extension related works;",
+        "bbox": [
+            120,
+            506,
+            885,
+            551
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "(7) Collaboration with Government Departments / Universities / Startups / Industries in public and private sector and its associations/ multilateral agencies with necessary approval from the concerned Government, which is beneficial to the Society and its members;",
+        "bbox": [
+            120,
+            558,
+            885,
+            655
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "(8) To provide services in online mode to the extent possible. To maintain its own website;",
+        "bbox": [
+            120,
+            662,
+            883,
+            707
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "(9) Other business or financial support necessary and required to fulfill the objectives.",
+        "bbox": [
+            119,
+            714,
+            866,
+            734
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "page_number",
+        "text": "7",
+        "bbox": [
+            493,
+            921,
+            504,
+            934
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "CHAPTER III MEMBERSHIP",
+        "text_level": 1,
+        "bbox": [
+            459,
+            34,
+            598,
+            79
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "7. MEMBERSHIP:",
+        "text_level": 2,
+        "bbox": [
+            112,
+            87,
+            281,
+            104
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "(1) TYPES OF MEMBERSHIP: The Society shall have two types of membership or types of membership as provided by the State Act/ Rules.",
+        "bbox": [
+            111,
+            113,
+            883,
+            159
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "“A”-CLASS MEMBERS: ‘A’ class members are the shareholders of the Society who can exercise all the membership rights as provided in the Byelaws.",
+        "bbox": [
+            111,
+            165,
+            885,
+            212
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "“B”-CLASS MEMBERS: ‘B’ class members are nominal members of the Society.",
+        "bbox": [
+            169,
+            218,
+            883,
+            237
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "(2) ELIGIBILITY FOR ‘A’ CLASS MEMBERSHIP:",
+        "text_level": 2,
+        "bbox": [
+            112,
+            270,
+            586,
+            289
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "The following persons, subject to fulfillment of the eligibility condition, shall be A-Class Members:",
+        "bbox": [
+            111,
+            296,
+            885,
+            340
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "a) The promoters at the time of registration of Society;",
+        "bbox": [
+            140,
+            348,
+            624,
+            367
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "b) An Individual who,",
+        "bbox": [
+            142,
+            375,
+            338,
+            393
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "i) is competent to contract under the provision of Section 11 of the Indian Contract Act 1872 (above 18 years of age, having a sound mind and not debarred by any Law) and",
+        "bbox": [
+            169,
+            401,
+            883,
+            472
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "ii) possesses agricultural land or land for allied agricultural activities or rearing domestic cattle in the area of operation of the Society;",
+        "bbox": [
+            169,
+            479,
+            883,
+            525
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "iii) is not a member of any other PACS in any other Panchayat/ Village;",
+        "bbox": [
+            169,
+            531,
+            805,
+            551
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "(If there is no PACS in the Panchayat/ Village, the members can avail benefits of the nearby PACS after approval of the Registrar)",
+        "bbox": [
+            197,
+            555,
+            885,
+            603
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "c) State Government or any other Government Body;",
+        "bbox": [
+            142,
+            609,
+            617,
+            628
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "(3) ELIGIBILITY AND OTHER CONDITIONS FOR ‘B’-CLASS MEMBERSHIP:",
+        "text_level": 2,
+        "bbox": [
+            122,
+            661,
+            818,
+            680
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "a) A person who desires to have a business relationship with Society shall be admitted as nominal member by payment of admission fee of Rs.10/- which is nonrefundable and shall be credited to Reserve Fund of the Society.",
+        "bbox": [
+            140,
+            689,
+            885,
+            761
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "b) Self Help Groups/ Joint Liability Groups/ Farmers Interest Groups, Tenant farmers, share croppers, oral lessees or users of land, agricultural labourers, micro entrepreneurs, rural artisans and persons involved in other allied activities shall be admitted as nominal members of the Society.",
+        "bbox": [
+            140,
+            792,
+            885,
+            891
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "page_number",
+        "text": "8",
+        "bbox": [
+            491,
+            922,
+            504,
+            935
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "c) Any organization registered under any Act in India (or abroad) shall be admitted as nominal member for business purpose only.",
+        "bbox": [
+            142,
+            35,
+            883,
+            80
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "d) Nominal Members shall have no right to attend any meeting, or to vote in the affairs of the Society and will not be entitled for dividend from the Society.",
+        "bbox": [
+            142,
+            87,
+            885,
+            132
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "e) Nominal members cannot contest in election for the member of the Board of Directors in the Society.",
+        "bbox": [
+            142,
+            140,
+            885,
+            184
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "f) A Nominal member who is indebted to the Society either in his personal capacity or as surety or guarantor shall continue to be such member so long as the liability to the Society has not been fully discharged.",
+        "bbox": [
+            140,
+            191,
+            885,
+            263
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "g) No share certificate shall be issued to nominal members but separate Register shall be maintained in the Society, which shall contain his signature and full address as proof of his membership.",
+        "bbox": [
+            140,
+            270,
+            885,
+            342
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "(4) INELIGIBILITY OR DISQUALIFICATION OF MEMBERS:",
+        "text_level": 2,
+        "bbox": [
+            112,
+            375,
+            665,
+            393
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "A person shall not be eligible for admission or continuing as member of the Society, and shall cease to be member, if he:",
+        "bbox": [
+            111,
+            401,
+            883,
+            445
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "a) has been sentenced for an offence involving moral turpitude, such sentence not having been reversed;",
+        "bbox": [
+            133,
+            454,
+            883,
+            498
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "b) has been convicted for any other offence by a Court of Law and sentenced to imprisonment for three months or more unless a period of 5 years has elapsed since his release;",
+        "bbox": [
+            133,
+            506,
+            885,
+            575
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "c) is adjudicated as bankrupt or insolvent;",
+        "bbox": [
+            133,
+            584,
+            517,
+            603
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "d) has been expelled by the Society or by any other Cooperative Society within a period of 2 years from the date of such expulsion;",
+        "bbox": [
+            133,
+            609,
+            883,
+            656
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "e) has defaulted in payment of any dues including contributions, subscriptions, if any, as decided by the Board of Directors of the Society from time to time and has not made the payment within 30 days after receiving the notice of payment;",
+        "bbox": [
+            133,
+            662,
+            885,
+            734
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "f) is of unsound mind;",
+        "bbox": [
+            133,
+            741,
+            349,
+            758
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "g) is in the business of providing loans;",
+        "bbox": [
+            133,
+            767,
+            495,
+            785
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "h) is a member of another cooperative Society which is providing similar services;",
+        "bbox": [
+            133,
+            794,
+            861,
+            811
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "i) is a defaulter of any bank/ financial institution/ Society;",
+        "bbox": [
+            133,
+            819,
+            650,
+            838
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "j) does not use any services or products of the Society and remains absent in General Body for three consecutive years;",
+        "bbox": [
+            132,
+            845,
+            883,
+            890
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "k) possesses any other disqualification as per the provisions of the Act/ Rules.",
+        "bbox": [
+            133,
+            897,
+            833,
+            916
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "page_number",
+        "text": "9",
+        "bbox": [
+            493,
+            922,
+            504,
+            935
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "(5) PROCEDURE FOR MEMBERSHIP:",
+        "text_level": 2,
+        "bbox": [
+            112,
+            87,
+            467,
+            106
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "a) Any person who is desirous of becoming a member of the Society and is eligible as per the Byelaws, may obtain an application form at a prescribed fee and may submit the duly filled application form to the Chief Executive Officer (CEO) of the Society.",
+        "bbox": [
+            133,
+            113,
+            885,
+            210
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "b) KYC is mandatory for adding new members in the Society. Registration can also be done online.",
+        "bbox": [
+            133,
+            218,
+            883,
+            262
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "c) The CEO shall place the application form before the Board of Directors for final decision who shall decide within a maximum period of 6 months from the date of receipt of application.",
+        "bbox": [
+            133,
+            270,
+            885,
+            342
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "d) The CEO shall inform the applicant of the decision of the Board of Directors within 15 days of the Board meeting and if admitted, ask him to deposit the admission fee and share money along with necessary documents as specified by the Board of Directors, like identity/ residence/ land holding proof, resolution of informal group/ other cooperative Society etc. on submission of which the applicant shall be admitted as member of the Society.",
+        "bbox": [
+            133,
+            348,
+            885,
+            498
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "e) Appeal against denial of membership can be filed before the Registrar and the decision of the Registrar will be final.",
+        "bbox": [
+            133,
+            506,
+            883,
+            550
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "f) Every individual shall subscribe at least five shares (Rs. 100/- each share) amounting to Rs. 500/- of the Society to become an A-Class Member. The member shall also have to pay an admission fee of Rs. 10/- at the time of admission, which shall be non-refundable.",
+        "bbox": [
+            133,
+            558,
+            885,
+            655
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "g) The admitted members should be educated about cooperative values, principles, their rights and philosophy and the services/facilities and benefits available in the Society.",
+        "bbox": [
+            133,
+            662,
+            885,
+            734
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "(6) SHARES SUBSCRIPTION BY THE MEMBERS:",
+        "text_level": 2,
+        "bbox": [
+            112,
+            766,
+            580,
+            785
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "a) Maximum shareholding by a member except Government shall be limited to 1/5<sup>th</sup> of the total subscribed share capital of the Society.",
+        "bbox": [
+            133,
+            794,
+            885,
+            838
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "b) Every Individual to whom shares are allotted shall be entitled to receive share certificate specifying therein number of shares allotted to him and amount paid by him.",
+        "bbox": [
+            133,
+            845,
+            885,
+            915
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "page_number",
+        "text": "10",
+        "bbox": [
+            488,
+            921,
+            511,
+            935
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "c) Every share certificate shall be signed by the President and Chief Executive Officer or any other officer authorized by the Board of Directors of the Society.",
+        "bbox": [
+            133,
+            35,
+            885,
+            80
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "d) The Society shall maintain a Register of shares, showing record of shares issued/transferred to its members from time to time and amount of share capital available of each member with the Society.",
+        "bbox": [
+            133,
+            87,
+            885,
+            159
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "e) The Society shall have the absolute right to set off the share amount and the dividend earned on it towards the respective loans or any other dues recoverable from the member. This doctrine shall also apply to past members and the deceased members.",
+        "bbox": [
+            133,
+            166,
+            885,
+            262
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "f) The Society shall have the absolute right to utilize the dividend earned for strengthening the capital base of the Society.",
+        "bbox": [
+            133,
+            270,
+            885,
+            315
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "g) The rate of dividend, to be declared by the Society, shall be decided in the General Body Meeting.",
+        "bbox": [
+            133,
+            321,
+            885,
+            368
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "(7) RIGHTS OF MEMBER:",
+        "text_level": 2,
+        "bbox": [
+            112,
+            400,
+            354,
+            420
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "1. ‘A’ Class Member: Every ‘A’ class member shall have the following rights:",
+        "bbox": [
+            133,
+            439,
+            810,
+            459
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "a) to attend, participate and vote in General Body Meeting of the Society;",
+        "bbox": [
+            147,
+            478,
+            795,
+            497
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "b) to receive a copy of the annual report and accounts;",
+        "bbox": [
+            148,
+            505,
+            638,
+            523
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "c) to elect Directors and to contest as a Director in the Board, if eligible, provided that he has been a member of the Society for a minimum period of one year;",
+        "bbox": [
+            148,
+            531,
+            885,
+            575
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "d) to avail all services/facilities or infrastructural support rendered by the Society;",
+        "bbox": [
+            148,
+            583,
+            862,
+            602
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "e) to receive dividend as share in profit earned by the Society on his subscribed share capital provided that the dividend out of Dairy and Fishery activities of the Society shall be redistributed only to the cattle holder and fishery holder members respectively and all other dividend of the Society shall be distributed to the farmer members;",
+        "bbox": [
+            148,
+            609,
+            885,
+            732
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "f) to take loan or avail facilities of the Society, on such conditions as may be laid by the Board of Directors or General Body from time to time;",
+        "bbox": [
+            148,
+            739,
+            885,
+            785
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "g) to inspect own accounts in the Society free of cost and to obtain a copy of the same by payment of a fee of Rs 2/- per page;",
+        "bbox": [
+            148,
+            792,
+            883,
+            838
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "h) to inspect annual reports, audited statements of accounts, Audit report, Inspection report and compliance report;",
+        "bbox": [
+            148,
+            844,
+            885,
+            890
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "page_number",
+        "text": "11",
+        "bbox": [
+            488,
+            921,
+            509,
+            935
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "i) to receive a copy of proceeding recorded in the minute book pertaining to General Body meetings and Board of Director meetings;",
+        "bbox": [
+            148,
+            35,
+            883,
+            80
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "j) to get the copy of Act, Rules and up-to-date Byelaws of the Society;",
+        "bbox": [
+            148,
+            87,
+            772,
+            107
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "k) to inspect copies of any inquiry or special audit report; and",
+        "bbox": [
+            148,
+            113,
+            694,
+            132
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "l) to avail voting right in the Society, subject to transacting the minimum services as decided by the General Body of the Society in accordance with the Act, Rule and Byelaws.",
+        "bbox": [
+            148,
+            140,
+            885,
+            210
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "2. “B” CLASS Members- Nominal Members: Every nominal member shall have the following rights:",
+        "bbox": [
+            142,
+            243,
+            883,
+            289
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "a) To receive non-farm sector loan and other non-credit facilities rendered by Society on the terms and conditions decided by the Society;",
+        "bbox": [
+            148,
+            296,
+            883,
+            342
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "b) To receive an incentive up to 10% of the total dividend arising out of the Non-farm loans extended to the Nominal Members;",
+        "bbox": [
+            148,
+            348,
+            885,
+            393
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "c) To provide facilities owned by them which may be beneficial for Society and its members on mutually decided terms and conditions within or outside the area of the operation of the Society.",
+        "bbox": [
+            148,
+            400,
+            885,
+            473
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "(8) DUTIES OF MEMBER:",
+        "text_level": 2,
+        "bbox": [
+            112,
+            505,
+            357,
+            523
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "a) Every applicant before being admitted to the membership of the Society shall sign a declaration that he has read and understood the provisions of the Byelaws and shall be bound by the Byelaws of the Society, Acts and Rules.",
+        "bbox": [
+            148,
+            531,
+            885,
+            603
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "b) A member who is already a member by reason of having joined the application for Registration is required to sign such declaration within one month of the Registration of the Society.",
+        "bbox": [
+            148,
+            609,
+            885,
+            681
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "c) No member shall exercise any right of membership until he has signed the declaration as referred to above and has paid the admission fee and the full value of shares subscribed by him.",
+        "bbox": [
+            148,
+            688,
+            885,
+            761
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "(9) LIABILITIY OF MEMEBRS:",
+        "text_level": 2,
+        "bbox": [
+            112,
+            792,
+            398,
+            811
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "The ‘A’ class members of the Society shall, in the event of liquidation/dissolution, be jointly and severally liable to contribute towards deficit in the assets, limited to the extent of share capital subscribed or paid by him.",
+        "bbox": [
+            111,
+            819,
+            885,
+            891
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "page_number",
+        "text": "12",
+        "bbox": [
+            488,
+            921,
+            509,
+            935
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "(10) WITHDRAWAL OF MEMBERSHIP AND SHARE CAPITAL:",
+        "text_level": 2,
+        "bbox": [
+            112,
+            35,
+            687,
+            53
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Membership can be withdrawn only after adoption of resolution in a meeting of Board of Directors. All such resolutions will be placed before the General Body for information. If the member has paid all the dues to the Society and cleared liability as sureties, if any, in full, he can withdraw his membership, provided that a member is required to give three month notice to the Board of Directors and give a written request, explaining his reasons for withdrawal. Withdrawal/Cessation of membership does not absolve the member from any financial or other liabilities he has as a member.",
+        "bbox": [
+            111,
+            61,
+            887,
+            239
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "(11) EXPULSION OF MEMBER:",
+        "text_level": 2,
+        "bbox": [
+            112,
+            270,
+            405,
+            289
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "A Member of the Society may be expelled by a resolution in the General Body with a minimum quorum of 50% and passed by 2/3<sup>rd</sup> majority present and voting if: -",
+        "bbox": [
+            111,
+            296,
+            883,
+            342
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "a) He has acted against the interest of the Society; or",
+        "bbox": [
+            147,
+            349,
+            627,
+            367
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "b) His continuance as a member is detrimental or prejudicial to the functioning of the Society;",
+        "bbox": [
+            147,
+            375,
+            883,
+            419
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Provided that, the member concerned shall not be expelled unless he has been given a reasonable opportunity of being heard in the matter. Appeal against the expulsion can be filed as per the State Cooperative Societies Act/ Rules.",
+        "bbox": [
+            111,
+            428,
+            885,
+            500
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "(12) NOMINATION BY MEMBER:",
+        "text_level": 2,
+        "bbox": [
+            112,
+            531,
+            418,
+            550
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "A member may nominate a person as nominee in whose favour the Society shall dispose of the share or interest of such member on his death. In case no nominee is designated, nominee will be as per extant succession law.",
+        "bbox": [
+            111,
+            558,
+            883,
+            630
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "page_number",
+        "text": "13",
+        "bbox": [
+            488,
+            921,
+            509,
+            935
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "CHAPTER IV CAPITAL AND FUNDS",
+        "text_level": 2,
+        "bbox": [
+            392,
+            34,
+            606,
+            79
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "8. FUNDS AND RESOURCES:",
+        "text_level": 2,
+        "bbox": [
+            133,
+            113,
+            429,
+            131
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "The Society shall ordinarily obtain funds from the following sources:",
+        "bbox": [
+            133,
+            138,
+            727,
+            159
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "1. Admission fee",
+        "bbox": [
+            142,
+            166,
+            303,
+            184
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "2. Share Capital",
+        "bbox": [
+            140,
+            191,
+            300,
+            210
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "3. Borrowings",
+        "bbox": [
+            142,
+            218,
+            279,
+            237
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "4. Deposit",
+        "bbox": [
+            142,
+            243,
+            248,
+            262
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "5. Reserve and Surplus",
+        "bbox": [
+            142,
+            270,
+            362,
+            290
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "6. Grants and subsidies",
+        "bbox": [
+            142,
+            296,
+            364,
+            314
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "7. Donations",
+        "bbox": [
+            142,
+            321,
+            269,
+            340
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "8. Income from business activities",
+        "bbox": [
+            140,
+            348,
+            450,
+            367
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "(i) ADMISSION FEE: The Society shall collect admission fee of Rs. 10 from both ‘A’ class and ‘B’ class members. The admission fee is non-refundable.",
+        "bbox": [
+            133,
+            400,
+            885,
+            446
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "(ii) SHARE CAPITAL:",
+        "text_level": 2,
+        "bbox": [
+            133,
+            479,
+            343,
+            498
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "a) The authorized share capital of the Society shall be fixed by the General Body from time to time.",
+        "bbox": [
+            140,
+            506,
+            883,
+            550
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "b) Each share shall be valued at Rs.100. The total value of shares shall be paid in lump sum on its allotment to the members.",
+        "bbox": [
+            140,
+            556,
+            883,
+            603
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "c) The dividend on share capital held by the members shall be distributed to them as decided in the General Body subject to maximum ceiling prescribed in the Act.",
+        "bbox": [
+            140,
+            609,
+            883,
+            656
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "d) A member may withdraw his share capital only on withdrawal of membership from the Society. On his death, the share capital amount shall be given to his nominee after settling dues to the Society, if any, provided that where the nominee applies for membership, such amount shall be transferred to the share capital account of the nominee in accordance with procedure laid down by the Board of Directors in this regard.",
+        "bbox": [
+            140,
+            661,
+            885,
+            813
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "e) The maximum dividend payable on share linked with loan in any year shall not exceed the rate of interest payable by scheduled banks in that year, and this dividend shall be added to the share.",
+        "bbox": [
+            140,
+            819,
+            885,
+            890
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "page_number",
+        "text": "14",
+        "bbox": [
+            488,
+            921,
+            511,
+            935
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "(iii) BORROWINGS AND MAXIMUM BORROWING POWER OF SOCIETY:",
+        "text_level": 2,
+        "bbox": [
+            133,
+            35,
+            807,
+            53
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "The Society should borrow funds from concerned DCCB only. It can borrow from any other financial institution with NOC (No Objection Certificate) of concerned DCCB to meet its financial requirements. The maximum outstanding borrowings shall not at any time exceed 25 times of the paid-up share capital and Reserves minus accumulated losses.",
+        "bbox": [
+            133,
+            60,
+            885,
+            185
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "(iv) DEPOSITS:",
+        "text_level": 2,
+        "bbox": [
+            133,
+            207,
+            282,
+            226
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "The Society shall accept deposit from its members only and interest rate of deposits shall not be more than 2% over the corresponding deposit interest rate of DCCB. The Society shall formulate separate Deposit Rules and schemes with approval of the Board of Directors.",
+        "bbox": [
+            133,
+            233,
+            885,
+            330
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "(v) LOANS AND ADVANCES",
+        "text_level": 2,
+        "bbox": [
+            133,
+            349,
+            405,
+            369
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "The applications for loans shall be placed before the Board of Directors for sanction. The Society shall frame separate loan policy for different types of loan, rate of interest to be charged, requisite security/collateral and other terms and conditions which shall be approved by the Board of Directors. Any rejection of loan would be communicated to individual member within a reasonable period of time. All matters of rejection shall also be placed before the General Body for information.",
+        "bbox": [
+            132,
+            376,
+            885,
+            527
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "(vi) RESERVE AND SURPLUS:",
+        "text_level": 2,
+        "bbox": [
+            133,
+            547,
+            423,
+            568
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "The Society shall appropriate 25 % of Net profit (or as per provisions of the Act) every year towards its Reserves and Surplus Fund. The Reserve Fund of the Society shall belong to it as a whole and no member shall have any claim to a share in it. However, the Society can utilize upto 25% of its reserves and surplus in the business with the approval of the General Body. Permission of Registrar will have to be taken to utilize any amount above 25% of the Reserves and Surplus.",
+        "bbox": [
+            132,
+            575,
+            887,
+            726
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "(vii) GRANTS AND SUBSIDIES",
+        "text_level": 2,
+        "bbox": [
+            133,
+            746,
+            424,
+            765
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "The Society can receive grants and subsidies from Government and other agencies.",
+        "bbox": [
+            133,
+            772,
+            870,
+            791
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "(viii) DONATION",
+        "text_level": 2,
+        "bbox": [
+            135,
+            814,
+            294,
+            832
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "The Society can receive donation from its members/ Government and other agency for specific purposes.",
+        "bbox": [
+            133,
+            840,
+            885,
+            886
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "page_number",
+        "text": "15",
+        "bbox": [
+            488,
+            921,
+            509,
+            935
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "CHAPTER V MANAGEMENT OF SOCIETY",
+        "text_level": 2,
+        "bbox": [
+            361,
+            34,
+            637,
+            79
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "9. GENERAL BODY",
+        "text_level": 2,
+        "bbox": [
+            111,
+            87,
+            308,
+            104
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "(1) The final authority in the Society shall vest in the General Body. The General Body of the Society shall consist of the following:",
+        "bbox": [
+            142,
+            138,
+            885,
+            185
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "a) All ‘A’ class members/shareholders of the Society;",
+        "bbox": [
+            191,
+            191,
+            673,
+            210
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "b) Nominees of State Government;",
+        "bbox": [
+            192,
+            218,
+            517,
+            237
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "(2) Without prejudice to the other provisions of the Byelaws, the General Body shall have the following powers and duties: -",
+        "bbox": [
+            142,
+            270,
+            885,
+            315
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "a) Election and removal of the Board of Directors in accordance with the procedures laid down in the Act, Rules and Byelaws and guidelines/directions issued by Registrar from time to time;",
+        "bbox": [
+            192,
+            323,
+            885,
+            395
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "b) Consideration of the annual report of the Society, prepared and presented by the Board;",
+        "bbox": [
+            192,
+            400,
+            883,
+            445
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "c) Consideration of latest audit report and compliance thereof and audited statement of accounts;",
+        "bbox": [
+            192,
+            453,
+            883,
+            498
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "d) Approval of Annual budget;",
+        "bbox": [
+            192,
+            506,
+            475,
+            525
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "e) Consideration of report of Inspection and Enquiry, made in accordance with provisions of Act and Byelaws, if any;",
+        "bbox": [
+            192,
+            531,
+            883,
+            578
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "f) Consideration of matter relating to loans and advances given to the Directors and their relatives and action to be taken for recovery thereof in case of default;",
+        "bbox": [
+            192,
+            584,
+            885,
+            655
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "g) Appropriation of net profits;",
+        "bbox": [
+            192,
+            662,
+            473,
+            681
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "h) Creation of specific reserve and other funds and reviewing the actual deployment of other funds;",
+        "bbox": [
+            192,
+            688,
+            883,
+            733
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "i) Amendment of Byelaws, if any;",
+        "bbox": [
+            192,
+            741,
+            508,
+            760
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "j) Expulsion of member, if any;",
+        "bbox": [
+            192,
+            766,
+            486,
+            786
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "k) Approval of long-term perspective plan and annual operational plan;",
+        "bbox": [
+            192,
+            792,
+            826,
+            813
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "l) Transaction of any other business with the permission of the President of the General Body Meeting.",
+        "bbox": [
+            192,
+            819,
+            885,
+            864
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "page_number",
+        "text": "16",
+        "bbox": [
+            488,
+            921,
+            511,
+            935
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "(3) The General Body shall meet from time to time for transaction of business and such meetings shall be called the General Body Meetings and shall be of three kinds.",
+        "bbox": [
+            142,
+            35,
+            885,
+            104
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "a) Annual General Body Meeting",
+        "text_level": 2,
+        "bbox": [
+            192,
+            113,
+            517,
+            132
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "i) The annual general body meeting shall be held within 6 months of closure of the financial year.",
+        "bbox": [
+            258,
+            140,
+            883,
+            184
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "b) Special General Body Meeting",
+        "text_level": 2,
+        "bbox": [
+            192,
+            191,
+            519,
+            210
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "i) A Special General Body meeting may be convened by the Board at any time during the year, if it feels appropriate for a special purpose.",
+        "bbox": [
+            258,
+            218,
+            885,
+            263
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "c) Requisitioned General Body Meeting",
+        "text_level": 2,
+        "bbox": [
+            192,
+            270,
+            581,
+            290
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "i) A Requisitioned General Body Meeting shall be convened by the Board within 30 days of a requisition signed by at least one-fourth of total A-Class members.",
+        "bbox": [
+            251,
+            296,
+            885,
+            367
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "ii) A requisition as mentioned above shall be addressed to the Chief Executive Officer and shall state the need for the meeting and the proposed agenda.",
+        "bbox": [
+            251,
+            375,
+            885,
+            446
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "iii) If on receipt of the requisition, the Board fails to call the General Body Meeting within a reasonable time, the signatories to the requisition may refer the matter to the Registrar who may, if he thinks fit, convene the General Body Meeting or authorise a person to call such Meeting.",
+        "bbox": [
+            251,
+            453,
+            885,
+            553
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "(4) The General Body shall meet at least once a year. The General Body Meeting may be called by the Board or by Chief Executive Officer of the Society under the direction of the Board.",
+        "bbox": [
+            142,
+            583,
+            885,
+            655
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "(5) At least 15 clear days’ notice, specifying the date, place, time and agenda of General Body Meeting, shall be given to all members. The notice of a General Body Meeting may be given in one or more of the following modes:",
+        "bbox": [
+            142,
+            688,
+            885,
+            761
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "a) affixing a copy of the notice at the Society's office or at some conspicuous place in the area of operation of the Society;",
+        "bbox": [
+            191,
+            767,
+            883,
+            813
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "b) circulation of the notice book and getting signatures of members on it;",
+        "bbox": [
+            191,
+            819,
+            841,
+            838
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "c) post;",
+        "bbox": [
+            192,
+            845,
+            281,
+            864
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "d) digital mode like email, whatsapp, etc.",
+        "bbox": [
+            192,
+            871,
+            566,
+            891
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "e) beat of drum in the area of operation",
+        "bbox": [
+            192,
+            897,
+            555,
+            916
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "page_number",
+        "text": "17",
+        "bbox": [
+            488,
+            921,
+            509,
+            934
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "(6) The quorum for the General Body Meeting shall be one-fourth of the total number of the members or 500 members, whichever is less, or as provided in the Act and Rules. If at the time fixed for General Body Meeting convened otherwise than on requisition, the quorum is not complete, even after waiting for one hour beyond scheduled time, the meeting shall be adjourned for further date and fresh notice for that date shall be given to members. The business at the subsequent General Body Meeting may be transacted with a quorum of one-tenth of the total number of members or 100 members, whichever is less.",
+        "bbox": [
+            142,
+            61,
+            887,
+            263
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "(7) If the meeting has been called on the requisition of the members and the quorum is not complete, the meeting shall be adjourned and no further General Body Meeting shall be convened on the strength of that requisition.",
+        "bbox": [
+            142,
+            270,
+            885,
+            342
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "(8) The President or in his absence the Vice President shall preside over meetings of the General Body. When both of them are absent, the members present shall elect a Chairman for the meeting.",
+        "bbox": [
+            142,
+            348,
+            885,
+            420
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "(9) Every member of the General Body shall have one vote. Voting by proxies shall not be allowed at the General Body. All questions shall be decided by the majority of votes of the members present and voting. When the votes are equal, the Chairman of the General Body shall have additional casting vote.",
+        "bbox": [
+            142,
+            426,
+            885,
+            525
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "(10)All business discussed or decided at a General Body Meeting shall be recorded in the minute book and shall be signed by the President of the meeting and CEO of the Society.",
+        "bbox": [
+            142,
+            531,
+            885,
+            603
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "10. BOARD OF DIRECTOR",
+        "text_level": 2,
+        "bbox": [
+            112,
+            636,
+            367,
+            654
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "(1) There shall be a Board of Directors of the Society to manage its affairs and it shall be constituted by election from amongst members of the Society or as laid down in the Cooperative Society Act and Rules of the State. There shall be minimum 11 and maximum 21 members in the Board of Directors.",
+        "bbox": [
+            142,
+            662,
+            885,
+            761
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "(2) No person shall be eligible for election as a member of the Board of Directors of the Society if he:",
+        "bbox": [
+            142,
+            792,
+            883,
+            837
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "(a) is below 21 years of age; or",
+        "bbox": [
+            186,
+            845,
+            472,
+            864
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "(b) is a paid employee of the Society or the Financing Bank/Institution or the Government or any local body; or",
+        "bbox": [
+            186,
+            871,
+            859,
+            916
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "page_number",
+        "text": "18",
+        "bbox": [
+            488,
+            922,
+            509,
+            935
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "(c) is convicted of any offence involving dishonesty or moral turpitude; or",
+        "bbox": [
+            184,
+            34,
+            833,
+            56
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "(d) has applied for insolvency or is declared insolvent; or",
+        "bbox": [
+            184,
+            59,
+            696,
+            82
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "(e) is of unsound mind; or",
+        "bbox": [
+            184,
+            85,
+            429,
+            108
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "(f) is in default of the payment of any dues to the Society; or",
+        "bbox": [
+            184,
+            112,
+            728,
+            133
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "(g) holds an office of profit under the Society; or",
+        "bbox": [
+            184,
+            138,
+            619,
+            160
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "(h) is in arrears of shares; or",
+        "bbox": [
+            184,
+            165,
+            452,
+            185
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "(i) is indebted to Society beyond his maximum credit limit; or",
+        "bbox": [
+            184,
+            190,
+            733,
+            212
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "(j) has not been a voting member of the Society for at least 1 year immediately preceding the date of election; or",
+        "bbox": [
+            184,
+            217,
+            885,
+            265
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "(k) has not attended General Body meeting of the Society held immediately preceding the election; or",
+        "bbox": [
+            184,
+            268,
+            885,
+            318
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "(l) has at any time lost the right to vote as a member or to continue as member as specified in the Byelaws; or",
+        "bbox": [
+            184,
+            321,
+            887,
+            369
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "(m) has incurred any other disqualification for being or continuing as a Director as specified in the Act, Rules and Byelaws.",
+        "bbox": [
+            184,
+            373,
+            885,
+            421
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "(3) Proper representation in the Board should be given to Scheduled Castes/ Scheduled Tribes/ women and small and marginal farmer members of the Society as per provision of the Act. Reservation will be provided for 2 women and 1 Scheduled Castes or Scheduled Tribes member in the Board.",
+        "bbox": [
+            140,
+            452,
+            885,
+            553
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "(4) The term of office of the Board of Directors shall be 5 years from the date of election.",
+        "bbox": [
+            140,
+            556,
+            885,
+            603
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "(5) The Board shall take necessary steps as per the provisions of the Act and Rules to conduct election before expiry of the 5 year term.",
+        "bbox": [
+            140,
+            608,
+            885,
+            656
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "(6) At least seven clear days’ notice is required for convening the Board of Directors meetings.",
+        "bbox": [
+            140,
+            661,
+            885,
+            709
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "(7) The Society may conduct elections to the Board of Directors in accordance with the provisions of the Act and Rules.",
+        "bbox": [
+            140,
+            713,
+            885,
+            761
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "(8) The Board shall meet at least once in three months for monitoring the transaction of business of the Society.",
+        "bbox": [
+            140,
+            765,
+            885,
+            814
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "(9) A Board meeting shall also be convened on the requisition of a majority of Board members within 7 days of the receipt of such a requisition. The requisition shall be addressed to the Chief Executive Officer and shall state the need for the meeting and the proposed agenda.",
+        "bbox": [
+            140,
+            818,
+            887,
+            917
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "page_number",
+        "text": "19",
+        "bbox": [
+            488,
+            921,
+            511,
+            935
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "(10)The Board of Directors may decide to induct/ co-opt maximum up to 2 Professional Directors having experience and expertise in the field of Agriculture and allied activities, Food Technology, Banking, Cooperation, Management, Legal, Information Technology, etc in the Board for proper guidance and advice. The Professional Directors shall be members of the Board and such members shall be excluded for the purpose of counting the total number of Directors specified in the Act. The Professional Directors shall have no voting right.",
+        "bbox": [
+            140,
+            35,
+            885,
+            212
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "(11)In addition to disqualification as per the provisions of the Acts and Rules, a member of the Board shall be disqualified or cease to hold office if he;",
+        "bbox": [
+            142,
+            218,
+            885,
+            263
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "a) ceases to be a share-holder of the Society; or",
+        "bbox": [
+            169,
+            286,
+            606,
+            304
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "b) has applied for insolvency or is declared insolvent; or",
+        "bbox": [
+            169,
+            310,
+            671,
+            330
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "c) is convicted of any offence for dishonesty or moral turpitude; or",
+        "bbox": [
+            169,
+            338,
+            756,
+            357
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "d) holds any office or place of profit under the Society or receives any honorarium; or",
+        "bbox": [
+            169,
+            363,
+            883,
+            407
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "e) resigns and his resignation is accepted by the Board; or",
+        "bbox": [
+            169,
+            416,
+            692,
+            435
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "f) absents himself from three consecutive meetings of the Board of Directors without permission of the Board; or",
+        "bbox": [
+            169,
+            441,
+            883,
+            487
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "g) defaults in the payment of any dues to the Society; or",
+        "bbox": [
+            169,
+            494,
+            673,
+            513
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "h) becomes a paid employee of the Society or Financing Bank or Government or any local body; or",
+        "bbox": [
+            169,
+            520,
+            885,
+            565
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "i) fails to pay any arrear of shares; or",
+        "bbox": [
+            169,
+            573,
+            513,
+            592
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "j) incurs debt from the Society in excess or beyond his maximum credit limit; or",
+        "bbox": [
+            169,
+            598,
+            875,
+            618
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "k) is presently engaged directly or indirectly in any private business, trade or profession of any description which is similar to the business carried on by the Society; or",
+        "bbox": [
+            169,
+            626,
+            885,
+            696
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "l) has been penalized for offences under the Act & Rules; or",
+        "bbox": [
+            169,
+            703,
+            714,
+            723
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "m) has lost the right to vote as member under the Act/ Rules/ Byelaws; or",
+        "bbox": [
+            169,
+            729,
+            816,
+            750
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "n) has at any time been expelled from Society or any other Society within two years.",
+        "bbox": [
+            169,
+            756,
+            883,
+            801
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "(12) If a Director of the Board absents himself from three consecutive meetings of the Board without the permission of the Board, he shall cease to be member of such Board. This fact shall be intimated to the member concerned and it shall be reported by the Chief Executive Officer in the next meeting of the Board, with the reply received from the member. It shall be open to the Board to reinstate such member, provided that a request in writing is received from such a member and provided also that he shall not be reinstated more than once during the term of the Director. If the President or Vice President so loses his seat in the Board and if he is not reinstated by the Board at its next meeting, he shall cease to be the President or the Vice President, as the case may be, and also cease to be a Director and the Board shall proceed to fill up the vacancy caused there by.",
+        "bbox": [
+            140,
+            834,
+            885,
+            906
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "page_number",
+        "text": "20",
+        "bbox": [
+            486,
+            921,
+            511,
+            935
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            184,
+            35,
+            885,
+            238
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "(13) A Director of the Board shall also cease to hold office or become ineligible to contest for election or cooption as a Director of the Board if, on an enquiry and Certification by the Registrar as per the Act, he is found: -",
+        "bbox": [
+            142,
+            244,
+            885,
+            315
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "a) guilty of misuse of his position or property of the Society for his personal gain;",
+        "bbox": [
+            199,
+            323,
+            883,
+            367
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "b) responsible for making any appointment to any post in the Society in contravention of the relevant service Rules and regulations;",
+        "bbox": [
+            199,
+            375,
+            885,
+            420
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "c) responsible for willfully or knowingly sanctioning benami/bogus loans.",
+        "bbox": [
+            199,
+            428,
+            838,
+            446
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "(14) The members of the Board shall elect from amongst themselves the President and Vice President.",
+        "bbox": [
+            142,
+            453,
+            883,
+            498
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "(15) The quorum of the Board meeting shall be maintained by attendance of minimum one-third of total number of members of the Board or 5 members whichever is more. President or the Vice President or in his absence a member elected by those present in meeting shall preside over the Board Meeting. Unless otherwise provided by these Byelaws, all matters shall be decided by a majority of votes in the Board meeting. Each member shall have one vote. In case of equality of votes, the President shall have additional casting vote.",
+        "bbox": [
+            140,
+            515,
+            885,
+            691
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "(16) The Board shall exercise all the powers and discharge all the duties of the Society subject to superintendence and control of General Body, except those specifically reserved for General Body subject to any regulations or restrictions duly laid down by the Society in General Body Meeting or in the Byelaws. In particular, the Board of Directors shall have the following powers and duties:",
+        "bbox": [
+            140,
+            723,
+            885,
+            848
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "i) to act, in all their transactions as per the relevant provisions under the Act/ Rules/ Byelaws;",
+        "bbox": [
+            212,
+            854,
+            883,
+            898
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "page_number",
+        "text": "21",
+        "bbox": [
+            486,
+            921,
+            509,
+            935
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "ii) to maintain true and accurate accounts in respect of all money received and expenditure made and all stock bought and sold by the Society;",
+        "bbox": [
+            214,
+            35,
+            885,
+            107
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "iii) to prepare a true account of the assets and liabilities of the Society;",
+        "bbox": [
+            215,
+            113,
+            866,
+            133
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "iv) to prepare an annual report on working of the Society, an annual statement of accounts including Balance Sheet, profit and loss account and trading account for submission to the Annual General Body Meeting;",
+        "bbox": [
+            214,
+            140,
+            885,
+            238
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "v) to prepare statement of accounts required for Audit and to place those along with relevant vouchers and other related papers before the Auditor;",
+        "bbox": [
+            214,
+            244,
+            885,
+            315
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "vi) to examine the accounts, sanction contingent expenditure and ensure maintenance of the prescribed registers;",
+        "bbox": [
+            215,
+            321,
+            883,
+            368
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "vii) to consider the Inspection Report of the Registrar and the Financing Bank and take necessary action and ensure submission of compliance report to the relevant Authority;",
+        "bbox": [
+            215,
+            375,
+            885,
+            446
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "viii) to admit new members and allot shares;",
+        "bbox": [
+            215,
+            453,
+            630,
+            473
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "ix) to give directions to the Chief Executive Officer to convene General Body Meetings in accordance with the Byelaws;",
+        "bbox": [
+            215,
+            479,
+            883,
+            525
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "x) to fix the maximum borrowing power of Society in consistence with these Byelaws/ Rules/ Act;",
+        "bbox": [
+            214,
+            531,
+            883,
+            577
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "xi) to fix the maximum credit limit for each member provided that such limit shall not be more than that laid down by the Registrar from time to time;",
+        "bbox": [
+            214,
+            583,
+            885,
+            655
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "xii) to contract loans subject to any restriction imposed by the General Body;",
+        "bbox": [
+            214,
+            661,
+            883,
+            708
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "xiii) to sanction and advance loans to members according to terms and conditions as laid down by the General Body from time to time and to arrange and ensure timely recovery of loans and interest from the members;",
+        "bbox": [
+            214,
+            714,
+            885,
+            813
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "xiv) to accept deposits on such terms and conditions as laid down by the General Body from time to time and to arrange for the repayments thereof;",
+        "bbox": [
+            214,
+            819,
+            885,
+            890
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "page_number",
+        "text": "22",
+        "bbox": [
+            486,
+            921,
+            509,
+            935
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "xv) to decide the terms of the purchase and sale of agricultural implements, seeds, manure, household requirements and other requirements connected with agricultural production and to arrange the sale, marketing and storage of agricultural produce of its members;",
+        "bbox": [
+            214,
+            35,
+            885,
+            133
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "xvi) to monitor that loans are applied for the purpose for which they are sanctioned;",
+        "bbox": [
+            214,
+            140,
+            883,
+            184
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "xvii) to assist in the inspections of the Books and Accounts and audit by any person authorised to do so;",
+        "bbox": [
+            214,
+            191,
+            885,
+            238
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "xviii) to create and appoint, from time to time, different categories of employees to assist the Society in performance of its duties and discharge of its functions. The qualification and condition of service of Officers and other employees shall be decided as per Human Resources Policy or Service Rules of the Society as approved by the Board of Directors;",
+        "bbox": [
+            214,
+            244,
+            885,
+            393
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "xix) to engage skilled manpower/consultants on hire basis.",
+        "bbox": [
+            214,
+            401,
+            753,
+            420
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "xx) to frame subsidiary rules for the conduct of the business of the Society consistent with the Byelaws like Loan Policy, Deposit Policy, Staff Service Rules, etc.",
+        "bbox": [
+            215,
+            426,
+            885,
+            498
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "xxi) to take disciplinary action against employees in accordance with the Service Rules framed and amended by the Registrar from time to time. An employee aggrieved by such action shall have the right to appeal within 20 days of the communication of such order to the Registrar or any other officer not below the rank of Assistant Registrar or their nominee, as may be authorized by him in this behalf by general or special order. The decision in appeal shall be final and binding on the Society and the employee.",
+        "bbox": [
+            214,
+            506,
+            885,
+            708
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "xxii) to ask the employees to furnish securities as may be prescribed from time to time by the Registrar and also to arrange verification and safe custody of the security deeds;",
+        "bbox": [
+            214,
+            714,
+            885,
+            786
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "xxiii) to authorize any member, or officer or employee of the Society or any other person specially authorized, to institute, conduct, defend, compromise, refer to arbitration or abandon legal proceeding by or against the Society or Board or officer or employees concerning the affairs of the Society.",
+        "bbox": [
+            214,
+            792,
+            885,
+            916
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "page_number",
+        "text": "23",
+        "bbox": [
+            486,
+            921,
+            509,
+            935
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "xxiv) to acquire on behalf of the Society, shares in other Cooperative societies;",
+        "bbox": [
+            214,
+            35,
+            883,
+            80
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "xxv) to arrange for the safe custody of books and record, cash, equipment, goods and stocks of the Society and to fix specific responsibilities of the employees in this behalf;",
+        "bbox": [
+            214,
+            87,
+            885,
+            159
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "xxvi) to decide the terms on which farm machinery, etc maintained for common use is to be provided to the members for custom hiring services;",
+        "bbox": [
+            214,
+            166,
+            885,
+            237
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "xxvii) to accept the resignation of the Board members and in case of acceptance to arrange to fill the resultant vacancy through election for the remaining period of its term in accordance with the procedure laid down in the Act, Rules and Byelaws;",
+        "bbox": [
+            214,
+            244,
+            885,
+            342
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "xxviii) to invest the surplus funds of the Society in accordance with the Act and Rules framed thereunder;",
+        "bbox": [
+            214,
+            348,
+            885,
+            393
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "xxix) to purchase, sell, hire or otherwise acquire or dispose of property on behalf of the Society;",
+        "bbox": [
+            214,
+            401,
+            883,
+            446
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "xxx) To nominate delegates to represent the Society in other forums and organizations.",
+        "bbox": [
+            214,
+            453,
+            885,
+            500
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "xxxi) to carry on the business of the Society as decided and entrusted by the General Body of Society.",
+        "bbox": [
+            214,
+            506,
+            885,
+            551
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "(17) The Board of Directors may constitute sub-committees such as Village Committee, Finance and Audit Committee, Recruitment/ Selection/ Appointment Committee, Youth/ Women Committee, Business/ Trade Promotion and Entrepreneurship/ Industrialization Committee, Sustainable/ Community Development Committee, etc, as per the business activities and requirement of the Society and also determine their powers and functions. The fee and allowances to be paid to the members of the committee shall be such as may be determined by the Board. All the decisions/ resolutions taken in the sub-committee are suggestive/recommendatory in nature and will only be acted upon after approval in the Board of Directors Meeting.",
+        "bbox": [
+            135,
+            584,
+            885,
+            840
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "(18) In the conduct of the affairs of the Society, the Board of Directors shall exercise prudence and due diligence and shall be responsible for any loss sustained through acts contrary to the Act/ Rules/Byelaws and the stated objectives of the Society.",
+        "bbox": [
+            133,
+            871,
+            885,
+            917
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "page_number",
+        "text": "24",
+        "bbox": [
+            488,
+            921,
+            509,
+            934
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            178,
+            35,
+            883,
+            80
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "(19) All business discussed or decided at a meeting of the Board of Directors shall be recorded in a minute book which shall be signed by the President of the meeting, members of the Board present and the CEO within the time frame given in the Act/ Rules/ Byelaws.",
+        "bbox": [
+            133,
+            113,
+            885,
+            210
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "(20) The services of the Board shall be honorary or gratuitous. The Directors shall be paid such sitting fee, DA or T.A at Rs. 100 or more per person per day, as may be decided upon by the Board and approved in the General Body of the Society.",
+        "bbox": [
+            133,
+            244,
+            885,
+            316
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "11. PRESIDENT AND HIS POWERS:",
+        "text_level": 2,
+        "bbox": [
+            112,
+            348,
+            452,
+            366
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "(1) The President shall be elected from amongst the members of Board of Directors.",
+        "bbox": [
+            125,
+            401,
+            869,
+            420
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "(2) The President shall exercise general control and supervision over the administration, business, and functions of the Society on behalf of the Board.",
+        "bbox": [
+            125,
+            435,
+            883,
+            482
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "(3) The President shall exercise the powers delegated to him by the Board and may, subject to approval of the Board or in an emergency, delegate any of his powers and duties to the Vice President or in his absence, to any Director for specified period and may withdraw any powers so delegated.",
+        "bbox": [
+            125,
+            497,
+            885,
+            595
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "(4) The President shall have power to call for any record of the Society or any report from CEO to satisfy himself that the affairs of the Society are being managed in accordance with the provisions of the Act/ Rules/ Byelaws.",
+        "bbox": [
+            125,
+            611,
+            885,
+            683
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "(5) The President shall not act in contravention of any order given or decision taken by the Board in its meeting.",
+        "bbox": [
+            125,
+            699,
+            883,
+            743
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "(6) The President shall preside over the meetings of the General Body and the Board of Directors. The President shall exercise his casting vote only when there is an equality of votes.",
+        "bbox": [
+            127,
+            758,
+            885,
+            830
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "12. CHIEF EXECUTIVE OFFICER – DUTIES AND RESPONSIBILITIES",
+        "text_level": 2,
+        "bbox": [
+            112,
+            872,
+            753,
+            890
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "page_number",
+        "text": "25",
+        "bbox": [
+            486,
+            921,
+            509,
+            935
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "(1) The Chief Executive Officer, by whatever name may be called, shall be appointed by the Board of Directors to look after day-to-day affairs and administration of the Society as per the Act/ Rules/ Byelaws. He should possess the necessary educational qualification, experience and training as decided in the Staff Service Rules of Society by the Board of Director.",
+        "bbox": [
+            127,
+            35,
+            887,
+            160
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "(2) The Chief Executive Officer shall discharge the following duties and responsibilities:",
+        "bbox": [
+            127,
+            165,
+            885,
+            210
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "a) To convene, as per direction of the Board, General Body and Board of Directors meeting in time;",
+        "bbox": [
+            140,
+            218,
+            885,
+            263
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "b) To remain present in all meetings of Board and General Body and produce all relevant papers, document required at such meetings and sign along with the President, the minutes of such meetings;",
+        "bbox": [
+            140,
+            270,
+            885,
+            342
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "c) To record the proceedings in the minute book and make all entries transacted in the meetings;",
+        "bbox": [
+            140,
+            348,
+            885,
+            395
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "d) To make payment and receive all money on behalf of the Society and issue receipt as per the direction of the Board;",
+        "bbox": [
+            140,
+            400,
+            885,
+            446
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "e) To maintain and keep all books of accounts and registers in accordance with rules;",
+        "bbox": [
+            140,
+            453,
+            883,
+            473
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "f) To operate Bank Account subject to such conditions as the Board may direct;",
+        "bbox": [
+            140,
+            478,
+            849,
+            500
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "g) To prepare statement of demand, collection balance regarding loans and advances;",
+        "bbox": [
+            140,
+            506,
+            885,
+            550
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "h) To prepare receipts, vouchers etc. for the financial transactions of the Society;",
+        "bbox": [
+            140,
+            556,
+            856,
+            578
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "i) To correspond on behalf of the Society and supply necessary information to members;",
+        "bbox": [
+            140,
+            583,
+            885,
+            628
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "j) To maintain control over the subordinate staff of the Society;",
+        "bbox": [
+            140,
+            636,
+            702,
+            656
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "k) To sign cheques and documents along with President in accordance with provisions of the Byelaws;",
+        "bbox": [
+            140,
+            661,
+            885,
+            708
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "l) To spend money for the Society in accordance with the sanction limit provided by the Board;",
+        "bbox": [
+            140,
+            713,
+            885,
+            760
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "m) To act as per the directions of the Board;",
+        "bbox": [
+            140,
+            766,
+            534,
+            786
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "n) To ensure that the cash balance in the Head Office and Branches are kept in the safe with double lock system;",
+        "bbox": [
+            140,
+            792,
+            885,
+            838
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "o) To keep records of movable goods for trading, implements, and products under his custody or other Officer’s custody as nominated by the Board of Directors;",
+        "bbox": [
+            140,
+            844,
+            885,
+            891
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "p) To enter into any agreement for the Society with the permission of the Board;",
+        "bbox": [
+            140,
+            897,
+            849,
+            917
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "page_number",
+        "text": "26",
+        "bbox": [
+            486,
+            921,
+            511,
+            935
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "q) To execute equitable mortgage with the loanees and release it after closing the loans;",
+        "bbox": [
+            140,
+            35,
+            883,
+            79
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "r) To perform/execute any job or assignment as per the direction of the Board;",
+        "bbox": [
+            140,
+            87,
+            836,
+            107
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "s) To run day-to-day operation.",
+        "bbox": [
+            140,
+            113,
+            426,
+            133
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "page_number",
+        "text": "27",
+        "bbox": [
+            486,
+            921,
+            509,
+            935
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "CHAPTER VI INTERNAL CONTROL",
+        "text_level": 2,
+        "bbox": [
+            392,
+            34,
+            602,
+            80
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "13. MAINTENANCE OF BOOKS AND ACCOUNTS AND REGISTERS",
+        "text_level": 2,
+        "bbox": [
+            111,
+            112,
+            751,
+            132
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "(1) The following registers and books shall be maintained by the Society:",
+        "bbox": [
+            125,
+            165,
+            772,
+            185
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "A) Books related to financial statements",
+        "bbox": [
+            147,
+            190,
+            504,
+            212
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "a) Cash book",
+        "bbox": [
+            161,
+            217,
+            299,
+            238
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "b) Bank book",
+        "bbox": [
+            161,
+            242,
+            299,
+            263
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "c) Day book",
+        "bbox": [
+            161,
+            268,
+            290,
+            291
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "d) General ledger",
+        "bbox": [
+            161,
+            294,
+            334,
+            318
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "e) Subsidiary ledger",
+        "bbox": [
+            161,
+            320,
+            357,
+            343
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "f) Share capital ledger",
+        "bbox": [
+            161,
+            347,
+            379,
+            369
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "g) Deposit ledger – Saving Bank, Fixed Deposits, Recurring Deposits, Reinvestment Deposits",
+        "bbox": [
+            161,
+            373,
+            885,
+            420
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "h) Borrowing ledger – Short Term, Medium Term",
+        "bbox": [
+            161,
+            425,
+            604,
+            446
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "i) Member loan ledger - Short Term, Medium Term (Agriculture and Non-farm)",
+        "bbox": [
+            161,
+            452,
+            861,
+            473
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "j) Sundry creditor ledger",
+        "bbox": [
+            161,
+            478,
+            398,
+            500
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "k) Furniture, fixture and office equipment register",
+        "bbox": [
+            161,
+            503,
+            604,
+            525
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "l) Land and building register",
+        "bbox": [
+            161,
+            530,
+            431,
+            553
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "m) Depreciation chart register",
+        "bbox": [
+            161,
+            556,
+            434,
+            578
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "n) Stock register",
+        "bbox": [
+            161,
+            582,
+            326,
+            604
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "o) Purchase register",
+        "bbox": [
+            161,
+            608,
+            357,
+            631
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "p) Sales register",
+        "bbox": [
+            161,
+            635,
+            325,
+            656
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "q) Safe deposit locker operation register",
+        "bbox": [
+            161,
+            660,
+            527,
+            683
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "r) Gold loan ledger",
+        "bbox": [
+            161,
+            686,
+            349,
+            709
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "s) Sundry Debtors ledger",
+        "bbox": [
+            161,
+            713,
+            401,
+            736
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "t) Suspense asset ledger",
+        "bbox": [
+            161,
+            739,
+            405,
+            761
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "u) Suspense liability ledger",
+        "bbox": [
+            161,
+            765,
+            415,
+            787
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "v) Dividend register",
+        "bbox": [
+            161,
+            791,
+            352,
+            814
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "B) Books not related to Financial Statement",
+        "bbox": [
+            145,
+            844,
+            535,
+            864
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "a) Copy of the Society Byelaws",
+        "bbox": [
+            161,
+            871,
+            452,
+            891
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "b) Act and Rules of the State with up-to-date amendments incorporated",
+        "bbox": [
+            161,
+            896,
+            797,
+            917
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "page_number",
+        "text": "28",
+        "bbox": [
+            486,
+            921,
+            511,
+            935
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "c) Copies of other laws and regulations of the business undertaken by Society",
+        "bbox": [
+            161,
+            34,
+            856,
+            55
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "d) Membership register",
+        "bbox": [
+            161,
+            60,
+            383,
+            82
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "e) Up to date register and list of all members with voting right for the current year prepared within 30 days of closure of financial year",
+        "bbox": [
+            161,
+            87,
+            885,
+            133
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "f) Register showing member wise patronage of various services provided by the Society",
+        "bbox": [
+            161,
+            138,
+            885,
+            185
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "g) Minute book",
+        "bbox": [
+            161,
+            190,
+            312,
+            212
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "h) Account opened and closed register",
+        "bbox": [
+            161,
+            217,
+            517,
+            238
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "i) Due debt register for maturity of term deposits",
+        "bbox": [
+            161,
+            242,
+            601,
+            263
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "j) Monthly interest payment register",
+        "bbox": [
+            161,
+            268,
+            495,
+            291
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "k) Insurance policy and renewal register",
+        "bbox": [
+            161,
+            295,
+            529,
+            316
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "l) Gold stock register",
+        "bbox": [
+            161,
+            320,
+            369,
+            343
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "m) Register for acknowledgement of debt",
+        "bbox": [
+            161,
+            347,
+            532,
+            368
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "n) Balancing register",
+        "bbox": [
+            161,
+            373,
+            361,
+            395
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "o) Inoperative deposit account register",
+        "bbox": [
+            161,
+            400,
+            513,
+            421
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "p) Borrowing due date register",
+        "bbox": [
+            161,
+            426,
+            446,
+            448
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "q) Investment and maturity register",
+        "bbox": [
+            163,
+            452,
+            483,
+            473
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "r) Pledged stock register",
+        "bbox": [
+            161,
+            478,
+            398,
+            500
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "s) Suits filed register",
+        "bbox": [
+            161,
+            503,
+            361,
+            525
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "t) DCB register",
+        "bbox": [
+            161,
+            530,
+            318,
+            553
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "u) Overdue/NPA register",
+        "bbox": [
+            161,
+            556,
+            395,
+            578
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "v) Copies of the audit report, inquiry report or inspection report and compliance thereon",
+        "bbox": [
+            161,
+            583,
+            883,
+            628
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "w) Members’ Land record register",
+        "bbox": [
+            161,
+            635,
+            470,
+            656
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "x) Staff attendance register",
+        "bbox": [
+            161,
+            661,
+            418,
+            681
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "y) Staff service rules",
+        "bbox": [
+            161,
+            688,
+            359,
+            708
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "(2) The books, records and registers of the Society shall be kept in the custody of the Chief Executive Officer or such other Officer as the Board may authorize in the absence of CEO.",
+        "bbox": [
+            119,
+            741,
+            885,
+            813
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "(3) In the absence of CEO, the Board shall specify the officer of the Society who shall: a) maintain books of accounts;",
+        "bbox": [
+            119,
+            844,
+            879,
+            891
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "b) keep custody of cash and stores;",
+        "bbox": [
+            155,
+            897,
+            475,
+            917
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "page_number",
+        "text": "29",
+        "bbox": [
+            486,
+            921,
+            511,
+            935
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "c) keep other books and registers; and",
+        "bbox": [
+            155,
+            35,
+            501,
+            54
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "d) prepare returns and financial statement. Provided that a person assigned with keeping of accounts shall not be in charge of cash.",
+        "bbox": [
+            155,
+            60,
+            883,
+            133
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "(4) The books and accounts and other records shall be open for perusal by any members of Board of Directors during business hours of Society.",
+        "bbox": [
+            119,
+            165,
+            883,
+            212
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "(5) Copies of the Act & Rules of the State, the Byelaws, minute book pertaining to general body meeting, report and compliance thereon of Audit, Inquiry or Inspection, voter list shall be made available to any member during business hours at a fee to be decided by the Board of Directors",
+        "bbox": [
+            119,
+            244,
+            885,
+            342
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "(6) The Society shall maintain such accounts and other matters related to accounts in such form and manner as may be directed by the authority competent to do so under the Cooperative Societies Act/ Rules.",
+        "bbox": [
+            119,
+            375,
+            885,
+            446
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "(7) The Society shall prepare and submit such returns and statements as the concerned authority may require from time to time.",
+        "bbox": [
+            119,
+            479,
+            885,
+            525
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "(8) The Society shall use the Common Accounting System as is being implemented through computerization of PACS project, designed by NABARD.",
+        "bbox": [
+            119,
+            558,
+            883,
+            604
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "14. AUDIT OF THE SOCIETY",
+        "text_level": 2,
+        "bbox": [
+            112,
+            636,
+            385,
+            654
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "(1) The Society shall be audited every year by the Auditor appointed for the purpose by the State Government/ Department.",
+        "bbox": [
+            119,
+            688,
+            883,
+            734
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "(2) The Society shall prepare the statement of account required for audit and place the same before the Auditor or Audit firm as the case may be, after signing the Balance sheet and Profit & Loss Account by President and the Chief Executive Officer of the Society within 30 days of the close of each year in order to facilitate complete audit. The Auditor shall complete the audit within 6 months of close of financial year and audit rectification report shall be submitted to the Registrar within 3 months from the date of audit report",
+        "bbox": [
+            119,
+            767,
+            885,
+            892
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "page_number",
+        "text": "30",
+        "bbox": [
+            486,
+            921,
+            511,
+            935
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            155,
+            35,
+            883,
+            80
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "(3) The Board of Directors or Registrar may appoint a Special Auditor/ Internal Auditor based on the turnover or volume of business of the Society. The Internal Auditor may be from amongst staff or may be outsourced for regular internal control and monitoring of funds and accounts management of the Society.",
+        "bbox": [
+            119,
+            113,
+            885,
+            212
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "(4) The Society shall pay such audit fee as may be assessed from time to time by the Authority competent to do so.",
+        "bbox": [
+            119,
+            244,
+            883,
+            290
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "CHAPTER VII CHANGE OF STRUCTURE OF SOCIETY",
+        "text_level": 2,
+        "bbox": [
+            310,
+            321,
+            686,
+            367
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "15. CHANGE OF LIABILITY, TRANSFER OF ASSETS AND LIABILITIES, DIVISION, AMALGAMATION:",
+        "text_level": 2,
+        "bbox": [
+            112,
+            400,
+            883,
+            445
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "(1) The Society may, by a resolution in its General Body,",
+        "bbox": [
+            119,
+            479,
+            617,
+            498
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "a) decide to amend its Byelaws to change the form or the extent of its liability;",
+        "bbox": [
+            132,
+            506,
+            820,
+            525
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "b) decide to transfer its assets and liabilities, in whole or in part, to any other cooperative Society which agrees to such transfer by a resolution of its General Body;",
+        "bbox": [
+            133,
+            532,
+            885,
+            603
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "c) divide itself into two or more cooperative societies.",
+        "bbox": [
+            133,
+            609,
+            607,
+            628
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "d) merge itself with other similar cooperative Society.",
+        "bbox": [
+            133,
+            636,
+            606,
+            655
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "(2) Any two or more Societies may, by a resolution of their respective general bodies, decide to amalgamate themselves and form a new Society.",
+        "bbox": [
+            119,
+            689,
+            883,
+            734
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "(3) Every resolution of the Society except for expulsion of a member from the Society shall be passed at its General Body Meeting by $\\boldsymbol { 2 } / 3 ^ { \\mathrm { r d } }$ of members present and voting and such resolution shall contain all particulars of the liability, transfer, division, and amalgamation as the case may be.",
+        "bbox": [
+            120,
+            767,
+            885,
+            866
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "page_number",
+        "text": "31",
+        "bbox": [
+            486,
+            921,
+            509,
+            935
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "(4) The Society shall give notice in writing together with a copy of the resolution to all its members and federations to which it is affiliated, and creditors who may give their consent. Notwithstanding any byelaw or contract to the contrary, any member, federation, or creditor not consenting to the resolution shall, during a period of one month from the date of service of the notice have the option of withdrawing their shares, deposits, loans or services, as the case may be.",
+        "bbox": [
+            119,
+            35,
+            885,
+            186
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "(5) Any member, federation, or creditor who or which does not exercise within the specified period the right under the Act shall be deemed to have consented to the resolution.",
+        "bbox": [
+            119,
+            218,
+            885,
+            289
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "(6) A resolution passed by the Society shall not take effect until,",
+        "bbox": [
+            119,
+            321,
+            679,
+            342
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "a) (i) The members, federations, and creditors have consented or are deemed to have consented to the resolution under the Act and Rules, or (ii) All claims of the members, federations, and creditors who have exercised the option referred to under the Act or Rules within the period specified therein have been met in full or otherwise satisfied; and",
+        "bbox": [
+            132,
+            348,
+            885,
+            473
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "b) (i) In the case of change of liability, amendment of the Byelaws of the Society concerned is registered or is deemed to have been registered; or (ii) In the case of division or amalgamation, certificate of registration of the Society or Societies is issued by the Registrar of Cooperative Societies.",
+        "bbox": [
+            133,
+            479,
+            885,
+            579
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "(7) When a resolution passed by the Society takes effect, the resolution shall be a sufficient conveyance to vest the assets and liabilities in the transferee.",
+        "bbox": [
+            120,
+            609,
+            885,
+            656
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "(8) The registration of the Society shall stand cancelled and the Society shall be deemed to have been dissolved and shall cease to exist:",
+        "bbox": [
+            120,
+            688,
+            883,
+            734
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "a) When the whole of the assets and liabilities of such Society are transferred to another Society; or",
+        "bbox": [
+            132,
+            741,
+            883,
+            786
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "b) When such Society divides itself into two or more Societies.",
+        "bbox": [
+            133,
+            792,
+            694,
+            813
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "(9) Where two or more Societies are amalgamated to form a new Society, the registration of the Societies so amalgamated shall stand cancelled and they shall be deemed to have been dissolved and shall cease to exist.",
+        "bbox": [
+            119,
+            845,
+            885,
+            916
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "page_number",
+        "text": "32",
+        "bbox": [
+            488,
+            921,
+            509,
+            935
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "16.PROMOTION OF SUBSIDIARY ORGANISATION:",
+        "text_level": 2,
+        "bbox": [
+            112,
+            60,
+            593,
+            79
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "(1) The Society may, by a resolution passed at General Body Meeting by a majority of members present and voting, promote subsidiary organisations such as FPO (Farmer Producer Organization) with 100% funding from Society for the furtherance of its stated objectives, and such organisations may be registered under any law for the time being in force, as approved by the General Body.",
+        "bbox": [
+            119,
+            113,
+            885,
+            238
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "(2) The Society, may invest, by way of 100% subscription in the aggregate paid-up share capital and reserves in the subsidiary organisation.",
+        "bbox": [
+            120,
+            244,
+            883,
+            290
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "(3) Any subsidiary organisation created shall exist for only as long as the General Body of the Society deems its existence necessary.",
+        "bbox": [
+            119,
+            296,
+            883,
+            342
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "(4) The subsidiary organisation can be dissolved or liquidated in following manners:",
+        "bbox": [
+            119,
+            348,
+            857,
+            368
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "a. After approval of 2/3<sup>rd</sup> members voting in its favour with at least 50% members present in the General Body, or",
+        "bbox": [
+            155,
+            375,
+            883,
+            420
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "b. Direction of Registrar for winding up of the subsidiary organisation in the interest of the members or public at large.",
+        "bbox": [
+            155,
+            426,
+            885,
+            472
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "(5) The annual reports and accounts of any such subsidiary organisation shall be placed every year before the General Body Meeting of the Society.",
+        "bbox": [
+            120,
+            479,
+            883,
+            525
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "(6) The Society shall maintain a register containing particulars of all the investments, showing the names of the societies/ companies in which shares have been acquired, number and value of shares; the date of acquisition; and the manner and price at which any of the shares have been subsequently disposed of.",
+        "bbox": [
+            120,
+            531,
+            885,
+            630
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "(7) The register referred to in sub-section (6) shall be kept at the registered office of the Society and the same shall be open to inspection by any Member who may take extracts there from.",
+        "bbox": [
+            120,
+            636,
+            885,
+            708
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "page_number",
+        "text": "33",
+        "bbox": [
+            486,
+            921,
+            509,
+            935
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "CHAPTER VIIIDISPUTE OF SOCIETY",
+        "text_level": 2,
+        "bbox": [
+            390,
+            35,
+            606,
+            79
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "17. DISPUTE SETTLEMENT PROCEDURE",
+        "text_level": 2,
+        "bbox": [
+            106,
+            113,
+            501,
+            131
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "Any dispute touching the constitution, business and management of the Society arising between the members, past members and deceased members of the Society or other persons shall be settled in accordance with the relevant provisions of the Cooperative Societies Act, and the Rules framed thereunder and shall be disposed of in the manner prescribed under such Act and the Rules.",
+        "bbox": [
+            111,
+            166,
+            885,
+            290
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "CHAPTER IX LIQUIDATION OF SOCIETY",
+        "text_level": 2,
+        "bbox": [
+            369,
+            296,
+            627,
+            340
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "18. LIQUIDATION",
+        "text_level": 2,
+        "bbox": [
+            106,
+            375,
+            276,
+            392
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "(1) The Society may be dissolved or liquidated in accordance with the provisions of the Act.",
+        "bbox": [
+            119,
+            416,
+            883,
+            460
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "(2) In the event of dissolution of the Society, any funds remaining after fulfillment of all external liabilities shall be disbursed in proportion to the share amount of such members as are not defaulters on the date of settlement of member amounts.",
+        "bbox": [
+            120,
+            476,
+            885,
+            549
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "(3) Any remaining reserves or surplus amount that cannot be thus shared with members for whatsoever reason, shall be donated to the Cooperative Development Fund or Cooperative Education Fund as prescribed by the State Government/ Registrar.",
+        "bbox": [
+            120,
+            563,
+            885,
+            635
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "page_number",
+        "text": "34",
+        "bbox": [
+            488,
+            921,
+            509,
+            935
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "header",
+        "text": "CHAPTER X MISCELLANEOUS",
+        "bbox": [
+            410,
+            35,
+            586,
+            79
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "header",
+        "text": "19. MISCELLANEOUS",
+        "bbox": [
+            112,
+            87,
+            321,
+            104
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "header",
+        "text": "(1) If the Society is indebted to a Cooperative Central Financing institution, it shall be competent for representative of the latter to inspect the books and the record of the Society and the Board of the Society shall arrange the production of the books and record before such representatives.",
+        "bbox": [
+            119,
+            140,
+            885,
+            238
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "header",
+        "text": "(2) Should any doubt arise with regards to the interpretation of any of the Byelaws, the matter shall be referred to the Registrar whose decision shall be final in accordance with the Act and Rules.",
+        "bbox": [
+            120,
+            270,
+            883,
+            342
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "header",
+        "text": "(3) In case of any conflict or inconsistency between the Act & Rules and Byelaws of this Society, the provisions of the Act & Rules shall have overriding effect.",
+        "bbox": [
+            119,
+            375,
+            883,
+            421
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "header",
+        "text": "\\*\\*\\*\\*\\*",
+        "bbox": [
+            477,
+            470,
+            519,
+            481
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "page_number",
+        "text": "35",
+        "bbox": [
+            488,
+            921,
+            509,
+            935
+        ],
+        "page_idx": 36
+    }
+]

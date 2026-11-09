@@ -1,0 +1,36 @@
+/*
+ * Replaces the className that app/layout.tsx:93 put on <body>:
+ *   "min-h-full flex flex-col font-sans bg-[var(--canvas)]"
+ *
+ * Those classes cannot be copied verbatim because Vite renders into #root
+ * rather than owning <body>. Under Next, ConditionalNavs rendered <TopNav />,
+ * <main id="content"> and <Footer> as DIRECT children of that flex <body>, so
+ * the column layout governed the full page height.
+ *
+ * In a Vite SPA the only child of <body> is #root, and the app tree lives one
+ * level deeper. The flex column therefore has to be reproduced on #root, or the
+ * page never fills the viewport and the footer does not sit at the bottom.
+ */
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-primary);
+  background-color: var(--canvas);
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* The app shell inside ConditionalNavs: TopNav / main / Footer. */
+#root > main {
+  flex: 1 1 auto;
+}

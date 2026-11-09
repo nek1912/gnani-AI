@@ -1,0 +1,21 @@
+/* Converted from the `<style jsx>` block that previously lived in
+   MessageBubble.tsx. styled-jsx is a Next.js compiler feature with no
+   plain-React equivalent, so Vite's built-in CSS modules are used instead.
+   `.streamingText` is module-scoped; the `:global(...)` part still targets
+   paragraphs rendered inside it by react-markdown. */
+.streamingText :global(p:last-child)::after {
+  content: "▊";
+  animation: blink 0.8s step-end infinite;
+  color: var(--ink);
+  font-weight: normal;
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
