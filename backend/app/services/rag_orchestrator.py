@@ -553,10 +553,16 @@ class RAGOrchestrator:
                 )
             if recheck.has_unsupported_claims:
                 logger.warning(
-                    "Grounding repair incomplete, %d claim(s) still unsupported: %s static=%d web=%d domain=%s lang=%s — keeping repaired answer with capped confidence",
+                    "Grounding repair incomplete, %d claim(s) still unsupported: %s static=%d web=%d domain=%s lang=%s — abstaining INSUFFICIENT_EVIDENCE",
                     len(recheck.unsupported_claims),
                     [c.claim_text for c in recheck.unsupported_claims],
                     len(static_result.chunks), len(web_result.chunks), domain, lang,
+                )
+                return self._abstain_response(
+                    lang=lang,
+                    reason=AbstentionReason.INSUFFICIENT_EVIDENCE,
+                    domain=domain,
+                    session_id=session_id,
                 )
             cleaned_repaired, _ = strip_citations(repaired)
             if cleaned_repaired.strip():
@@ -566,7 +572,13 @@ class RAGOrchestrator:
                 )
             else:
                 logger.warning(
-                    "Grounding repair stripped all text; keeping normalized original answer with capped confidence",
+                    "Grounding repair stripped all text; abstaining INSUFFICIENT_EVIDENCE",
+                )
+                return self._abstain_response(
+                    lang=lang,
+                    reason=AbstentionReason.INSUFFICIENT_EVIDENCE,
+                    domain=domain,
+                    session_id=session_id,
                 )
             grounding_result = recheck
             grounding_repaired = True

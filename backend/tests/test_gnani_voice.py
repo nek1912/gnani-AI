@@ -575,3 +575,181 @@ async def test_tts_segments_mixed_language():
         assert captured[1]["language"] == "hi-IN"
         assert audio[:4] == b"RIFF"
 
+
+# ── Area A Improvements: Observability, Voice Customization & 30s Fallback ──
+
+
+@pytest.mark.asyncio
+async def test_stt_result_metadata_and_observability():
+    with respx.mock:
+        respx.post("https://api.vachana.ai/stt/v3").mock(
+            return_value=Response(200, json={
+                "success": True,
+                "transcript": "नमस्ते जनसहाय",
+                "model": "prisma-v3.0",
+                "detected_language_code": "hi-IN",
+            })
+        )
+        provider = GnaniSTTProvider(settings=_settings())
+        result = await provider.transcribe(b"fake-wav-bytes", "hi")
+        assert result == "नमस्ते जनसहाय"
+        assert result.provider == "gnani"
+        assert result.model == "prisma-v3.0"
+        assert result.detected_language == "hi"
+        assert result.requested_language == "hi"
+        assert result.language == "hi"
+        assert result.duration_ms >= 0.0
+        assert result.fallback_occurred is False
+        d = result.to_dict()
+        assert d["provider"] == "gnani"
+        assert d["detected_language"] == "hi"
+
+
+@pytest.mark.asyncio
+async def test_stt_auto_detect_effective_language():
+    with respx.mock:
+        respx.post("https://api.vachana.ai/stt/v3").mock(
+            return_value=Response(200, json={
+                "success": True,
+                "transcript": "નમસ્તે",
+                "model": "prisma-v3.0",
+                "detected_language_code": "gu-IN",
+            })
+        )
+        provider = GnaniSTTProvider(settings=_settings())
+        # With auto_detect or 'auto', effective language should be resolved to 'gu'
+        result = await provider.transcribe(b"fake-wav-bytes", "auto")
+        assert result == "નમસ્તે"
+        assert result.detected_language == "gu"
+        assert result.language == "gu"
+
+
+@pytest.mark.asyncio
+async def test_tts_custom_voice_and_speed_validation():
+    captured = []
+
+    def handler(request):
+        data = json.loads(request.content)
+        captured.append(data)
+        from app.providers.gnani_voice import _build_wav_header
+        hdr = _build_wav_header(4, sample_rate=22050)
+        return Response(200, content=hdr + b"\x01\x02\x03\x04")
+
+    with respx.mock:
+        respx.post("https://api.vachana.ai/api/v1/tts/inference").mock(side_effect=handler)
+        provider = GnaniTTSProvider(settings=_settings())
+
+        # Valid custom voice and speed
+        result = await provider.synthesize("परीक्षण", "hi", voice="Avinash", speed=1.2)
+        assert len(result) > 44
+        assert result.voice == "Avinash"
+        assert result.speed == 1.2
+        assert result.provider == "gnani"
+        assert result.audio_format == "wav"
+        assert captured[0]["voice"] == "Avinash"
+        assert captured[0]["speed"] == 1.2
+
+        # Invalid voice raises GnaniError
+        with pytest.raises(GnaniError, match="Unsupported voice"):
+            await provider.synthesize("परीक्षण", "hi", voice="NonExistentVoice999")
+
+        # Invalid speed raises GnaniError
+        with pytest.raises(GnaniError, match="Speed must be between 0.5 and 2.0"):
+            await provider.synthesize("परीक्षण", "hi", speed=3.5)
+
+
+@pytest.mark.asyncio
+async def test_voice_service_audio_duration_fallback_to_sarvam():
+    from app.services.voice_service import VoiceService
+    from app.providers.gnani_voice import _build_wav_header
+    service = VoiceService()
+
+    # Construct WAV header indicating 35 seconds of audio:
+    # 16000 Hz, 1 channel, 16-bit (2 bytes per sample) -> 32000 bytes/sec
+    # 35 seconds = 35 * 32000 = 1,120,000 PCM bytes
+    pcm_len = 35 * 32000
+    hdr = _build_wav_header(pcm_len, sample_rate=16000, num_channels=1, sample_width=2)
+    long_audio = hdr + b"\x00" * 1000  # header indicates 35s
+
+    with patch.object(service._gnani_stt, 'enabled', True), \
+         patch.object(service._gnani_stt, 'transcribe', new_callable=AsyncMock) as gnani_mock, \
+         patch.object(service._sarvam_stt, 'enabled', True), \
+         patch.object(service._sarvam_stt, 'transcribe', new_callable=AsyncMock) as sarvam_mock:
+        sarvam_mock.return_value = "sarvam long audio text"
+        res = await service.speech_to_text(long_audio, "hi")
+        assert res == "sarvam long audio text"
+        assert res.provider == "sarvam"
+        assert res.fallback_occurred is True
+        # Gnani should have been bypassed due to pre-flight 30s guard
+        gnani_mock.assert_not_called()
+
+
+@pytest.mark.asyncio
+async def test_tts_in_memory_caching():
+    from app.providers.gnani_voice import clear_tts_cache
+    clear_tts_cache()
+
+    call_count = 0
+
+    def handler(request):
+        nonlocal call_count
+        call_count += 1
+        return Response(200, content=b"RIFF....WAVEcached-audio-payload")
+
+    with respx.mock:
+        respx.post("https://api.vachana.ai/api/v1/tts/inference").mock(side_effect=handler)
+        provider = GnaniTTSProvider(settings=_settings(), use_cache=True)
+
+        # Call 1: Misses cache, calls API
+        audio1 = await provider.synthesize("नमस्कार मित्रांनो", "mr")
+        assert audio1 == b"RIFF....WAVEcached-audio-payload"
+        assert call_count == 1
+
+        # Call 2: Hits in-memory cache, NO network call
+        audio2 = await provider.synthesize("नमस्कार मित्रांनो", "mr")
+        assert audio2 == b"RIFF....WAVEcached-audio-payload"
+        assert call_count == 1  # Network was NOT called a second time!
+        assert audio2.duration_ms < 50.0  # Instantaneous memory lookup
+
+    clear_tts_cache()
+
+
+@pytest.mark.asyncio
+async def test_tts_concurrent_multi_chunk_synthesis():
+    from app.providers.gnani_voice import _build_wav_header
+    calls = []
+
+    def handler(request):
+        import json
+        body = json.loads(request.content)
+        calls.append(body["text"])
+        hdr = _build_wav_header(100, sample_rate=22050, num_channels=1, sample_width=2)
+        return Response(200, content=hdr + b"\x01" * 100)
+
+    # 3 sentences that exceed 500 characters
+    long_text = ("पहला लंबा वाक्य जो सरकार के नियमों की जानकारी देता है। " * 10) + ("दूसरा वाक्य जो सहायता करता है। " * 10)
+
+    with respx.mock:
+        respx.post("https://api.vachana.ai/api/v1/tts/inference").mock(side_effect=handler)
+        provider = GnaniTTSProvider(settings=_settings(), use_cache=False)
+        audio = await provider.synthesize(long_text, "hi")
+
+        assert len(audio) > 44
+        assert audio[:4] == b"RIFF"
+        assert len(calls) > 1  # Multiple chunks synthesized
+
+
+@pytest.mark.asyncio
+@pytest.mark.skipif(
+    not os.getenv("RUN_LIVE_TESTS") or not os.getenv("GNANI_API_KEY"),
+    reason="Live Gnani test requires RUN_LIVE_TESTS=1 and GNANI_API_KEY",
+)
+async def test_live_gnani_smoke_test():
+    """Optional smoke test against real Gnani API when explicitly enabled."""
+    provider = GnaniTTSProvider()
+    if provider.enabled:
+        audio = await provider.synthesize("नमस्ते जनसहाय", "hi")
+        assert len(audio) > 44
+        assert audio[:4] == b"RIFF"
+
+

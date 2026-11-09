@@ -7,7 +7,7 @@ single-page app, not a PWA) for cooperative governance, PMFBY crop insurance,
 financial inclusion, and grievance redressal in India.
 
 The system answers questions strictly from official sources with citations,
-abstains when evidence is insufficient, supports voice interaction (Sarvam AI),
+abstains when evidence is insufficient, supports voice interaction (Gnani AI primary, Sarvam AI fallback),
 and provides a prototype grievance intake workflow.
 
 ---
@@ -48,7 +48,7 @@ Odia, or Malayalam.
 4. Financial literacy: NSFI 2025-30 content.
 5. Grievance: 9-stage workflow (classify → extract entities → detect missing info
    → follow-up → create prototype reference → status lookup).
-6. Voice: Sarvam AI STT + TTS (primary) → Azure Speech STT (fallback) → text-only.
+6. Voice: Gnani AI (Prisma v3.0 STT + Timbre v3.0 TTS) primary → Sarvam AI fallback → Azure Speech STT fallback → text-only.
 7. Domain routing + parallel static & web RAG orchestration + grounded generation.
 8. Citations, confidence, explicit abstention on every factual answer.
 9. Responsive static SPA (React + Vite, desktop + mobile browsers; not a PWA).
@@ -134,7 +134,7 @@ and inactivity pauses — the architecture tolerates all three.
 domain routing → hybrid RAG (static pgvector + web) → grounded, cited answers,
 with correct abstention on unsupported questions, and grievances can be created
 with multi-turn intake + status lookup guidance. Voice (STT/TTS) working via
-Sarvam AI.
+Gnani AI primary, Sarvam fallback.
 
 > **Post-MVP current state (2026-10-06, see PROJECT_STATUS.md):** 11 languages
 > (EN, HI, GU, MR, BN, TA, TE, KN, PA, OR, ML); SerpApi Google live alongside

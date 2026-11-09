@@ -121,7 +121,7 @@ function hexToBase64(hex: string): string {
 }
 
 function playBackendAudio(
-  hex: string,
+  audioPayload: string,
   token: number,
 ): Promise<void> {
   return new Promise((resolve, reject) => {
@@ -133,7 +133,14 @@ function playBackendAudio(
     let audio: HTMLAudioElement;
 
     try {
-      audio = new Audio(`data:audio/wav;base64,${hexToBase64(hex)}`);
+      // If audioPayload is already base64, play directly without expensive hex string conversion
+      const base64Data =
+        audioPayload.startsWith("UklGR") ||
+        audioPayload.length % 2 !== 0 ||
+        !/^[0-9a-fA-F]+$/.test(audioPayload)
+          ? audioPayload
+          : hexToBase64(audioPayload);
+      audio = new Audio(`data:audio/wav;base64,${base64Data}`);
     } catch (error) {
       reject(error);
       return;
@@ -178,7 +185,8 @@ async function speakBackendSegments(
 ): Promise<void> {
   const response = await fetchVoiceSpeak(segments);
 
-  if (!response.audio) {
+  const audioPayload = response.audio_base64 || response.audio;
+  if (!audioPayload) {
     throw new Error("Backend TTS returned empty audio");
   }
 
@@ -193,7 +201,7 @@ async function speakBackendSegments(
    */
   if (token !== _speakToken) return;
 
-  await playBackendAudio(response.audio, token);
+  await playBackendAudio(audioPayload, token);
 }
 
 export async function speakSegments(
@@ -286,6 +294,33 @@ function playBrowser(
       resolve();
     }
   });
+}
+
+/**
+ * Downsample Float32 PCM audio to strict 16,000 Hz using box-car averaging.
+ * Provides clean anti-aliased downsampling regardless of whether hardware records
+ * at 44.1kHz, 48kHz, or 16kHz, ensuring optimal recognition accuracy for Gnani Prisma STT.
+ */
+export function downsampleTo16k(input: Float32Array, inputSampleRate: number): Float32Array {
+  if (inputSampleRate === 16000 || input.length === 0) return input;
+  const ratio = inputSampleRate / 16000;
+  const newLength = Math.max(1, Math.round(input.length / ratio));
+  const result = new Float32Array(newLength);
+  let offsetResult = 0;
+  let offsetInput = 0;
+  while (offsetResult < result.length) {
+    const nextOffsetInput = Math.min(input.length, Math.round((offsetResult + 1) * ratio));
+    let accum = 0;
+    let count = 0;
+    for (let i = offsetInput; i < nextOffsetInput; i++) {
+      accum += input[i];
+      count++;
+    }
+    result[offsetResult] = count > 0 ? accum / count : (input[offsetInput] ?? 0);
+    offsetResult++;
+    offsetInput = nextOffsetInput;
+  }
+  return result;
 }
 
 export function encodeWav(samples: Float32Array, sampleRate: number): Uint8Array {
@@ -435,6 +470,7 @@ export function createSpeechService(): SpeechService {
       let audioCtx: AudioContext | null = null;
       let processor: ScriptProcessorNode | null = null;
       let source: MediaStreamAudioSourceNode | null = null;
+      let muteGain: GainNode | null = null;
       let checkInterval: number | null = null;
       let fallbackCancel: (() => void) | null = null;
 
@@ -442,6 +478,7 @@ export function createSpeechService(): SpeechService {
       let totalSamples = 0;
       let actualSampleRate = 16000;
       let hasSpoken = false;
+      let maxRms = 0;
       let lastSpeechTime = Date.now();
       const startTime = Date.now();
 
@@ -451,15 +488,29 @@ export function createSpeechService(): SpeechService {
           clearInterval(checkInterval);
           checkInterval = null;
         }
-        if (source && processor) {
+        if (source) {
           try {
             source.disconnect();
-            processor.disconnect();
           } catch {
             /* noop */
           }
           source = null;
+        }
+        if (processor) {
+          try {
+            processor.disconnect();
+          } catch {
+            /* noop */
+          }
           processor = null;
+        }
+        if (muteGain) {
+          try {
+            muteGain.disconnect();
+          } catch {
+            /* noop */
+          }
+          muteGain = null;
         }
         if (audioCtx && audioCtx.state !== "closed") {
           try {
@@ -484,7 +535,7 @@ export function createSpeechService(): SpeechService {
         finalizing = true;
         cleanupAudio();
 
-        if (totalSamples === 0 || (!hasSpoken && totalSamples < actualSampleRate * 0.4)) {
+        if (totalSamples === 0) {
           onError?.("no-speech");
           return;
         }
@@ -496,8 +547,18 @@ export function createSpeechService(): SpeechService {
           offset += chunk.length;
         }
 
+        // Downsample to strict 16,000 Hz for optimal Gnani STT accuracy and lower payload latency
+        const samples16k = downsampleTo16k(merged, actualSampleRate);
+        const durationSec = samples16k.length / 16000;
+
+        // If speech was detected, transcribe it. If no speech was detected and audio is pure silence (< 0.0035 max RMS), report no-speech.
+        if (!hasSpoken && (durationSec < 0.35 || maxRms < 0.0035)) {
+          onError?.("no-speech");
+          return;
+        }
+
         try {
-          const wavBytes = encodeWav(merged, actualSampleRate);
+          const wavBytes = encodeWav(samples16k, 16000);
           const base64Audio = bytesToBase64(wavBytes);
           const resp = await fetchVoiceTranscribe(base64Audio, locale);
           if (resp && resp.text && resp.text.trim()) {
@@ -523,7 +584,7 @@ export function createSpeechService(): SpeechService {
             autoGainControl: true,
           },
         })
-        .then((stream) => {
+        .then(async (stream) => {
           if (stopped) {
             stream.getTracks().forEach((t) => t.stop());
             return;
@@ -541,9 +602,32 @@ export function createSpeechService(): SpeechService {
             audioCtx = new AudioContextClass();
           }
 
+          // Resume audio context if created in suspended state (required by Chrome autoplay policy)
+          if (audioCtx.state === "suspended") {
+            try {
+              await audioCtx.resume();
+            } catch {
+              /* noop */
+            }
+          }
+
           actualSampleRate = audioCtx.sampleRate || 16000;
           source = audioCtx.createMediaStreamSource(stream);
           processor = audioCtx.createScriptProcessor(4096, 1, 1);
+
+          // Route source -> processor -> muteGain -> destination.
+          // Muting gain (0.0) ensures Web Audio graph pumps data without playing mic audio
+          // into speakers, avoiding speaker-mic acoustic feedback and WebRTC AEC self-cancelling.
+          if (typeof audioCtx.createGain === "function") {
+            muteGain = audioCtx.createGain();
+            muteGain.gain.value = 0;
+            source.connect(processor);
+            processor.connect(muteGain);
+            muteGain.connect(audioCtx.destination);
+          } else {
+            source.connect(processor);
+            processor.connect(audioCtx.destination);
+          }
 
           processor.onaudioprocess = (e) => {
             if (stopped || finalizing) return;
@@ -558,26 +642,27 @@ export function createSpeechService(): SpeechService {
               sum += input[i] * input[i];
             }
             const rms = Math.sqrt(sum / input.length);
-            if (rms > 0.015) {
+            if (rms > maxRms) {
+              maxRms = rms;
+            }
+            // Voice detection threshold: 0.005 captures standard spoken voice reliably
+            if (rms > 0.005) {
               hasSpoken = true;
               lastSpeechTime = Date.now();
             }
           };
 
-          source.connect(processor);
-          processor.connect(audioCtx.destination);
-
-          // Generous 3.0s silence threshold after speech (gives user breathing room)
-          // 25.0s maximum duration guard
+          // Silence timeout: ~1600ms after user finishes speaking to allow natural speech pauses.
+          // 25s hard ceiling bounds recording within Gnani's 30s limit.
           checkInterval = window.setInterval(() => {
             if (stopped || finalizing) return;
             const now = Date.now();
-            if (hasSpoken && now - lastSpeechTime > 3000) {
+            if (hasSpoken && now - lastSpeechTime > 1600) {
               finalize();
             } else if (now - startTime > 25000) {
               finalize();
             }
-          }, 300);
+          }, 100);
         })
         .catch((err) => {
           if (stopped) return;
@@ -591,8 +676,7 @@ export function createSpeechService(): SpeechService {
           return;
         }
         if (stopped || finalizing) return;
-        const durationMs = Date.now() - startTime;
-        if (hasSpoken || durationMs > 500) {
+        if (hasSpoken || totalSamples > 0) {
           finalize();
         } else {
           cleanupAudio();
@@ -655,20 +739,28 @@ function speakBackend(
          */
         return res.json();
       })
-      .then(({ audio: audioHex }: { audio?: string }) => {
-        if (!audioHex) throw new Error("Backend TTS returned empty audio");
+      .then(({ audio: audioHex, audio_base64 }: { audio?: string; audio_base64?: string }) => {
+        if (!audioHex && !audio_base64) throw new Error("Backend TTS returned empty audio");
 
-        // FastAPI returns hex; the removed BFF used to convert it to binary.
-        const bytes = new Uint8Array(audioHex.length / 2);
-        for (let i = 0; i < audioHex.length; i += 2) {
-          bytes[i / 2] = parseInt(audioHex.substr(i, 2), 16);
+        let bytes: Uint8Array;
+        if (audio_base64) {
+          const binary = atob(audio_base64);
+          bytes = new Uint8Array(binary.length);
+          for (let i = 0; i < binary.length; i++) {
+            bytes[i] = binary.charCodeAt(i);
+          }
+        } else {
+          bytes = new Uint8Array(audioHex!.length / 2);
+          for (let i = 0; i < audioHex!.length; i += 2) {
+            bytes[i / 2] = parseInt(audioHex!.substr(i, 2), 16);
+          }
         }
 
         if (bytes.byteLength < 100) {
           throw new Error("Audio too small");
         }
 
-        const blob = new Blob([bytes], {
+        const blob = new Blob([bytes as BlobPart], {
           type: "audio/mpeg",
         });
 

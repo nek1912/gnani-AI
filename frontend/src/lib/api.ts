@@ -329,13 +329,37 @@ export async function translateTexts(
   return data.translations;
 }
 
+export interface VoiceTranscribeResponse {
+  text: string;
+  language: string;
+  requested_language?: string;
+  detected_language?: string | null;
+  provider?: string;
+  model?: string | null;
+  duration_ms?: number;
+  fallback_occurred?: boolean;
+}
+
+export interface VoiceSpeakResponse {
+  audio: string;
+  audio_base64?: string;
+  language: string;
+  provider?: string;
+  model?: string | null;
+  voice?: string | null;
+  duration_ms?: number;
+  audio_format?: string;
+  fallback_occurred?: boolean;
+}
+
 export async function fetchVoiceSpeak(
   segments: SpeechSegment[],
-): Promise<{ audio: string; language: string }> {
+  options?: { voice?: string; speed?: number },
+): Promise<VoiceSpeakResponse> {
   const r = await apiFetch("/api/voice/speak", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ segments }),
+    body: JSON.stringify({ segments, ...options }),
   });
   if (!r.ok) throw new Error(`Voice speak API ${r.status}`);
   return r.json();
@@ -344,7 +368,7 @@ export async function fetchVoiceSpeak(
 export async function fetchVoiceTranscribe(
   audioBase64: string,
   language: string,
-): Promise<{ text: string; language: string }> {
+): Promise<VoiceTranscribeResponse> {
   const r = await apiFetch("/api/voice/transcribe", {
     method: "POST",
     headers: { "Content-Type": "application/json" },

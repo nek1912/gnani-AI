@@ -395,6 +395,46 @@ EVAL_SET: list[EvalCase] = [
         required_facts=["war", "nuclear", "preventable risks", "malicious damage"],
         required_evidence_docs=["PMFBY", "Crop Insurance"],
     ),
+
+    # ── AGRICULTURE & SCHEMES ───────────────────────────────────────────
+    EvalCase(
+        id="AG01", category="direct", subcategory="coverage",
+        question="How does PMFBY handle localized calamity such as hailstorm or landslide?",
+        lang="en", domain="agriculture",
+        required_facts=["individual farm basis", "hailstorm", "landslide", "inundation", "post-harvest"],
+        required_evidence_docs=["PMFBY", "Crop Insurance"],
+    ),
+    EvalCase(
+        id="AG02", category="scenario", subcategory="corpus_gap",
+        question="What is the subsidy percentage for buying a tractor under Sub-Mission on Agricultural Mechanization (SMAM)?",
+        lang="en", domain="agriculture",
+        expected_abstain=True,  # Outside static PMFBY/PACS corpus
+    ),
+    EvalCase(
+        id="SC01", category="direct", subcategory="cooperative_scheme",
+        question="What is the objective of the PACS Computerization Project?",
+        lang="en", domain="pacs_computerization",
+        required_facts=["ERP", "transparency", "cooperative", "accounting"],
+        required_evidence_docs=["Computerization", "PACS"],
+    ),
+
+    # ── LEGAL & GOVERNANCE ──────────────────────────────────────────────
+    EvalCase(
+        id="L01", category="scenario", subcategory="disqualification",
+        question="Can a PACS member vote in the General Body meeting if they have defaulted on loan repayment?",
+        lang="en", domain="pacs_governance",
+        required_facts=["disqualified", "default", "dues", "right to vote"],
+        required_evidence_docs=["Byelaws", "PACS"],
+    ),
+
+    # ── GRIEVANCE GUIDANCE ──────────────────────────────────────────────
+    EvalCase(
+        id="GR01", category="direct", subcategory="grievance_guidance",
+        question="Where should a farmer file a grievance if insurance company delays PMFBY claim payout?",
+        lang="en", domain="pmfby",
+        required_facts=["grievance", "District Level Monitoring Committee", "portal", "DLMC"],
+        required_evidence_docs=["PMFBY", "Crop Insurance"],
+    ),
 ]
 
 print(f"Loaded {len(EVAL_SET)} evaluation cases")
@@ -417,6 +457,14 @@ class CaseResult:
     required_docs_found: list[str] = field(default_factory=list)
     required_docs_missing: list[str] = field(default_factory=list)
     evidence_coverage: float = 0.0
+    first_relevant_rank: int | None = None
+    recall_at_1: bool = False
+    recall_at_3: bool = False
+    recall_at_5: bool = False
+    mrr: float = 0.0
+    domain_match: bool = True
+    jurisdiction_match: bool = True
+    wrong_jurisdiction_count: int = 0
     # Answer
     answer_text: str = ""
     answer_correct: bool = False
@@ -427,6 +475,8 @@ class CaseResult:
     # Citations
     citations_valid: bool = False
     citation_count: int = 0
+    citation_precision: float = 1.0
+    citation_recall: float = 1.0
     # Confidence
     confidence: float = 0.0
     confidence_band: str = ""
@@ -502,6 +552,31 @@ async def run_retrieval_eval(cases: list[EvalCase]) -> list[CaseResult]:
                     len(cr.required_docs_found) / len(case.required_evidence_docs)
                     if case.required_evidence_docs else 1.0
                 )
+
+                # Determine first relevant rank for MRR and Recall@K
+                first_rank = None
+                for idx, chunk in enumerate(rag_result.chunks):
+                    if case.required_evidence_docs and any(req.lower() in chunk.title.lower() for req in case.required_evidence_docs):
+                        first_rank = idx + 1
+                        break
+                cr.first_relevant_rank = first_rank
+                cr.recall_at_1 = bool(first_rank == 1)
+                cr.recall_at_3 = bool(first_rank and first_rank <= 3)
+                cr.recall_at_5 = bool(first_rank and first_rank <= 5)
+                cr.mrr = 1.0 / first_rank if first_rank else 0.0
+
+                # Domain check
+                from app.evidence_gate import _domain_matches
+                cr.domain_match = all(_domain_matches(c.domain, case.domain) for c in rag_result.chunks)
+
+                # Jurisdiction check
+                if case.state:
+                    wrong = [c for c in rag_result.chunks if c.jurisdiction == "state" and c.state != case.state]
+                    cr.wrong_jurisdiction_count = len(wrong)
+                    cr.jurisdiction_match = len(wrong) == 0
+                else:
+                    cr.wrong_jurisdiction_count = 0
+                    cr.jurisdiction_match = True
 
                 # Check required facts in retrieved content
                 all_content = " ".join(c.content.lower() for c in rag_result.chunks)
@@ -695,6 +770,59 @@ def measure(retrieval: list[CaseResult], answers: list[CaseResult]) -> dict:
         if with_citations else 0
     )
 
+    # ── Information Retrieval Metrics (B1) ──
+    cases_with_req = [r for r in retrieval if r.required_docs_found or r.required_docs_missing]
+    if cases_with_req:
+        metrics["recall_at_1"] = sum(1 for r in cases_with_req if r.recall_at_1) / len(cases_with_req)
+        metrics["recall_at_3"] = sum(1 for r in cases_with_req if r.recall_at_3) / len(cases_with_req)
+        metrics["recall_at_5"] = sum(1 for r in cases_with_req if r.recall_at_5) / len(cases_with_req)
+        metrics["mean_reciprocal_rank"] = sum(r.mrr for r in cases_with_req) / len(cases_with_req)
+    else:
+        metrics["recall_at_1"] = 0.0
+        metrics["recall_at_3"] = 0.0
+        metrics["recall_at_5"] = 0.0
+        metrics["mean_reciprocal_rank"] = 0.0
+
+    # ── Domain & Jurisdiction Accuracy (B1) ──
+    valid_retrieval = [r for r in retrieval if not r.abstained and r.retrieved_chunks > 0]
+    metrics["domain_accuracy"] = (
+        sum(1 for r in valid_retrieval if r.domain_match) / len(valid_retrieval)
+        if valid_retrieval else 1.0
+    )
+    state_retrieval = [r for r in valid_retrieval if any(c.state for c in EVAL_SET if c.id == r.case_id)]
+    metrics["jurisdiction_accuracy"] = (
+        sum(1 for r in state_retrieval if r.jurisdiction_match) / len(state_retrieval)
+        if state_retrieval else 1.0
+    )
+    total_chunks = sum(r.retrieved_chunks for r in valid_retrieval)
+    wrong_chunks = sum(r.wrong_jurisdiction_count for r in valid_retrieval)
+    metrics["wrong_jurisdiction_rate"] = (
+        wrong_chunks / total_chunks if total_chunks else 0.0
+    )
+
+    # ── Citation Precision & Recall (B1) ──
+    total_cites = sum(a.citation_count for a in answers)
+    valid_cites = sum(a.citation_count for a in answers if a.citations_valid)
+    metrics["citation_precision"] = valid_cites / total_cites if total_cites else 1.0
+    metrics["citation_recall"] = (
+        sum(1 for a in answers if a.citation_count > 0 and a.citations_valid) / len(answers)
+        if answers else 1.0
+    )
+
+    # ── Groundedness & Abstention Metrics (B1) ──
+    unsupported_cnt = sum(1 for a in answers if a.unsupported_claims)
+    metrics["answer_groundedness"] = 1.0 - (unsupported_cnt / len(answers)) if answers else 1.0
+
+    expected_abstain_ids = {c.id for c in EVAL_SET if c.expected_abstain}
+    all_abstained = [a for a in answers if a.abstained]
+    true_abstained = [a for a in all_abstained if a.case_id in expected_abstain_ids]
+    metrics["abstention_precision"] = (
+        len(true_abstained) / len(all_abstained) if all_abstained else 1.0
+    )
+    metrics["abstention_recall"] = (
+        len(true_abstained) / len(expected_abstain_ids) if expected_abstain_ids else 1.0
+    )
+
     # Unsupported claims
     metrics["unsupported_claim_rate"] = (
         sum(1 for a in answers if a.unsupported_claims) / len(answers)
@@ -752,6 +880,21 @@ def report(retrieval: list[CaseResult], answers: list[CaseResult], metrics: dict
     lines.append(f"Correct abstention:     {metrics['correct_abstention_rate']:.1%}")
     lines.append(f"Clarification accuracy: {metrics['clarification_accuracy']:.1%}")
     lines.append(f"Average latency:        {metrics['average_latency_ms']:.0f}ms")
+
+    # Formal IR & Grounding Metrics
+    lines.append("\n  [Formal IR & Grounding Metrics]")
+    lines.append(f"  Recall@1:                 {metrics.get('recall_at_1', 0.0):.1%}")
+    lines.append(f"  Recall@3:                 {metrics.get('recall_at_3', 0.0):.1%}")
+    lines.append(f"  Recall@5:                 {metrics.get('recall_at_5', 0.0):.1%}")
+    lines.append(f"  Mean Reciprocal Rank:     {metrics.get('mean_reciprocal_rank', 0.0):.3f}")
+    lines.append(f"  Domain classification acc:{metrics.get('domain_accuracy', 0.0):.1%}")
+    lines.append(f"  Jurisdiction accuracy:    {metrics.get('jurisdiction_accuracy', 0.0):.1%}")
+    lines.append(f"  Wrong-jurisdiction rate:  {metrics.get('wrong_jurisdiction_rate', 0.0):.1%}")
+    lines.append(f"  Citation precision:       {metrics.get('citation_precision', 0.0):.1%}")
+    lines.append(f"  Citation recall:          {metrics.get('citation_recall', 0.0):.1%}")
+    lines.append(f"  Answer groundedness:      {metrics.get('answer_groundedness', 0.0):.1%}")
+    lines.append(f"  Abstention precision:     {metrics.get('abstention_precision', 0.0):.1%}")
+    lines.append(f"  Abstention recall:        {metrics.get('abstention_recall', 0.0):.1%}")
 
     # B. Top Failures
     lines.append("\n\nB. TOP FAILURES")

@@ -43,10 +43,15 @@ test("no locale defines a key that en does not", () => {
 });
 
 test("translate falls back to English for a key a locale lacks", () => {
-  // gu is missing 48 of en's keys. Falling back to English is the designed
-  // behaviour, so assert it rather than assert coverage that does not exist.
-  expect(translate("gu", "common.yes")).toBe(dict.en["common.yes"]);
-  expect(translate("bn", "schemes.detail.askAI")).toBe(dict.en["schemes.detail.askAI"]);
+  // If a locale lacks a key present in en, translate() falls back to English
+  const guTable = dict.gu as Record<string, string>;
+  const orig = guTable["common.yes"];
+  try {
+    delete guTable["common.yes"];
+    expect(translate("gu", "common.yes")).toBe(dict.en["common.yes"]);
+  } finally {
+    guTable["common.yes"] = orig;
+  }
 });
 
 test("translate returns the key when no locale has it", () => {

@@ -43,7 +43,7 @@ Add your sign-in and sign-up URLs as **redirect URLs** in the Clerk dashboard.
 | `npm run dev` | Vite dev server on `:5173` (set `VITE_PORT`) |
 | `npm run build` | Type-check, then emit static assets to `dist/` |
 | `npm run lint` | ESLint over `src/` |
-| `npm test` | Vitest — 90 tests across 18 files |
+| `npm test` | Vitest — 94 tests across 18 files |
 | `npm run i18n:coverage` | Report per-locale translation coverage |
 
 ## Architecture

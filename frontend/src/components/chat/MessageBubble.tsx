@@ -321,6 +321,20 @@ export function cleanTextForSpeech(text: string): string {
   cleaned = cleaned.replace(/\.\s*\./g, ".");
   cleaned = cleaned.replace(/\s+/g, " ").trim();
 
+  // If text exceeds conversational speech length, bound to first 2-3 natural sentences
+  if (cleaned.length > 400) {
+    const sentences = cleaned.split(/(?<=[.!?।|\n])\s+/);
+    let selected = "";
+    for (const s of sentences) {
+      if (!s.trim()) continue;
+      if (selected.length + s.length > 400 && selected.length > 0) break;
+      selected += (selected ? " " : "") + s.trim();
+    }
+    if (selected.trim()) {
+      cleaned = selected;
+    }
+  }
+
   return cleaned;
 }
 
@@ -352,7 +366,7 @@ export function MessageBubble({ resp, isStreaming = false }: { resp: ChatRespons
       if (hasSegments) {
         await speakSegments(segments);
       } else {
-        const cleanText = cleanTextForSpeech(resp.answer);
+        const cleanText = cleanTextForSpeech(resp.speech_text || resp.answer);
         await speech.speak(cleanText, resp.language);
       }
     } finally {

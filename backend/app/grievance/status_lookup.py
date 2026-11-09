@@ -142,18 +142,48 @@ class GrievanceStatusLookup:
         },
     }
 
-    def get_status_lookup(self, draft: GrievanceDraft) -> StatusLookupResult:
-        """Get status lookup guidance for a grievance draft."""
+    def _default_cpgrams(self) -> StatusLookupResult:
+        return StatusLookupResult(
+            portal_name="CPGRAMS Status Tracking",
+            portal_url="https://pgportal.gov.in/ViewGrievanceStatus.aspx",
+            lookup_method="reference_number",
+            required_fields=["Grievance Registration Number", "Mobile Number / Email"],
+            disclaimer="This is a prototype reference. JanSahay does NOT access live government systems. Please use the official portal directly.",
+        )
+
+    def get_status_lookup(self, draft: GrievanceDraft | str) -> StatusLookupResult:
+        """Get status lookup guidance for a grievance draft or reference string."""
+        if isinstance(draft, str):
+            ref_str = draft.strip()
+            # 1. Check if ref_str is a conversation_id with saved grievance state
+            try:
+                from app.grievance.workflow import load_grievance_state
+                state = load_grievance_state(ref_str)
+                if state and state.draft:
+                    return self.get_status_lookup(state.draft)
+            except Exception:
+                pass
+
+            # 2. Check if ref_str matches a GrievanceCategory
+            for cat in GrievanceCategory:
+                if ref_str.lower() in (cat.value.lower(), cat.name.lower()):
+                    cat_map = self.LOOKUP_MAP.get(cat, {})
+                    return cat_map.get("default") or self._default_cpgrams()
+
+            # 3. Check if ref_str matches a GrievanceSubCategory
+            for cat, sub_map in self.LOOKUP_MAP.items():
+                for sub, res in sub_map.items():
+                    if isinstance(sub, GrievanceSubCategory) and ref_str.lower() in (sub.value.lower(), sub.name.lower()):
+                        return res
+
+            # 4. Fallback for reference numbers (e.g. GRV-...)
+            return self._default_cpgrams()
+
         category_map = self.LOOKUP_MAP.get(draft.category, {})
         lookup = category_map.get(draft.sub_category, category_map.get("default"))
 
         if lookup is None:
-            return StatusLookupResult(
-                portal_name="CPGRAMS Status Tracking",
-                portal_url="https://pgportal.gov.in/ViewGrievanceStatus.aspx",
-                lookup_method="reference_number",
-                required_fields=["Grievance Registration Number", "Mobile Number / Email"],
-            )
+            return self._default_cpgrams()
 
         return lookup
 

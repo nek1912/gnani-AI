@@ -306,7 +306,7 @@ Bands:  ≥0.7 → HIGH,  ≥0.5 → MEDIUM,  else → LOW
 
 ```
 STT:  Gnani Prisma v3.0 → Sarvam → Azure → VoiceUnavailableError
-TTS:  Gnani Timbre v3.0 → Sarvam → VoiceUnavailableError (Azure excluded)
+TTS:  Gnani Timbre v3.0 → Sarvam → Azure → VoiceUnavailableError
 LLM:  Groq (primary) → Gemini (fallback) → AllProvidersFailedError → ABSTAIN
 Embed: Jina (primary) → Gemini (fallback)
 Translation: Sarvam → Azure → return original

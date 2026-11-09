@@ -50,7 +50,7 @@ from app.session_store import (
     touch_session,
     trim_messages,
 )
-from app.speech_text import build_grievance_speech_text, prepare_speech_text, segment_speech
+from app.speech_text import build_grievance_speech_text, prepare_speech_text, segment_speech, summarize_for_speech
 from app.ui import get_abstain_text
 from app.web_rag.query_classifier import QueryClassifier, QueryClassification, INTENT_KEYWORDS
 
@@ -1235,8 +1235,8 @@ async def chat(req: ChatRequest, user_id: str = Depends(require_auth)) -> dict:
         # Only regenerate speech data if not abstained — the orchestrator sets
         # empty speech_segments for abstentions, and we must preserve that.
         if not rag_response.abstained:
-            rag_response.speech_text = prepare_speech_text(rag_response.answer)
-            rag_response.speech_segments = segment_speech(rag_response.answer, ctx.lang)
+            rag_response.speech_text = summarize_for_speech(rag_response.answer, max_chars=400)
+            rag_response.speech_segments = segment_speech(rag_response.speech_text, ctx.lang)
 
         # ── Session persistence (owner-checked; foreign is a no-op) ─────
         save_message(req.session_id, "user", req.question, user_id=user_id)
@@ -1644,8 +1644,8 @@ async def chat_stream(req: ChatRequest, user_id: str = Depends(require_auth)):
             if ctx.lang != "en" and _appears_to_be_english(rag_response.answer):
                 rag_response.answer = _translate_from_english(rag_response.answer, ctx.lang, ctx.settings)
             if not rag_response.abstained:
-                rag_response.speech_text = prepare_speech_text(rag_response.answer)
-                rag_response.speech_segments = segment_speech(rag_response.answer, ctx.lang)
+                rag_response.speech_text = summarize_for_speech(rag_response.answer, max_chars=400)
+                rag_response.speech_segments = segment_speech(rag_response.speech_text, ctx.lang)
 
             # Session persistence (owner-checked; foreign is a no-op)
             save_message(req.session_id, "user", req.question, user_id=user_id)

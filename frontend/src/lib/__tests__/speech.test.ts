@@ -6,6 +6,7 @@ import {
   pickVoice,
   speakSegments,
   createSpeechService,
+  downsampleTo16k,
   encodeWav,
   bytesToBase64,
 } from "../speech";
@@ -158,6 +159,35 @@ describe("WAV encoding and base64", () => {
   });
 });
 
+describe("downsampleTo16k", () => {
+  it("returns unchanged array when sample rate is already 16000", () => {
+    const input = new Float32Array([0.1, -0.2, 0.3]);
+    const out = downsampleTo16k(input, 16000);
+    expect(out).toBe(input);
+  });
+
+  it("downsamples 48000 Hz audio by a factor of 3", () => {
+    // 48kHz audio: 6 samples downsampled to 2 samples (factor 3)
+    const input = new Float32Array([0.1, 0.2, 0.3, -0.1, -0.2, -0.3]);
+    const out = downsampleTo16k(input, 48000);
+    expect(out.length).toBe(2);
+    expect(out[0]).toBeCloseTo((0.1 + 0.2 + 0.3) / 3);
+    expect(out[1]).toBeCloseTo((-0.1 - 0.2 - 0.3) / 3);
+  });
+
+  it("downsamples 44100 Hz audio correctly", () => {
+    const input = new Float32Array(44100);
+    const out = downsampleTo16k(input, 44100);
+    expect(out.length).toBe(16000);
+  });
+
+  it("handles empty arrays cleanly", () => {
+    const input = new Float32Array(0);
+    const out = downsampleTo16k(input, 48000);
+    expect(out.length).toBe(0);
+  });
+});
+
 describe("createSpeechService().listen STT", () => {
   it("falls back to browser SpeechRecognition or reports error when no getUserMedia", () => {
     const onError = vi.fn();
@@ -194,6 +224,12 @@ describe("createSpeechService().listen STT", () => {
       state = "running";
       createMediaStreamSource = vi.fn().mockReturnValue(mockSource);
       createScriptProcessor = vi.fn().mockReturnValue(mockProcessor);
+      createGain = vi.fn().mockReturnValue({
+        connect: vi.fn(),
+        disconnect: vi.fn(),
+        gain: { value: 0 },
+      });
+      resume = vi.fn().mockResolvedValue(undefined);
       destination = {};
       close = vi.fn();
     }

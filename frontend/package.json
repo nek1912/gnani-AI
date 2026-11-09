@@ -31,8 +31,7 @@
     "react-dom": "19.2.8",
     "react-markdown": "^10.1.0",
     "react-router-dom": "^7.18.4",
-    "remark-gfm": "^4.0.1",
-    "@clerk/express": "^2.1.75"
+    "remark-gfm": "^4.0.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.5",

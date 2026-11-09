@@ -89,22 +89,20 @@ export function ThinkingProcess({
   const [expanded, setExpanded] = useState(!isStreaming && !isComplete);
   const [elapsedSec, setElapsedSec] = useState(initialDurationSec ?? 0);
   const [thoughtIdx, setThoughtIdx] = useState(0);
-  const startTimeRef = useRef<number>(Date.now());
+  const startTimeRef = useRef<number | null>(null);
 
   // Elapsed time counter: ticks while thinking, locks once streaming or complete
   useEffect(() => {
-    if (isStreaming || isComplete) {
-      if (typeof initialDurationSec === "number" && initialDurationSec > 0) {
-        setElapsedSec(initialDurationSec);
-      }
-      return;
-    }
-    startTimeRef.current = Date.now();
+    if (isStreaming || isComplete) return;
+
+    const now = Date.now();
+    startTimeRef.current = now;
     const timer = setInterval(() => {
-      setElapsedSec(Math.max(1, Math.floor((Date.now() - startTimeRef.current) / 1000)));
+      const start = startTimeRef.current ?? now;
+      setElapsedSec(Math.max(1, Math.floor((Date.now() - start) / 1000)));
     }, 1000);
     return () => clearInterval(timer);
-  }, [isStreaming, isComplete, initialDurationSec]);
+  }, [isStreaming, isComplete]);
 
   // Dynamic cycling thoughts to ensure user never sees a static/frozen description
   useEffect(() => {
@@ -132,8 +130,13 @@ export function ThinkingProcess({
     ? `${completedCount} steps complete`
     : activeStep?.label || "Processing...";
 
-  const timeLabel = elapsedSec > 0
-    ? `Thought for ${elapsedSec} second${elapsedSec === 1 ? "" : "s"}`
+  const displayDuration =
+    (isStreaming || isComplete) && typeof initialDurationSec === "number" && initialDurationSec > 0
+      ? initialDurationSec
+      : elapsedSec;
+
+  const timeLabel = displayDuration > 0
+    ? `Thought for ${displayDuration} second${displayDuration === 1 ? "" : "s"}`
     : "Thought process";
 
   return (

@@ -132,7 +132,13 @@ def get_grievance_status(reference: str) -> dict:
     from app.grievance.status_lookup import GrievanceStatusLookup
     lookup = GrievanceStatusLookup()
     result = lookup.get_status_lookup(reference)
-    return {"status": "ok", "result": result}
+    result_data = result.to_dict() if hasattr(result, "to_dict") else result
+    return {
+        "status": "ok",
+        "result": result_data,
+        "is_official_submission": False,
+        "disclaimer": "This is a prototype reference. JanSahay does NOT submit complaints or access live systems on your behalf.",
+    }
 
 
 # ---------------------------------------------------------------------------
@@ -210,11 +216,12 @@ def submit_grievance_field_answer(req: GrievanceAnswerRequest, user_id: str = De
 
     value = req.value.strip()
 
-    # Validate integer fields
-    input_type = get_input_type(req.field)
-    if input_type == "int":
-        if not value.isdigit():
-            raise HTTPException(status_code=422, detail=f"Field '{req.field}' must be a whole number")
+    # Validate field format (numeric, date, phone, length)
+    from app.grievance.input_types import validate_field_value
+    try:
+        validate_field_value(req.field, value)
+    except ValueError as exc:
+        raise HTTPException(status_code=422, detail=str(exc))
 
     state.draft.entities[req.field] = GrievanceEntity(
         name=req.field, value=value, confidence=1.0, source_text=value,

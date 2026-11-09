@@ -23,7 +23,7 @@ no manifest, no service worker.)
 - Prototype grievance workflow with follow-up questions, status lookup, and
   full multilingual localization (system text translated; user values preserved)
   (`is_official_submission: false` — no real government integration)
-- Voice input/output via Gnani AI (Prisma v3.0 STT + Timbre v3.0 TTS) primary, Sarvam AI fallback, Azure STT fallback
+- Voice input/output via Gnani AI (Prisma v3.0 STT + Timbre v3.0 TTS) primary, Sarvam AI fallback, Azure STT fallback (features strict 16kHz downsampling, zero-gain AEC protection, request serialization, and <2s answer summarization)
 - Responsive static SPA (desktop + mobile); browser calls FastAPI directly, no proxy server
 
 ---

@@ -166,3 +166,63 @@ def test_voice_chat_passes_speech_text_not_answer_to_tts():
     assert captured["text"] == "Farmers are eligible."
     assert "[chunk:" not in captured["text"]
     assert body["answer"] == "Farmers are eligible [chunk:aaaaaaaa]."
+
+
+def test_transcribe_route_returns_metadata():
+    """POST /voice/transcribe returns text and rich observability metadata."""
+    from app.providers.gnani_voice import STTResult
+    stt_res = STTResult(
+        "કિસાન યોજના",
+        language="gu",
+        requested_language="gu",
+        detected_language="gu",
+        provider="gnani",
+        model="prisma-v3.0",
+        duration_ms=145.2,
+        fallback_occurred=False,
+    )
+    with patch("app.routes.voice.voice_service") as mock_vs:
+        mock_vs.speech_to_text = AsyncMock(return_value=stt_res)
+        r = client.post("/voice/transcribe", json={"audio": "dGVzdA==", "language": "gu"})
+        assert r.status_code == 200
+        body = r.json()
+        assert body["text"] == "કિસાન યોજના"
+        assert body["language"] == "gu"
+        assert body["requested_language"] == "gu"
+        assert body["detected_language"] == "gu"
+        assert body["provider"] == "gnani"
+        assert body["model"] == "prisma-v3.0"
+        assert body["duration_ms"] == 145.2
+        assert body["fallback_occurred"] is False
+
+
+def test_speak_route_returns_metadata_and_accepts_voice_speed():
+    """POST /voice/speak accepts voice and speed, returning metadata."""
+    from app.providers.gnani_voice import TTSResult
+    tts_res = TTSResult(
+        b"\x0a\x0b",
+        language="hi",
+        provider="gnani",
+        model="timbre-v3.0",
+        voice="Avinash",
+        speed=1.2,
+        duration_ms=210.5,
+        audio_format="wav",
+        fallback_occurred=False,
+    )
+    with patch("app.routes.voice.voice_service") as mock_vs:
+        mock_vs.text_to_speech = AsyncMock(return_value=tts_res)
+        r = client.post(
+            "/voice/speak",
+            json={"text": "नमस्ते", "language": "hi", "voice": "Avinash", "speed": 1.2},
+        )
+        assert r.status_code == 200
+        body = r.json()
+        assert body["audio"] == "0a0b"
+        assert body["language"] == "hi"
+        assert body["provider"] == "gnani"
+        assert body["voice"] == "Avinash"
+        assert body["duration_ms"] == 210.5
+        assert body["fallback_occurred"] is False
+        mock_vs.text_to_speech.assert_awaited_once_with("नमस्ते", "hi", voice="Avinash", speed=1.2)
+

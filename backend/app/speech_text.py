@@ -33,6 +33,14 @@ _BARE_HEX_CITE = re.compile(r"\[\s*[0-9a-fA-F]{8,}\s*\]")
 _MD_LINK = re.compile(r"\[([^\]]+)\]\((\s*https?://\S+)\)")
 # Standalone URLs (never speakable, and the verifier flags fabricated ones).
 _URL = re.compile(r"https?://\S+")
+# Markdown headers, tables, bullets, and bold/italic markup
+_MD_HEADERS = re.compile(r"^#{1,6}\s+", re.MULTILINE)
+_MD_TABLE = re.compile(r"\|[-:\s|]+\|")
+_MD_PIPE = re.compile(r"\|")
+_MD_BULLETS = re.compile(r"^[\s]*[-*+•]\s+", re.MULTILINE)
+_MD_BOLD = re.compile(r"\*\*([^*]+)\*\*")
+_MD_ITALIC = re.compile(r"(?<!\*)\*([^*]+)\*(?!\*)")
+_MD_CODE = re.compile(r"`([^`]+)`")
 # Collapse runs of whitespace and tidy spacing before punctuation.
 _WS = re.compile(r"[ \t]{2,}")
 _BEFORE_PUNCT = re.compile(r"\s+([.,;:!?])")
@@ -43,9 +51,10 @@ def prepare_speech_text(answer: str) -> str:
     """Return a TTS-safe copy of an already-verified answer.
 
     Removes citation markers (all recognised variants), markdown link syntax,
-    and URLs. Legitimate content — percentages, dates, clause/section numbers,
-    scheme names, amounts — is preserved verbatim. The input is expected to have
-    already passed citation verification; this function only changes presentation.
+    markdown headers/tables/formatting, and URLs. Legitimate content — percentages,
+    dates, clause/section numbers, scheme names, amounts — is preserved verbatim.
+    The input is expected to have already passed citation verification; this
+    function only changes presentation.
     """
     if not answer:
         return ""
@@ -56,6 +65,15 @@ def prepare_speech_text(answer: str) -> str:
     text = _MD_LINK.sub(r"\1", text)
     text = _URL.sub("", text)
 
+    # Strip markdown syntax for natural speech
+    text = _MD_HEADERS.sub("", text)
+    text = _MD_TABLE.sub("", text)
+    text = _MD_PIPE.sub(" ", text)
+    text = _MD_BULLETS.sub("", text)
+    text = _MD_BOLD.sub(r"\1", text)
+    text = _MD_ITALIC.sub(r"\1", text)
+    text = _MD_CODE.sub(r"\1", text)
+
     text = _WS.sub(" ", text)
     text = _BEFORE_PUNCT.sub(r"\1", text)
     text = _MANY_NL.sub("\n\n", text)
@@ -63,12 +81,42 @@ def prepare_speech_text(answer: str) -> str:
     return text.strip()
 
 
+def summarize_for_speech(answer: str, max_chars: int = 400) -> str:
+    """Return a natural, concise spoken representation of an answer.
+
+    Extracts the direct core answer (the first 2-3 natural sentences)
+    so voice playback remains punchy, conversational, and fast (<2s TTFA),
+    preventing long 20s+ recitation of large legal documents or lists.
+    """
+    clean = prepare_speech_text(answer)
+    if not clean or len(clean) <= max_chars:
+        return clean
+
+    # Sentence boundary split: Latin (.!?), Indic (।|), or double newlines
+    sentences = re.split(r"(?<=[.!?।|\n])\s+", clean)
+    selected: list[str] = []
+    total_len = 0
+    for s in sentences:
+        s = s.strip()
+        if not s:
+            continue
+        if total_len + len(s) > max_chars and len(selected) >= 1:
+            break
+        selected.append(s)
+        total_len += len(s) + 1
+        if len(selected) >= 3:
+            break
+
+    result = " ".join(selected).strip()
+    return result or clean[:max_chars]
+
+
 def _char_script(ch: str, answer_language: str) -> str | None:
     """Map a character to a language bucket for segmentation.
 
     Gujarati/Bengali/Latin are script-unique. Devanagari is mapped to the
     *already resolved* answer language (NOT guessed) — this is answer-side only.
-    Punctuation/spaces return None (attach to the current run).
+    Punctuation, spaces, and digits return None (attach to the current run).
     """
     cp = ord(ch)
     if 0x0A80 <= cp <= 0x0AFF:
@@ -77,7 +125,7 @@ def _char_script(ch: str, answer_language: str) -> str | None:
         return "bn"
     if 0x0900 <= cp <= 0x097F:
         return answer_language
-    if ch.isascii() and (ch.isalpha() or ch.isdigit()):
+    if ch.isascii() and ch.isalpha():
         return "en"
     return None
 
@@ -100,6 +148,9 @@ def segment_speech(answer: str, answer_language: str) -> list[dict]:
         lang = _char_script(ch, answer_language)
         if lang is None:
             if current_lang is not None:
+                current_text.append(ch)
+            else:
+                current_lang = answer_language
                 current_text.append(ch)
             continue
         if lang != current_lang:

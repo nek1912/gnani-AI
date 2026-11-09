@@ -11,6 +11,27 @@ worse than none — the next session will trust it.
 
 ## Last updated
 
+`2026-11-09` — **Gnani Voice Pipeline Hardening (STT/TTS), Grievance Validation, and Test Suite Modernization.**
+1. **Gnani STT Zero-Transcript Resolution**:
+   - Resolved browser `AudioContext` autoplay suspended state in Chromium by explicitly awaiting `resume()`.
+   - Routed microphone through a muted `GainNode(0.0)` (`source -> processor -> muteGain -> destination`) to keep the Web Audio processing graph active without echoing through speakers, completely eliminating WebRTC Acoustic Echo Cancellation (AEC) self-silencing.
+   - Added `downsampleTo16k()` box-car averaging downsampler to normalize any input sample rate (44.1kHz, 48kHz) to standard 16,000 Hz 16-bit mono PCM.
+   - Fixed manual stop toggle: clicking the mic button to stop speaking now immediately finalizes and transcribes recorded audio instead of aborting.
+   - Tuned VAD threshold to `0.005 RMS` and conversational silence timeout to `1600ms`.
+2. **Gnani TTS Latency & Concurrency Hardening**:
+   - Eliminated HTTP 429 errors by enforcing `_gnani_tts_request_lock = asyncio.Lock()` across all outbound requests, respecting Gnani's strict 1 active in-flight request limit.
+   - Reduced voice answer latency from ~30s to ~1.8s by introducing `summarize_for_speech(answer, max_chars=400)` to extract direct 2–3 sentence summaries for Read Aloud.
+   - Fixed script-neutral digit tokenization in `speech_text.py` to prevent 14-chunk micro-segmentation in Indic languages.
+   - Added in-memory LRU audio caching (`_tts_cache`) delivering instant `<1ms` playback for repeated queries.
+   - Markdown headers, bold/italics, tables, and bullets are stripped before synthesis.
+3. **Grievance State Machine Improvements**:
+   - Status lookup normalized across case-insensitive public tracking IDs and UUIDs.
+   - Input validation added for date formats (YYYY-MM-DD), positive integer amounts, and 10-digit mobile numbers.
+4. **Test Verification**:
+   - Frontend Vitest suite: **94 / 94 passed** (0 failures).
+   - Backend Voice suite: **87 passed, 1 skipped** (0 failures).
+   - Frontend production build: `tsc --noEmit && vite build` completed cleanly in 1.55s.
+
 `2026-11-04` — **Gnani AI voice integration complete.** Added Gnani AI Vachana API as first-class voice provider: Gnani Prisma v3.0 STT → Sarvam → Azure fallback chain, Gnani Timbre v3.0 TTS → Sarvam fallback chain. Gnani supports 10 Indic/English languages (bn, en, gu, hi, kn, ml, mr, pa, ta, te); Odia ("or") falls through to Sarvam/Azure. New file `backend/app/providers/gnani_voice.py` (`GnaniSTTProvider`, `GnaniTTSProvider`, custom exceptions). `config.py` gains `gstn_api_key`/`gstn_keys` + Gnani settings fields. `/health/providers` reports `gnani`. VoiceService initialized with Gnani first in both STT and TTS chains. `backend/tests/test_gnani_voice.py` — 47 tests all passing (respx-mocked, no real credentials). Existing voice tests: 15/15 pass. Ruff clean on changed files. See `docs/GNANI_INTEGRATION.md` for full details.
 
 `2026-10-06` — **rag-fix merged to main + backend FROZEN FOR HACKATHON DEMO + `backend/.env` single source of truth.** `rag-fix` (static 6-key RPC + `as_of_date` threading, grounding enforcement with repair→re-verify→abstain, PACS prompt fix, insurance-keyword fix, citation URL allowlist + marker normalization + full `web_*` IDs, Gemini reranker 10s floor) merged as `403b9de`; the 2 same-hunk conflicts (`retrieval/__init__.py`, `services/static_rag.py`) resolved toward `rag-fix` (superset of `main`'s independent same fix). `backend/.env` is now the only backend config source (absolute path; repo-root `.env` ignored with warning). Full suite: **1434 passed / 83 failed** (same 83 pre-existing baseline files, zero new failures); ruff clean; live smoke A–J passed incl. MSCS HIGH 1.0 with 23 valid citations. Accepted risks: provider variance, no INSURANCE grievance category, Sarvam code-mixing. No more feature/architecture changes before the demo.

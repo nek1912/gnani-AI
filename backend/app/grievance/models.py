@@ -490,7 +490,7 @@ class SubmissionRoute:
     required_documents: list[str]
     estimated_timeline: str
     disclaimer: str = (
-        "This is a prototype reference. eGovAssistant does NOT submit "
+        "This is a prototype reference. JanSahay does NOT submit "
         "grievances on your behalf. Please visit the official portal directly."
     )
 
@@ -516,7 +516,7 @@ class StatusLookupResult:
     lookup_method: str  # "reference_number", "mobile_otp", "captcha"
     required_fields: list[str]
     disclaimer: str = (
-        "This is a prototype reference. eGovAssistant does NOT access "
+        "This is a prototype reference. JanSahay does NOT access "
         "live government systems. Please use the official portal directly."
     )
 
