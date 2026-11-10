@@ -12,6 +12,12 @@ no manifest, no service worker.)
 
 ---
 
+### 📖 Solution Overview & Pitch
+
+For an in-depth breakdown of the problem, our evidence-backed architecture, and the multilingual voice pipeline powered by Gnani AI, see the [Full Solution Pitch](Project_Solution_Pitch.md).
+
+---
+
 ## What It Does
 
 - Answers questions from official government sources with verifiable citations
