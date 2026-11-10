@@ -18,6 +18,15 @@ For an in-depth breakdown of the problem, our evidence-backed architecture, and 
 
 ---
 
+---
+
+## 🔗 Live Deployment & Video Walkthrough
+
+* 🌐 **Live Application:** [gnani-ai-flax.vercel.app](https://gnani-ai-flax.vercel.app/)
+* 🎥 **Video Demonstration:** [Watch Demo on Google Drive](https://drive.google.com/file/d/1_OTJN_aDn7Swesk1FLK8iazvSPRbsl4N/view?usp=drivesdk)
+
+---
+
 ## What It Does
 
 - Answers questions from official government sources with verifiable citations
