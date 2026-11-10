@@ -14,7 +14,7 @@ no manifest, no service worker.)
 
 ### 📖 Solution Overview & Pitch
 
-For an in-depth breakdown of the problem, our evidence-backed architecture, and the multilingual voice pipeline powered by Gnani AI, see the [Full Solution Pitch](Project_Solution_Pitch.md).
+For an in-depth breakdown of the problem, our evidence-backed architecture, and the multilingual voice pipeline powered by Gnani AI, see the [Full Solution Pitch](https://drive.google.com/file/d/1pfXMtDVcUYLrYX8t2bsBAMSfBpvFsGUX/view?usp=sharing).
 
 ---
 
